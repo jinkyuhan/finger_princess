@@ -1,0 +1,18 @@
+
+
+/* Custom */
+
+.header_template {
+  text-align: center;
+  font-family: fantasy;
+  width: 512px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* 페이지 중앙 정렬 */
+  margin-top: 4rem;
+  background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)';
+  border: 0;
+  color: 'white';
+  height: 48;
+  padding: '0 30px';
+  margin : '10px';
+}
