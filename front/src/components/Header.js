@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Container,Toolbar, Typography} from '@material-ui/core';
 const Header = () => {
     return (
-        <div className="header_template">
+        <div className="Header">
             <Container maxwidth = "lg">
                 <AppBar color= "secondary">
                     <Toolbar variant="dense">
