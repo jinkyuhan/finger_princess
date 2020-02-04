@@ -10,7 +10,7 @@ const Header = () => {
                             <MenuIcon />
                         </IconButton> */}
                         <Typography variant="h6" color="inherit">
-                            Photos
+                            견적 상담
                         </Typography>
                     </Toolbar>
                 </AppBar>
