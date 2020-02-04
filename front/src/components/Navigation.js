@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stepper, Step, StepLabel, StepButton, Container, Button } from '@material-ui/core';
+import { Stepper, Step, StepLabel, Container, Button } from '@material-ui/core';
 
 
 class Navigation extends React.Component {
@@ -7,22 +7,18 @@ class Navigation extends React.Component {
         activeStep: 0,
         steps: ['게임을 하는가?', '실내/실외', '자주 쓰는 프로그램', '가격상한선', '성능우선/가격우선/서비스우선']
     }
-    
-    handleNext=()=> {
+
+    handleNext = () => {
         this.setState(current => ({ activeStep: current.activeStep + 1 }))
     };
-    handlePrevious=()=> {
+    handlePrevious = () => {
         this.setState(current => ({ activeStep: current.activeStep - 1 }))
     };
-    getStep=()=>{
-        return current=>(activeStep)
-    }
 
     render() {
         const { activeStep, steps } = this.state;
         return (
             <div className='Navigation'>
-                {console.log(Object.keys(state))}
                 <Container maxWidth='lg'>
                     <Stepper activeStep={activeStep} orientation="vertical">
                         {steps.map((label, index) => (
