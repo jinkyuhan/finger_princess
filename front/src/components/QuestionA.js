@@ -4,7 +4,8 @@ import {
     FormControl,
     FormControlLabel,
     FormLabel,
-    Checkbox
+    Checkbox,
+    Button
 } from '@material-ui/core'
 class QuestionA extends React.Component {
     state = {
@@ -13,11 +14,18 @@ class QuestionA extends React.Component {
         fifa: false,
         overwatch: false
     }
-    
-    handleChange = function (name) {
-        this.setState({[name]: !this.state[name]})
+    handlePrevious = () => {
+        this.props.goPreviousSurvey();
     }
-    
+    handleNext = function () {
+        this.props.setParentAnswer("games", this.state)
+        this.props.goNextSurvey()
+    }
+
+    handleChange = function (name) {
+        this.setState({ [name]: !this.state[name] })
+    }
+
     render() {
         return (
             <div id="QuestionA">
@@ -26,25 +34,29 @@ class QuestionA extends React.Component {
                     {/* demo */ }
                     <FormGroup>
                         <FormControlLabel
-                            control={ <Checkbox checked={ this.state.lol } onChange={ () =>this.handleChange('lol') }  ></Checkbox> }
+                            control={ <Checkbox checked={ this.state.lol } onChange={ () => this.handleChange('lol') }  ></Checkbox> }
                             value="lol"
                             label="League of Legend"
                         />
                         <FormControlLabel
-                            control={ <Checkbox checked={ this.state.pubg } onChange={ ()=>this.handleChange('pubg') }  ></Checkbox> }
+                            control={ <Checkbox checked={ this.state.pubg } onChange={ () => this.handleChange('pubg') }  ></Checkbox> }
                             value="pubg"
                             label="Battle Ground" />
                         <FormControlLabel
-                            control={ <Checkbox checked={ this.state.fifa } onChange={ ()=>this.handleChange('fifa') }  ></Checkbox> }
+                            control={ <Checkbox checked={ this.state.fifa } onChange={ () => this.handleChange('fifa') }  ></Checkbox> }
                             value="fifa"
                             label="FIFA Online 4" />
                         <FormControlLabel
-                            control={ <Checkbox checked={ this.state.overwatch } onChange={ ()=>this.handleChange('overwatch') }  ></Checkbox> }
+                            control={ <Checkbox checked={ this.state.overwatch } onChange={ () => this.handleChange('overwatch') }  ></Checkbox> }
                             value="overwatch"
                             label="OverWatch" />
                     </FormGroup>
                     {/* demo end */ }
                 </FormControl>
+                <div>
+                    <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
+                    <Button onClick={ () => { this.handleNext() } } variant='contained'>다음</Button>
+                </div>
             </div>
         );
     }

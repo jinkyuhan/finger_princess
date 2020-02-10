@@ -4,7 +4,8 @@ import {
     FormControl,
     FormControlLabel,
     FormLabel,
-    Checkbox
+    Checkbox,
+    Button
 } from '@material-ui/core'
 class QuestionC extends React.Component {
     state = {
@@ -13,8 +14,14 @@ class QuestionC extends React.Component {
         auto_cad: false,
         vmware: false
     }
-    
-    handleChange = function (name) {
+    handlePrevious = () => {
+        this.props.goPreviousSurvey();
+    }
+    handleNext = () => {
+        this.props.setParentAnswer("programs",this.state);
+        this.props.goNextSurvey();
+    }
+    handleChange = (name) => {
         this.setState({[name]: !this.state[name]})
     }
     
@@ -45,6 +52,10 @@ class QuestionC extends React.Component {
                     </FormGroup>
                     {/* demo end */ }
                 </FormControl>
+                <div>
+                    <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
+                    <Button onClick={ () => { this.handleNext() } } variant='contained'>다음</Button>
+                </div>
             </div>
         );
     }

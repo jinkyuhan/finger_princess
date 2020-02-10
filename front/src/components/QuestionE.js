@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+    Button,
     FormControl,
     InputLabel,
     Select,
@@ -9,6 +10,13 @@ class QuestionE extends React.Component {
 
     state = {
         priority: ""
+    }
+    handleSubmit = () =>{
+        this.props.setParentAnswer("priority", this.state.priority);
+        this.props.submitSurvey();
+    }
+    handlePrevious = () => {
+        this.props.goPreviousSurvey();
     }
     handleChange = function (event) {
         this.setState({ priority: event.target.value })
@@ -31,6 +39,10 @@ class QuestionE extends React.Component {
                         <MenuItem value="service-first">서비스우선</MenuItem>
                     </Select>
                 </FormControl>
+                <div>
+                    <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
+                    <Button onClick={ () => { this.handleSubmit() } } variant='contained'>제출</Button>
+                </div>
             </div>
         )
     }
