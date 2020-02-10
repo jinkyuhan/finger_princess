@@ -1,0 +1,32 @@
+Game_name,CPU_intel,CPU_amd,CPU_speed,RAM,VIDEO_CARD_NVIDIA,VIDEO_CARD_NVIDIA_2,VIDEO_CARD_AMD,FREE_DISK_SPACE,DEDICATED_VIDEO_RAM
+Grand_Theft_Auto_5,Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) ,AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz,,4GB,Nvidia 9800 GT 1GB,," AMD HD 4870 1GB (DX 10, 10.1, 11)",72GB,1GB
+Red_Dead_Redepmtion_2,Intel Core i5-2500K,AMD FX-6300,,8GB,Nvidia Geforce GTX 770 2GB,,AMD Radeon R9 280 3GB,150GB,2GB
+Call_Of_Duty: Modern_Warfare,Intel Core i3-4340,AMD FX-6300,,8GB,Nvidia Geforce GTX 670,Nvidia Geforce GTX 1650,Amd Radeon HD 7950 3GB,175GB,2GB
+Fortnite,Intel i3-3225,,,4GB,Intel HD 4000,Intel Iris Pro 5200,,8GB,
+League_Of_Legends,3.0GHz,,,2GB,Shader version 2.0 capable video card,,,8GB,
+Counter_Strike: Global_Offensive,Intel Core Duo E6600,AMD Phenom X3 8750,,2GB,Shader version 3.0 capable video card 256MB,,,15GB,256MB
+The_Witcher_3: Wild Hunt,Intel Core i5-2500K,AMD Phenom 2 X4 940,,6GB,Nvidia Geforce GTX660,,AMD Radeon HD 7870,35GB,2GB
+Player_Unknown's_Battlegrounds,Intel Core i5-4430,AMD FX-6300,,8GB,Nvidia Geforce GTX 960 2GB,,AMD Radeon R7 370 2GB,30GB,2GB
+Dragon_Ball_Z_Kakarot,Intel Core i5-2400,AMD Phenom 2 X6 1100T,,4GB,Nvidia Geforce GTX 750 Ti,,Amd Radeon HD 7950 3GB,36GB,2GB
+Minecraft,Intel Core i3-3210 3.2GHz,AMD A8-7600 APU 3.1 GHz,,2GB,Intel HD 4000,,AMD Radeon R5,1GB,
+Player_Unknown's_Battlegrounds_Lite,Intel Core i3 2.4GHz,,,4GB,Intel HD 4000,,,4GB,
+Apex_Legends,Intel Core i3-6300 3.8GHz,AMD FX-4350 4.2GHz,,6GB,Nvidia Geforce GT 640,,AMD Radeon HD 7730,22GB,1GB
+Star_Wars_Jedi: Fallen_Order,Intel Core i3-3220,AMD FX-6100,,8GB,Nvidia Geforce GTX 650,,AMD Radeon HD 7750,55GB,1GB
+The_Sims_4,Intel Core 2 Duo E4300,AMD Athlon 64 X2 4000 2.0GHz,,2GB,Nvidia Geforce 6600,Intel GMA X4500,ATI Radeon X1300,10GB,128MB
+FIFA_20,Intel Core i3-2100,AMD Phenom 2 X4 965,,8GB,Nvidia Geforce GTX 660,,AMD Radeon HD 7850,50GB,1GB
+Fortnite: Battle_Royale,Intel Core i3 2.4GHz,,,4GB,Intel HD 4000,,,,
+Tom_Clancy's_Rainbow_Six: Siege,Intel Core i3 560 3.3GHz,AMD Phenom 2 X4 945 3.0GHz,,6GB,Nvidia Geforce GTX 460,,AMD Radeon HD5770,30GB,1GB
+Battlefield_1,Intel Core i5-6600K,AMD FX-6350,,8GB,Nvidia Geforce GTX 660,,AMD Radeon HD 7850,50GB,2GB
+Battlefield_5,Intel Core i5-6600K,AMD FX-8350,,8GB,Nvidia Geforce GTX 660,,AMD Radeon HD 7850,50GB,2GB
+The_Elder_Scrolls 5: Skyrim,2.0 GHz,,,2Gb,Nvidia Geforce 7600 GT,,ATI Radeon X 1800,6GB,512MB
+Assasin's_Creed_Odyssey,Intel Core i5-2400,AMD FX 6300,,8GB,Nividia Geforce GTX 660,,AMD Radeon R9 285,46GB,2GB
+Overwatch,Intel Core i3,AMD Phenom X3 8650,,4GB,Nvidia Geforce GTX 460,Intel HD Graphics 4400,ATI Radeon HD 4850,30GB,768MB
+Monster_Hunter: World,Intel Core i5-4460,AMD FX-6300,,8GB,Nvidia Geforce GTX 760,,AMD Radeon R7 260x,20GB,2GB
+Far_Cry_5,Intel Core i5-2400,AMD FX-6300,,8GB,Nvidia Geforce GTX 670,,AMD R9 270,24GB,2GB
+Need_For_Speed_Heat,Intel Core i5-3570,AMD FX-6350,,8GB,Nvidia Geforce GTX 760,,AMD Radeon HD 7970,50GB,2GB
+Maplestory,Intel Core Duo 2.4GHz,AMD Athlon 64 X2 2.4GHz,,4GB,Nvidia Geforce 8600 GT,,ATI Radeon HD 3450,20GB,256MB
+FIFA_Online_4,Intel Core i3-2100,AMD Phenom 7950,,4GB,Nvidia Geforce GT 730,,ATI Radeon HD 7570,18GB,1GB
+Kartrider,2.0GHz,,,1GB,,,,1GB,
+Lost_Ark,Intel Core i3,AMD Ryzen 3,,4GB,Nvidia Geforce GTX 460,,,50GB,
+Dungeon_And_Fighter,Intel Core 2 Duo E7500,,,2GB,,,,18GB,
+Sudden_Attack,Intel Core 2 Duo E6300,,,2GB,Nividia Geforce 7600 GT,,,20GB,
