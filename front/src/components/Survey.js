@@ -1,8 +1,7 @@
 import React from 'react'
 import QuestionA from './QuestionA'
-import QuestionB from './QuestionB'
-import QuestionC from './QuestionC'
-import { Stepper, Step, StepLabel, StepContent, Container, Button } from '@material-ui/core';
+import QuestionB from './QuestionB' 
+import { Stepper, Step, StepLabel, StepContent, Container } from '@material-ui/core';
 
 
 class Survey extends React.Component {
@@ -88,7 +87,6 @@ class Survey extends React.Component {
 
                         </Step>
                     </Stepper>
-
                 </Container>
             </div >
         )
