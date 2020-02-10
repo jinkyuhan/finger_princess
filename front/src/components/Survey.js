@@ -4,6 +4,7 @@ import QuestionB from './QuestionB'
 import { Stepper, Step, StepLabel, StepContent, Container } from '@material-ui/core';
 
 
+
 class Survey extends React.Component {
     state = {
         activeStep: 0,
@@ -29,7 +30,6 @@ class Survey extends React.Component {
                                 </Step> 
                             ))}
                     </Stepper>
-                    
                 </Container>
             </div>
         )
