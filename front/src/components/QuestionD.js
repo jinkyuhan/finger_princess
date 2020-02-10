@@ -5,6 +5,7 @@ class QuestionD extends React.Component {
     state = {
         error: false,
         helptxt: ""
+        // 값있어야함
     }
     validate = (event) => {
         if (!event.target.value.match(/^[0-9]*$/)) {

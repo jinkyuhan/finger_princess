@@ -3,6 +3,7 @@ import QuestionA from './QuestionA'
 import QuestionB from './QuestionB'
 import QuestionC from './QuestionC'
 import QuestionD from './QuestionD'
+import QuestionE from './QuestionE'
 import { Stepper, Step, StepLabel, StepContent, Button, Container } from '@material-ui/core';
 
 
@@ -83,10 +84,9 @@ class Survey extends React.Component {
                         </Step>
                         < Step key={5} >
                             <StepLabel>{'성능우선/기능우선/서비스우선'}</StepLabel>
-                            <StepContent><QuestionA />
+                            <StepContent><QuestionE />
                                 <Button onClick={this.handlePrevious} variant='contained'>이전</Button>
                                 <Button onClick={this.handleNext} variant='contained'>제출</Button></StepContent>
-
                         </Step>
                     </Stepper>
                 </Container>
