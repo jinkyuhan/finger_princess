@@ -1,6 +1,7 @@
 import React from 'react'
-import QuestionA from './QuestionA' 
-import { Stepper, Step, StepLabel, StepContent, Container, Button } from '@material-ui/core';
+import QuestionA from './QuestionA'
+import QuestionB from './QuestionB' 
+import { Stepper, Step, StepLabel, StepContent, Container } from '@material-ui/core';
 
 
 class Survey extends React.Component {
@@ -24,7 +25,7 @@ class Survey extends React.Component {
                         {steps.map((label,index)=>( 
                                 <Step key={index}>
                                     <StepLabel>{label}</StepLabel>
-                                    <StepContent><QuestionA /></StepContent>
+                                    <StepContent><QuestionB /></StepContent>
                                 </Step> 
                             ))}
                     </Stepper>
