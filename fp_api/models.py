@@ -1,16 +1,20 @@
 from django.db import models
-
 # Create your models here.
 
 class Cpu(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=30)
-    point=models.IntegerField()
+    name = models.CharField(max_length=30,unique=True)
+    point=models.FloatField()
+    class Meta:
+        ordering=['point']
+
 
 class Gpu(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=30)
-    point=models.IntegerField()
+    name = models.CharField(max_length=30,unique=True)
+    point=models.FloatField()
+    class Meta:
+        ordering=['point']
 
 class Laptop(models.Model):
     id = models.AutoField(primary_key=True)

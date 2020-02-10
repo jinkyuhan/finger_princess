@@ -12,8 +12,7 @@ def main():
     naver = NaverCrawler(chrome)
     naver.scrap('laptop','50000151') #자동화 하려면 DanawaCrawler.__add_category에 구현해야함
     chrome.close()
-    base_path=os.path.dirname(os.path.abspath('.'))
-    with open(base_path+'/crawled_data/navercrawling_data.txt', 'w') as f:
+    with open('./crawled_data/navercrawling_data.json', 'w') as f:
         f.write(naver.get_products_in_JSON('laptop'))
 
 #db_Synchronizer 함수를 이용해서 extract된 json 형태의 데이터를 sqlite3 DB 에 넣으면 된다.
