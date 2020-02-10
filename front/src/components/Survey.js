@@ -1,7 +1,9 @@
 import React from 'react'
 import QuestionA from './QuestionA'
-import QuestionB from './QuestionB' 
-import { Stepper, Step, StepLabel, StepContent, Container } from '@material-ui/core';
+import QuestionB from './QuestionB'
+import QuestionC from './QuestionC'
+import QuestionD from './QuestionD'
+import { Stepper, Step, StepLabel, StepContent, Button, Container } from '@material-ui/core';
 
 
 class Survey extends React.Component {
@@ -30,7 +32,7 @@ class Survey extends React.Component {
         //     }
         // ]
         steps: ['게임을 하는가', '실내/실외', '자주 쓰는 프로그램', '가격 상한선', '성능우선/가격우선/서비스우선'],
-        messageFromQuestionA:""
+        messageFromQuestionA: ""
     }
     handleNext = () => {
         this.setState(current => ({ activeStep: current.activeStep + 1 }))
@@ -40,7 +42,7 @@ class Survey extends React.Component {
     };
 
     render() {
-        const { activeStep, steps } = this.state;
+        const { activeStep } = this.state;
         return (
             <div className='Survey'>
                 <Container maxWidth='lg'>
@@ -74,7 +76,7 @@ class Survey extends React.Component {
                         </Step>
                         < Step key={4} >
                             <StepLabel>{'가격 상한선'}</StepLabel>
-                            <StepContent><QuestionA />
+                            <StepContent><QuestionD />
                                 <Button onClick={this.handlePrevious} variant='contained'>이전</Button>
                                 <Button onClick={this.handleNext} variant='contained'>다음</Button></StepContent>
 
