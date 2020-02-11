@@ -2,7 +2,7 @@ from django.db import models
 # Create your models here.
 
 class Cpu(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30,unique=True)
     point=models.FloatField()
     class Meta:
@@ -10,14 +10,14 @@ class Cpu(models.Model):
 
 
 class Gpu(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30,unique=True)
     point=models.FloatField()
     class Meta:
         ordering=['point']
 
 class Laptop(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30)
     weight=models.IntegerField()
     gpu=models.ForeignKey(Gpu,on_delete=models.CASCADE,null=True)
@@ -46,7 +46,7 @@ class Laptop(models.Model):
 
 
 class Game(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30)
     min_cpu=models.ForeignKey(Cpu,on_delete=models.CASCADE)
     min_gpu=models.ForeignKey(Gpu,on_delete=models.CASCADE)

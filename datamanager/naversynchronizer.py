@@ -4,39 +4,67 @@ import time
 import sqlite3
 import json
 import os
+import sys
 
 #페이지 끝까지 안돌아감.. 보통 10페이지 미만으로 작동됨
 
-def main():
+def crawl():
     chrome = Browser()
     naver = NaverCrawler(chrome)
     naver.scrap('laptop','50000151') #자동화 하려면 DanawaCrawler.__add_category에 구현해야함
     chrome.close()
-    with open('./crawled_data/navercrawling_data.json', 'w') as f:
+    with open('./crawled_data/naver_data.json', 'w') as f:
         f.write(naver.get_products_in_JSON('laptop'))
 
-#db_Synchronizer 함수를 이용해서 extract된 json 형태의 데이터를 sqlite3 DB 에 넣으면 된다.
+def synchronize_with_db():
+    cpu_data=None
+    gpu_data=None
+    with open('./crawled_data/gpu_data.json', 'r') as f:
+        gpu_data=json.load(f)
+    with open('./crawled_data/cpu_data.json', 'r') as f:
+        cpu_data=json.load(f)
 
-# def synchronize_with_db(): 
-#     db=sqlite3.connect('./finger_princess/db.sqlite3')
-#     #sqlite3 의 경우 cursor을 통해서 sql이 처리된다.
-#     sql='SELECT * FROM sqlite_master WHERE type=\'table\';'
-#     c=db.cursor()
-#     c.execute(sql)
-#     #db에 쿼리를 한 경우, 결과를 출력하기 위해 cursor.fetchall function 을 활용한다.
-#     print(c.fetchall())
+    cpu_data = [{'name':x['name'],'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
+    gpu_data = [{'name':x['name'],'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
+
+    db=sqlite3.connect('../db.sqlite3')
+    # sqlite3 의 경우 cursor을 통해서 sql이 처리된다.
     
-#     #cursor의 executemany() function을 활용해서 tuple형태 sqlite3에 넣는 것이 가능하다.
-#     tuple_data=[('',''),('','')]
-#     insert_sql='INSERT INTO Table_name(col1,col2) VALUES(%s, %s)'
-#     c.executemany(insert_sql,tuple_data)
+    c=db.cursor()
+    sql='DELETE FROM {}'
+    c.execute(sql.format('fp_api_cpu'))
+    c.execute(sql.format('fp_api_gpu'))
+    db.commit()
+
+    insert_sql='INSERT OR IGNORE INTO {}(id,name,point) VALUES(?, ?, ?)'
+    count=0
+    for cpu in cpu_data:
+        count+=1
+        c.execute(insert_sql.format('fp_api_cpu'),(count,cpu['name'],float(cpu['index'])))
+    count=0
+    for gpu in gpu_data:
+        count+=1
+        c.execute(insert_sql.format('fp_api_gpu'),(count,gpu['name'],float(gpu['index'])))
+    db.commit()
+    c.close()
 
 
-
-if __name__ == "__main__" :
-    start_time=time.time()
-    main()
-    print('code execution time: ',time.time()-start_time,'secs')
+if __name__ == "__main__":
+    start_time = time.time()
+    if len(sys.argv) <2:
+        print('wrong execution')
+        print('Proper execution\npython naversynchronizer <option>')
+        print('option types','-c : crawling only','-s : synchronizing only','-a : both',sep='\n')
+    elif sys.argv[1]=='-c':
+         crawl()
+    elif sys.argv[1]=='-s':
+        synchronize_with_db()
+    elif sys.argv[1]=='-a':
+        crawl()
+        synchronize_with_db()
+    else:
+        print('wrong option')
+    print('code execution time: ', time.time()-start_time, 'secs')
     
     
    
