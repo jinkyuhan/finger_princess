@@ -31,8 +31,8 @@ class Laptop(models.Model):
     cpu=models.ForeignKey(Cpu,on_delete=models.CASCADE)
     gpu=models.ForeignKey(Gpu,on_delete=models.CASCADE,null=True)
     ram=models.IntegerField()
-    ssd=models.IntegerField()
-    hdd=models.IntegerField(null=True)
+    ssd=models.FloatField()
+    hdd=models.FloatField(null=True)
     resolution=models.CharField(max_length=15)
     display_choices=[
         (13,'13인치 (32~34)cm'),

@@ -21,24 +21,55 @@ def synchronize_with_db():
     naver_data = None
     with open('./crawled_data/naver_data.json', 'r') as f:
         naver_data = json.load(f)
-        
-    naver_data = [x for x in naver_data if x['price'] != '' and '램' in x and '해상도' in x and '무게' in x and '화면크기' in x]
-    for laptop in naver_data:
-        if 'HDD 용량' in laptop:
-            if laptop['HDD 용량'][-2:] == 'TB':
-                laptop['HDD 용량']=laptop['HDD 용량'][:-2]*1024
+        naver_data=[x for x in naver_data if x['price']!='']
+        for laptop in naver_data:
+            if 'HDD 용량' in laptop:
+                if laptop['HDD 용량'] == '미포함':
+                    laptop['HDD 용량']='NULL'
+                elif laptop['HDD 용량'][-2:] == 'TB':
+                    laptop['HDD 용량']=float(laptop['HDD 용량'][:-2])*1024
+                else:
+                    laptop['HDD 용량']=laptop['HDD 용량'][:-2]
             else:
-                laptop['HDD 용량']=laptop['HDD 용량'][:-2]
-        else:
-            laptop['HDD 용량']=None
-        
-        if 'SSD' in laptop:
-            if laptop['SSD'][-2:] == 'TB':
-                laptop['SSD']=laptop['SSD'][:-2]*1024
+                laptop['HDD 용량']='NULL'
+            
+            if 'SSD' in laptop:
+                if laptop['SSD'][-2:] == 'TB':
+                    laptop['SSD']=float(laptop['SSD'][:-2])*1024
+                else:
+                    laptop['SSD']=laptop['SSD'][:-2]
             else:
-                laptop['SSD']=laptop['SSD'][:-2]
-        else:
-            laptop['SSD']=None
+                laptop['SSD']='NULL'
+            
+            if '램' not in laptop :
+                laptop['램']='NULL'
+            else: 
+                laptop['램']=laptop['램'].replace('GB','')
+
+            if '해상도' not in laptop:
+                laptop['해상도']='NULL'
+
+            if '무게' not in laptop:
+                laptop['무게']='NULL'
+
+            if '화면크기' not in laptop:
+                laptop['화면크기']='NULL'
+            else:
+                laptop['화면크기']=laptop['화면크기'][:2]
+
+            if 'CPU' not in laptop:
+                laptop['CPU']='None'
+
+            if 'NVIDIA GPU' in laptop:
+                laptop['GPU']=laptop['NVIDIA GPU']
+            elif 'AMD GPU' in laptop:
+                laptop['GPU']=laptop['AMD GPU']
+            else:
+                laptop['GPU']='None'
+            if 'g' in laptop['무게']:
+                laptop['무게']=float(laptop['무게'].replace('g',''))*0.001
+            laptop['price']=laptop['price'].replace(',','')
+        
 
     db = sqlite3.connect('../db.sqlite3')
     c = db.cursor()
@@ -46,38 +77,11 @@ def synchronize_with_db():
     c.execute(sql)
     db.commit()
     
-    insert_sql = "INSERT OR IGNORE INTO fp_api_laptop(id,name,weight,cpu_id,gpu_id,ram,ssd,hdd,resolution,display,price) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    insert_sql = "INSERT OR IGNORE INTO fp_api_laptop(id,name,weight,cpu_id,gpu_id,ram,ssd,hdd,resolution,display,price) VALUES({},'{}', {}, ({}), ({}), {}, {}, {}, '{}', {}, {})"
     count = 0
     for laptop in naver_data:
         count += 1
-        if 'CPU' in laptop:
-            c.execute("SELECT id from fp_api_cpu where name like '%{}'".format(laptop['CPU']))
-            result=c.fetchone()
-            if result != None:
-                laptop['CPU']=result[0]
-            else:
-                laptop['CPU']=None
-        else:
-            laptop['CPU']=None
-        
-        if 'NVIDIA GPU' in laptop:
-            c.execute("SELECT id from fp_api_gpu where name like '%{}'".format(laptop['NVIDIA GPU']))
-            result=c.fetchone()
-            if result == None:
-                laptop['GPU']=None
-            else:
-                laptop['GPU']=result[0]
-        elif 'AMD GPU' in laptop:
-            c.execute("SELECT id from fp_api_gpu where name like '%{}'".format(laptop['AMD GPU']))
-            result=c.fetchone()
-            if result == None:
-                laptop['GPU']=None
-            else:
-                laptop['GPU']=result[0]
-        else:
-            laptop['GPU']=None
-
-        c.execute(insert_sql,(count,laptop['name'],laptop['무게'],laptop['CPU'],laptop['GPU'],laptop['램'].replace('GB',''),laptop['SSD'],laptop['HDD 용량'],laptop['해상도'],laptop['화면크기'][:2],laptop['price'].replace(',','')))
+        c.execute(insert_sql.format(count,laptop['name'],laptop['무게'],"SELECT id from fp_api_cpu where name like '%{}'".format(laptop['CPU']),"SELECT id from fp_api_gpu where name like '%{}'".format(laptop['GPU']),laptop['램'],laptop['SSD'],laptop['HDD 용량'],laptop['해상도'],laptop['화면크기'],laptop['price']))
     db.commit()
     c.close()
 
