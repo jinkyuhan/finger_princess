@@ -59,11 +59,13 @@ def synchronize_with_db():
 
             if 'CPU' not in laptop:
                 laptop['CPU']='None'
+            else:
+                laptop['CPU']=laptop['CPU'].lower().replace(' ','')
 
             if 'NVIDIA GPU' in laptop:
-                laptop['GPU']=laptop['NVIDIA GPU']
+                laptop['GPU']=laptop['NVIDIA GPU'].lower().replace(' ','')
             elif 'AMD GPU' in laptop:
-                laptop['GPU']=laptop['AMD GPU']
+                laptop['GPU']=laptop['AMD GPU'].lower().replace(' ','')
             else:
                 laptop['GPU']='None'
             if 'g' in laptop['무게']:

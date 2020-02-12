@@ -28,15 +28,14 @@ def synchronize_with_db():
     with open('./crawled_data/cpu_data.json', 'r') as f:
         cpu_data=json.load(f)
 
-    cpu_data = [{'name':x['name'].replace(' ',''),'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
+    cpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
     for cpu in cpu_data:
         if '@' in cpu['name']:
             cpu['name']=cpu['name'][:-8]
 
-    gpu_data = [{'name':x['name'].replace(' ',''),'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
+    gpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
     for gpu in gpu_data:
-        gpu['name'].replace('withMax-QDesign','Max-Q')
-
+        gpu['name']=gpu['name'].replace('withmax-qdesign','max-q')
     db=sqlite3.connect('../db.sqlite3')
     # sqlite3 의 경우 cursor을 통해서 sql이 처리된다.
     
