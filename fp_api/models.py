@@ -27,13 +27,13 @@ class Gpu(models.Model):
 class Laptop(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30)
-    weight=models.FloatField()
+    weight=models.FloatField(null=True)
     cpu=models.ForeignKey(Cpu,on_delete=models.CASCADE)
     gpu=models.ForeignKey(Gpu,on_delete=models.CASCADE,null=True)
-    ram=models.IntegerField()
-    ssd=models.FloatField()
+    ram=models.IntegerField(null=True)
+    ssd=models.FloatField(null=True)
     hdd=models.FloatField(null=True)
-    resolution=models.CharField(max_length=15)
+    resolution=models.CharField(max_length=15,null=True)
     display_choices=[
         (13,'13인치 (32~34)cm'),
         (14,'14인치 (35~36)cm'),
@@ -41,7 +41,7 @@ class Laptop(models.Model):
         (16,'16인치 (40~42)cm'),
         (17,'17인치 (43~44)cm'),
     ]
-    display=models.IntegerField(choices=display_choices)
+    display=models.IntegerField(choices=display_choices,null=True)
     price=models.IntegerField()
 
     def __str__(self):

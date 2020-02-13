@@ -64,6 +64,7 @@ def synchronize_with_db():
 
             if 'NVIDIA GPU' in laptop:
                 laptop['GPU']=laptop['NVIDIA GPU'].lower().replace(' ','')
+                laptop['GPU']=laptop['GPU'].replace('로','ro')
             elif 'AMD GPU' in laptop:
                 laptop['GPU']=laptop['AMD GPU'].lower().replace(' ','')
             else:
@@ -71,7 +72,6 @@ def synchronize_with_db():
             if 'g' in laptop['무게']:
                 laptop['무게']=float(laptop['무게'].replace('g',''))*0.001
             laptop['price']=laptop['price'].replace(',','')
-        
 
     db = sqlite3.connect('../db.sqlite3')
     c = db.cursor()
