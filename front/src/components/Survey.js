@@ -53,6 +53,7 @@ class Survey extends React.Component {
     }
     hanldeSubmit = () => {
         console.log("request to api")
+        document.location.href = "localhost:3000/#/result"
     }
     handleNext = () => {
         this.setState(current => ({ activeStep: current.activeStep + 1 }))
