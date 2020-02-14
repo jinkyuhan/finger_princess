@@ -1,31 +1,13 @@
 import React from 'react';
-import Survey from './components/Survey'
-import Header from './components/Header'
-import { Grid } from '@material-ui/core'
-import { withStyles } from '@material-ui/core/styles';
+import { HashrRouter, Route } from 'react-router-dom';
+import Wellcome from './routes/Wellcome';
+import Questions from './routes/Questions'
 
-const styles = {
-  root: {
-    fontFamily: 'Nanum Gothic',
-  }
+function App() {
+  return (
+    <HashRouter>
+      <Route path='/' exact={ true } component={ Wellcome } />
+      <Route path='/questions' exact={ true } component={ Questions } />
+    </HashRouter>
+  )
 }
-
-class App extends React.Component {
-  render() {
-    const {classes} = this.props;
-    return (
-      <div className={classes.root}>
-        <Grid container spacing={ 3 } >
-          <Grid item xs={ 12 }>
-            <Header />
-          </Grid>
-          <Grid item xs={ 12 }>
-            <Survey />
-          </Grid>
-        </Grid>
-      </div>
-    )
-  }
-}
-
-export default withStyles(styles)(App);
