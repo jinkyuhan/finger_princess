@@ -1,3 +1,21 @@
 from django.shortcuts import render
+from rest_framework import viewsets
+from .serializers import *
+from .models import *
 
-# Create your views here.
+class CpuViewSet(viewsets.ModelViewSet):
+    queryset = Cpu.objects.all()
+    serializer_class = CpuSerializer
+
+class GpuViewSet(viewsets.ModelViewSet):
+    queryset = Gpu.objects.all()
+    serializer_class = GpuSerializer
+
+class LaptopViewSet(viewsets.ModelViewSet):
+    queryset = Laptop.objects.all()
+    serializer_class = LaptopSerializer
+
+class GameViewSet(viewsets.ModelViewSet):
+    queryset = Game.objects.all()
+    serializer_class = GameSerializer
+
