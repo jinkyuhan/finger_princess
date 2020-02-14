@@ -3,67 +3,82 @@ import time
 import sqlite3
 import json
 import os
+import sys
+import re
 
 # 페이지 끝까지 안돌아감.. 보통 10페이지 미만으로 작동됨
 
 
 def crawl():
     passmark = PassmarkCrawler()
-    passmark.scrap(
-        'gpu', 'https://www.videocardbenchmark.net/high_end_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/high_end_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/mid_range_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/midlow_range_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/low_end_gpus.html')
     passmark.scrap('cpu', 'https://www.cpubenchmark.net/high_end_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/mid_range_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/midlow_range_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/low_end_cpus.html')
     passmark.scrap('cpu', 'https://www.cpubenchmark.net/laptop.html')
-    with open('./crawled_data/gpucrawling_data.json', 'w') as f:
+    with open('./crawled_data/gpu_data.json', 'w') as f:
         f.write(passmark.get_products_in_JSON('gpu'))
-    with open('./crawled_data/cpucrawling_data.json', 'w') as f:
+    with open('./crawled_data/cpu_data.json', 'w') as f:
         f.write(passmark.get_products_in_JSON('cpu'))
 
 
 def synchronize_with_db():
     cpu_data=None
     gpu_data=None
-    with open('./crawled_data/gpucrawling_data.json', 'r') as f:
+    with open('./crawled_data/gpu_data.json', 'r') as f:
         gpu_data=json.load(f)
-    with open('./crawled_data/cpucrawling_data.json', 'r') as f:
+    with open('./crawled_data/cpu_data.json', 'r') as f:
         cpu_data=json.load(f)
+    cpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
+    for cpu in cpu_data:
+        if '@' in cpu['name']:
+            cpu['name']=cpu['name'][:-8]
+        cpu['name']=cpu['name'].replace('-','')
 
-    cpu_data = [{'name':x['name'],'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
-    gpu_data = [{'name':x['name'],'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
 
+    gpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
+    for gpu in gpu_data:
+        gpu['name']=gpu['name'].replace('withmax-qdesign','max-q')
+        gpu['name']=gpu['name'].replace('-','')
     db=sqlite3.connect('../db.sqlite3')
     # sqlite3 의 경우 cursor을 통해서 sql이 처리된다.
-    sql='SELECT * FROM sqlite_master WHERE type=\'table\';'
-    c=db.cursor()
-    # c.execute(sql)
-    # #db에 쿼리를 한 경우, 결과를 출력하기 위해 cursor.fetchall function 을 활용한다.
-    # print(c.fetchall())
     
-    # cursor의 executemany() function을 활용해서 tuple형태 sqlite3에 넣는 것이 가능하다
-    insert_sql='INSERT OR IGNORE INTO fp_api_cpu(name,point) VALUES(?, ?)'
+    c=db.cursor()
+    sql='DELETE FROM {}'
+    c.execute(sql.format('fp_api_cpu'))
+    c.execute(sql.format('fp_api_gpu'))
+    db.commit()
+
+    insert_sql='INSERT OR IGNORE INTO {}(id,name,point) VALUES(?, ?, ?)'
+    count=0
     for cpu in cpu_data:
-        c.execute(insert_sql,(cpu['name'],float(cpu['index'])))
-    insert_sql='INSERT OR IGNORE INTO fp_api_gpu(name,point) VALUES(?, ?)'
+        count+=1
+        c.execute(insert_sql.format('fp_api_cpu'),(count,cpu['name'],float(cpu['index'])))
+    count=0
     for gpu in gpu_data:
-        c.execute(insert_sql,(gpu['name'],float(gpu['index'])))
+        count+=1
+        c.execute(insert_sql.format('fp_api_gpu'),(count,gpu['name'],float(gpu['index'])))
     db.commit()
     c.close()
     
 
-
-
-if __name__ == "__main__" :
-    start_time=time.time()
-    #crawl()
-    synchronize_with_db()
-    db=sqlite3.connect('../db.sqlite3')
-    sql='SELECT * FROM fp_api_cpu;'
-    c=db.cursor()
-    c.execute(sql)
-    # #db에 쿼리를 한 경우, 결과를 출력하기 위해 cursor.fetchall function 을 활용한다.
-    print(c.fetchall())
-    print('code execution time: ',time.time()-start_time,'secs')
-    
-    
-   
-
-                   
+if __name__ == "__main__":
+    start_time = time.time()
+    if len(sys.argv) <2:
+        print('wrong execution')
+        print('Proper execution\npython passmarksynchronizer <option>')
+        print('option types','-c : crawling only','-s : synchronizing only','-a : both',sep='\n')
+    elif sys.argv[1]=='-c':
+         crawl()
+    elif sys.argv[1]=='-s':
+        synchronize_with_db()
+    elif sys.argv[1]=='-a':
+        crawl()
+        synchronize_with_db()
+    else:
+        print('wrong option')
+    print('code execution time: ', time.time()-start_time, 'secs')

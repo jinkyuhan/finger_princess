@@ -22,12 +22,14 @@ class Crawler(metaclass=ABCMeta):
         pass
 
     def _add_category(self, category_name, category_code):
-        if not (category_name in self.categories):
-            self.categories.append({
-                "name": category_name,
-                "code": category_code
-            })
-            self.products[category_name] = []
+        for category in self.categories:
+            if category_name == category['name']:
+                return
+        self.categories.append({
+            "name": category_name,
+            "code": category_code
+        })
+        self.products[category_name] = []
 
     def _add_product(self, category_name, product_info: dict):
         self.products[category_name].append(product_info)
@@ -139,13 +141,13 @@ class PassmarkCrawler(Crawler):
         pass
 
     def _add_category(self, category_name, category_code):
-        super()._add_category(category_name,category_name)
+        super()._add_category(category_name,category_code)
         self.current_category=category_code
 
     # Scarp Danawa and fill the self.products
     def scrap(self, category_name, category_code):
         self._add_category(category_name, category_code)
-        resp=req.get(self.base_url+category_code)
+        resp=req.get(category_code)
         soup = BeautifulSoup(
             resp.text, 'html.parser')
         scraped_list = soup.select('ul.chartlist > li')
