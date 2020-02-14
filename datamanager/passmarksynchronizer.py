@@ -4,15 +4,21 @@ import sqlite3
 import json
 import os
 import sys
+import re
 
 # 페이지 끝까지 안돌아감.. 보통 10페이지 미만으로 작동됨
 
 
 def crawl():
     passmark = PassmarkCrawler()
-    passmark.scrap(
-        'gpu', 'https://www.videocardbenchmark.net/high_end_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/high_end_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/mid_range_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/midlow_range_gpus.html')
+    passmark.scrap('gpu', 'https://www.videocardbenchmark.net/low_end_gpus.html')
     passmark.scrap('cpu', 'https://www.cpubenchmark.net/high_end_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/mid_range_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/midlow_range_cpus.html')
+    passmark.scrap('cpu', 'https://www.cpubenchmark.net/low_end_cpus.html')
     passmark.scrap('cpu', 'https://www.cpubenchmark.net/laptop.html')
     with open('./crawled_data/gpu_data.json', 'w') as f:
         f.write(passmark.get_products_in_JSON('gpu'))
@@ -27,15 +33,17 @@ def synchronize_with_db():
         gpu_data=json.load(f)
     with open('./crawled_data/cpu_data.json', 'r') as f:
         cpu_data=json.load(f)
-
     cpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in cpu_data if x['index'] != 'NA']
     for cpu in cpu_data:
         if '@' in cpu['name']:
             cpu['name']=cpu['name'][:-8]
+        cpu['name']=cpu['name'].replace('-','')
+
 
     gpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
     for gpu in gpu_data:
         gpu['name']=gpu['name'].replace('withmax-qdesign','max-q')
+        gpu['name']=gpu['name'].replace('-','')
     db=sqlite3.connect('../db.sqlite3')
     # sqlite3 의 경우 cursor을 통해서 sql이 처리된다.
     

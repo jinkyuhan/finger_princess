@@ -5,6 +5,7 @@ import sqlite3
 import json
 import os
 import sys
+import re
 # 페이지 끝까지 안돌아감.. 보통 10페이지 미만으로 작동됨
 
 
@@ -61,6 +62,13 @@ def synchronize_with_db():
                 laptop['CPU']='None'
             else:
                 laptop['CPU']=laptop['CPU'].lower().replace(' ','')
+                laptop['CPU']=re.sub('\(\w*\)','',laptop['CPU'])
+                laptop['CPU']=laptop['CPU'].replace('-','')
+                laptop['CPU']=laptop['CPU'].replace('펜티엄g','pentium')
+                laptop['CPU']=laptop['CPU'].replace('펜티엄','pentium')
+                laptop['CPU']=laptop['CPU'].replace('제온','xeon')
+                laptop['CPU']=laptop['CPU'].replace('아톰','atom')
+                laptop['CPU']=laptop['CPU'].replace('퓨전apu','')
 
             if 'NVIDIA GPU' in laptop:
                 laptop['GPU']=laptop['NVIDIA GPU'].lower().replace(' ','')
