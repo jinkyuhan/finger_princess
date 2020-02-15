@@ -38,6 +38,7 @@ def synchronize_with_db():
         if '@' in cpu['name']:
             cpu['name']=cpu['name'][:-8]
         cpu['name']=cpu['name'].replace('-','')
+        cpu['name']=cpu['name'].replace('eightcore','')
 
 
     gpu_data = [{'name':x['name'].lower().replace(' ',''),'index':x['index'].replace(',','')} for x in gpu_data if x['index'] != 'NA']
