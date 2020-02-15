@@ -24,4 +24,4 @@ class LaptopSerializer(serializers.ModelSerializer):
 class GameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Game
-        fields = ('id', 'name', 'min_cpu', 'min_gpu', 'min_gpuram', 'min_ram')
+        fields = ('id', 'name', 'min_cpu_itl','min_cpu_amd','min_gpu_itl', 'min_gpu_amd', 'min_gpuram', 'min_ram','min_storage')

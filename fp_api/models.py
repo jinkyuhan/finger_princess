@@ -52,11 +52,14 @@ class Laptop(models.Model):
 
 class Game(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=30)
-    min_cpu = models.ForeignKey(Cpu, on_delete=models.CASCADE)
-    min_gpu = models.ForeignKey(Gpu, on_delete=models.CASCADE)
+    name = models.CharField(max_length=50)
+    min_cpu_itl = models.ForeignKey(Cpu, on_delete=models.CASCADE,null=True,related_name='min_itl_cpu_set')
+    min_cpu_amd = models.ForeignKey(Cpu, on_delete=models.CASCADE,null=True,related_name='min_amd_cpu_set')
+    min_gpu_itl = models.ForeignKey(Gpu, on_delete=models.CASCADE,null=True,related_name='min_itl_gpu_set')
+    min_gpu_amd = models.ForeignKey(Gpu, on_delete=models.CASCADE,null=True,related_name='min_amd_gpu_set')
     min_gpuram = models.IntegerField(null=True)
     min_ram = models.IntegerField()
+    min_storage=models.IntegerField()
 
     def __str__(self):
         return self.name
