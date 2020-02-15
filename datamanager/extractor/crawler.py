@@ -22,12 +22,14 @@ class Crawler(metaclass=ABCMeta):
         pass
 
     def _add_category(self, category_name, category_code):
-        if not (category_name in self.categories):
-            self.categories.append({
-                "name": category_name,
-                "code": category_code
-            })
-            self.products[category_name] = []
+        for category in self.categories:
+            if category_name == category['name']:
+                return
+        self.categories.append({
+            "name": category_name,
+            "code": category_code
+        })
+        self.products[category_name] = []
 
     def _add_product(self, category_name, product_info: dict):
         self.products[category_name].append(product_info)
@@ -84,7 +86,10 @@ class NaverCrawler(Crawler):
         self.current_category=''
         
     def _move_page(self, page_num):
-        self.browser.move_location(self.base_url+'?pagingIndex={}&pagingSize=80&productSet=model&viewType=list&sort=rel&cat_id={}'.format(page_num,self.current_category))
+        return self._get_page_html(page_num) 
+
+    def _get_page_html(self,page_num):
+        return req.get(self.base_url+'?pagingIndex={}&pagingSize=80&productSet=model&viewType=list&sort=rel&cat_id={}'.format(page_num,self.current_category)).text
 
     def _add_category(self, category_name, category_code):
         super()._add_category(category_name,category_name)
@@ -96,9 +101,9 @@ class NaverCrawler(Crawler):
         page_num = 0
         while True :
             page_num+=1
-            self._move_page(page_num)
+            resp=self._move_page(page_num)
             soup = BeautifulSoup(
-                self.browser.get_current_html(), 'html.parser')
+                resp, 'html.parser')
             scraped_list = soup.select('#_search_list > div.search_list.basis > ul > li')
             if len(scraped_list) == 0:
                 break 
@@ -110,7 +115,7 @@ class NaverCrawler(Crawler):
                 try:
                     product_info['price']=each_scraped.select_one('div.info > span.price > em > span.num._price_reload').get_text().strip()
                 except:
-                    product_info['price']=''
+                    product_info['price']=None
 
                 # if price_tag :
                 #     product_info['price'] =price_tag.get_text().strip()
@@ -139,13 +144,13 @@ class PassmarkCrawler(Crawler):
         pass
 
     def _add_category(self, category_name, category_code):
-        super()._add_category(category_name,category_name)
+        super()._add_category(category_name,category_code)
         self.current_category=category_code
 
     # Scarp Danawa and fill the self.products
     def scrap(self, category_name, category_code):
         self._add_category(category_name, category_code)
-        resp=req.get(self.base_url+category_code)
+        resp=req.get(category_code)
         soup = BeautifulSoup(
             resp.text, 'html.parser')
         scraped_list = soup.select('ul.chartlist > li')
@@ -158,7 +163,7 @@ class PassmarkCrawler(Crawler):
             product_info['index']=each_scraped.select_one('a > span.count').get_text().strip()
             self._add_product(category_name, product_info)
         if DEBUG:
-            print("Collecting data in {} : {}".format("1", len(self.products[category_name])))
+            print("Collecting data in {} : {}".format(category_name, len(self.products[category_name])))
 
 
 if __name__ != "__main__":

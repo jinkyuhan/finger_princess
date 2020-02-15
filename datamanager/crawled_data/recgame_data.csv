@@ -1,0 +1,30 @@
+game_name,intel_cpu,amd_cpu,ram,nvidia_gpu,amd_gpu,storage,vram
+Grand_Theft_Auto_5,Intel Core i5-3470,AMD X8 FX-8350,8GB,Nvidia Geforce GTX 660 ,AMD HD 7870,72GB,2GB
+Red_Dead_Redepmtion_2,Intel Core i7-4770K,AMD Ryzen 5 1500X,12GB,Nvidia Geforce GTX 1060,AMD Radeon RX 480,150GB,6GB
+Call_Of_Duty: Modern_Warfare,Intel Core i5-2500K,AMD Ryzen R5 1600X,12GB,Nvidia Geforce GTX 970,AMD Radeon R9 390,175GB,8GB
+Fortnite,Intel Core i5-7300U,None,8GB,Nvidia Geforce GTX 660 ,AMD Radeon HD 7870,25GB,2GB
+League_Of_Legends,Intel Core i3-9100F,None,4GB,Nvidia Geforce 8800,AMD Radeon HD 5670,12GB,1GB
+The_Witcher_3: Wild Hunt,Intel Core i7-3770,AMD FX-8350,8GB,Nvidia Gefore GTX 770,AMD Radeon R9 290,35GB,2GB
+Player_Unknown's_Battlegrounds,Intel Core i5-6600K,AMD Ryzen 5 1600,16GB,Nvidia Geforce GTX 1060 ,AMD Radeon RX 580,30GB,4GB
+Dragon_Ball_Z_Kakarot,Interl Core i5-3470,AMD Ryzen 3 1200,8GB,Nvidia Geforce GTX 960,AMD Radeon R9 280X,40GB,2GB
+Minecraft,Intel Core i5-4690,AMD A10-7800 APU,4GB,Nvidia Geforce 700,AMD Radeon RX 200,4GB,1GB
+Player_Unknown's_Battlegrounds_Lite,Intel Core i5-9400F,None,8GB,Nvidia Geforce GTX 660,AMD Radeon HD 7870,4GB,2GB
+Apex_Legends,Intel Core i5-3570K,AMD Ryzen 5 ,8GB,Nvidia Geforce GTX 970,AMD Radeon R9 290,22GB,8GB
+Star_Wars_Jedi: Fallen_Order,Intel Core i7-6700K,AMD Ryzen 7 1700,16GB,Nvidia Geforce GTX 1070,AMD Radeon RX Vega 56,55GB,8GB
+The_Sims_4,Intel Core i5-750S,AMD Athlon X4,4GB,Nvidia Geforce GTX 650,None,10GB,1GB
+FIFA_20,Intel Core i5-3550,AMD FX-8150,8GB,Nvidia Geforce GTX 670,AMD Radeon R9 270X,50GB,2GB
+Fortnite: Battle_Royale,Intel Core i3-9100F,None,8GB,Nvidia Geforce GTX 1650,AMD Radeon HD 7870,19GB,2GB
+Tom_Clancy's_Rainbow_Six: Siege,Intel Core i5-2500K,AMD FX-8120,8GB,Nvidia Geforce GTX 670,AMD Radeon HD 7970,47GB,2GB
+Battlefield_1,Intel Core i7-4790,AMD FX-8350,16GB,Nvidia Geforce GTX 1060 ,AMD Radeon RX 480,50GB,4GB
+Battlefield_5,Intel Core i7-4790,AMD Ryzen 3 1300X,12GB,Nvidia Geforece GTX 1060,AMD Radeon RX 580,50GB,8GB
+Assasin's_Creed_Odyssey,Intel Core i7-3770,AMD FX-8350,8GB,Nvidia Geforce GTX 970,AMD Radeon R9 290,46GB,4GB
+Overwatch,Intel Core i5-8265U,AMD Phenom 2 X3,6GB,Nvidia Geforce MX 250,ATI Radeon HD 7950,30GB,2GB
+Monster_Hunter: World,Intel Core i7-3770,AMD Ryzen 5 1500X,8GB,Nvidia Geforce GTX 1060 ,AMD Radeon RX 570X,20GB,3GB
+Far_Cry_5,Intel Core i7-4770,AMD Ryzen 5 1600,8GB,Nvidia Geforce GTX 970,AMD R9 290X,24GB,4GB
+Need_For_Speed_Heat,Intel Core i7-4790,AMD Ryzen 3 1300X,16GB,Nvidia Geforce GTX 1060 ,AMD Radeon RX 480,50GB,4GB
+Maplestory,Intel Core i3-8100,AMD Athlon 64 X2,4GB,Nvidia Geforce 9600 GT,ATI Radeon HD 3870,20GB,1GB
+FIFA_Online_4,Intel Core i5-2550K,AMD FX-6350,8GB,Nvidia Geforce GTX 460,AMD Radeon HD 6870,18GB,3GB
+Kartrider,Intel Core i3-8145U,None,2GB,None,None,2GB,None
+Lost_Ark,Intel Core i5-8265U,AMD Ryzen5 3500U,8GB,Nvidia Geforce GTX 960,None,50GB,None
+Dungeon_And_Fighter,Intel Core 2 Duo E7500,None,4GB,None,None,18GB,None
+Sudden_Attack,Intel Core 2 Duo E8400,None,4GB,Nvidia Geforce 9600 GT,None,20GB,None
