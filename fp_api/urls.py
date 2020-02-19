@@ -7,6 +7,7 @@ router.register('cpus',views.CpuViewSet)
 router.register('gpus',views.GpuViewSet)
 router.register('laptops',views.LaptopViewSet)
 router.register('games',views.GameViewSet)
+router.register('programs',views.ProgramViewSet)
 
 urlpatterns = [
     path('', include(router.urls))
