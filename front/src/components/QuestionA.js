@@ -18,7 +18,6 @@ class QuestionA extends React.Component {
     }
 
     FormControls = []
-    count = 0
 
     handlePrevious = () => {
         this.props.goPreviousSurvey();

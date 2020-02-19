@@ -1,11 +1,16 @@
 import React from 'react'
-
+import { Grid } from '@material-ui/core'
+import ResultCard from '../components/ResultCard'
 
 class Result extends React.Component {
     render() {
         return (
             <div className="result">
-                Hello.I'm Result page
+                <Grid container spacing={ 0 }>
+                    <Grid item xs={ 12 }>
+                        <ResultCard />
+                    </Grid>
+                </Grid>
             </div>
         )
     }
