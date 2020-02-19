@@ -1,6 +1,6 @@
 import React from 'react';
-import Survey from './components/Survey'
-import Header from './components/Header'
+import Survey from '../components/Survey'
+import Header from '../components/Header'
 import { Grid } from '@material-ui/core'
 import { withStyles } from '@material-ui/core/styles';
 
@@ -10,7 +10,7 @@ const styles = {
   }
 }
 
-class App extends React.Component {
+class Questions extends React.Component {
   render() {
     const {classes} = this.props;
     return (
@@ -28,4 +28,4 @@ class App extends React.Component {
   }
 }
 
-export default withStyles(styles)(App);
+export default withStyles(styles)(Questions);
