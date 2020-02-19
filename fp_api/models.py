@@ -63,3 +63,13 @@ class Game(models.Model):
 
     def __str__(self):
         return self.name
+        
+class Program(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=50)
+    min_cpu = models.ForeignKey(Cpu, on_delete=models.CASCADE,null=True)
+    min_gpu = models.ForeignKey(Gpu, on_delete=models.CASCADE,null=True)
+    min_ram = models.IntegerField()
+
+    def __str__(self):
+        return self.name

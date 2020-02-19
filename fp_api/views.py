@@ -19,3 +19,7 @@ class GameViewSet(viewsets.ModelViewSet):
     queryset = Game.objects.all()
     serializer_class = GameSerializer
 
+class ProgramViewSet(viewsets.ModelViewSet):
+    queryset=Program.objects.all()
+    serializer_class=ProgramSerializer
+
