@@ -24,7 +24,7 @@ class QuestionD extends React.Component {
     handlePrevious = () => {
         this.props.goPreviousSurvey();
     }
-    handleNext = (event) => {
+    handleNext = () => {
         if (this.state.error === false) {
             this.props.setParentAnswer("budget", this.state.budget);
             this.props.goNextSurvey();

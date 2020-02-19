@@ -27,13 +27,15 @@ class QuestionA extends React.Component {
     }
 
     render() {
+        const variable = [<div>hello1</div>, <div>hello2</div>]
+        
         return (
             <div id="QuestionA">
                 <FormControl>
                     <FormLabel component="legend">Check all the games you play</FormLabel>
                     {/* demo */ }
                     <FormGroup>
-                        <FormControlLabel
+                        {/* <FormControlLabel
                             control={ <Checkbox checked={ this.state.lol } onChange={ () => this.handleChange('lol') }  ></Checkbox> }
                             value="lol"
                             label="League of Legend"
@@ -49,7 +51,7 @@ class QuestionA extends React.Component {
                         <FormControlLabel
                             control={ <Checkbox checked={ this.state.overwatch } onChange={ () => this.handleChange('overwatch') }  ></Checkbox> }
                             value="overwatch"
-                            label="OverWatch" />
+                            label="OverWatch" /> */}
                     </FormGroup>
                     {/* demo end */ }
                 </FormControl>
@@ -57,6 +59,7 @@ class QuestionA extends React.Component {
                     <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
                     <Button onClick={ () => { this.handleNext() } } variant='contained'>다음</Button>
                 </div>
+                {variable}
             </div>
         );
     }
