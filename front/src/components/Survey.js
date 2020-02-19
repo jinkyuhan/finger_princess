@@ -10,28 +10,6 @@ import { Stepper, Step, StepLabel, StepContent, Container } from '@material-ui/c
 class Survey extends React.Component {
     state = {
         activeStep: 0,
-        // steps: [
-        //     {
-        //         label: '게임을 하는 가',
-        //         question: QuestionA
-        //     },
-        //     {
-        //         label: '실내/실외',
-        //         question: QuestionB
-        //     },
-        //     {
-        //         label: '자주 쓰는 프로그램',
-        //         question: QuestionA
-        //     },
-        //     {
-        //         label: '가격 상한선',
-        //         question: QuestionA
-        //     },
-        //     {
-        //         label: '성능우선/가격우선/서비스우선',
-        //         question: QuestionA
-        //     }
-        // ]
         steps: ['게임을 하는가', '실내/실외', '자주 쓰는 프로그램', '가격 상한선', '성능우선/가격우선/서비스우선'],
         answers: {
             games: {},
@@ -47,12 +25,12 @@ class Survey extends React.Component {
         this.setState(current => {
             let newState = current;
             newState.answers[key] = value;
-            return newState
+            return newState;
         })
-        console.log(this.state)
+        console.log(this.state.answers)
     }
     hanldeSubmit = () => {
-        console.log("request to api")
+        console.log("request to api")   //request filtered id list
         document.location.href = "localhost:3000/#/result"
     }
     handleNext = () => {
