@@ -47,6 +47,7 @@ dependencies:
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
   - pip:
+    - django-cors-headers==3.2.1
     - djangorestframework==3.11.0
-prefix: /root/anaconda3/envs/fp-py375
+prefix: /home/god102104/anaconda3/envs/fp-py375
 
