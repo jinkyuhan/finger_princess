@@ -11,6 +11,7 @@ const styles = {
 }
 
 class Questions extends React.Component {
+
   render() {
     const {classes} = this.props;
     return (
@@ -20,7 +21,7 @@ class Questions extends React.Component {
             <Header />
           </Grid>
           <Grid item xs={ 12 }>
-            <Survey />
+            <Survey setParentAnswer={this.props.setParentAnswer}/>
           </Grid>
         </Grid>
       </div>
