@@ -7,15 +7,23 @@ import server from '../config'
 class Result extends React.Component {
 
     state = {
-        recommends:[]
+        surveyResult:{},
+        recommends: []
+    }
+    constructor(props){
+        super(props);
+        this.state.surveyResult = props.data;
     }
 
     getRecommends = async () => {
         const BASEURL = server.getBASEURL();
-        const dataFromApp = this.props.data;
-        // const recommends = await axios.post(`${BASEURL}/fp_api/recommned/`, dataFromApp) // example try catch 해줘야함
-        const res = await axios.get(`${BASEURL}/fp_api/games/`) // test request
-        const recommends = res.data
+        let recommends = [];
+        try {
+            const res = await axios.post(`${BASEURL}/fp_api/services/recommend/`, this.state.surveyResult)
+            recommends = res.data
+        } catch(err){
+            console.log(err)
+        }
         return recommends
     }
 
@@ -23,7 +31,7 @@ class Result extends React.Component {
         let resultCards = []
         recommends.map((recommendedItem) => {
             resultCards.push(
-                <Grid  key={recommendedItem.id} item xs={12}>
+                <Grid key={recommendedItem.id} item xs={12}>
                     <ResultCard laptop={recommendedItem} />
                 </Grid >
             )
@@ -32,7 +40,7 @@ class Result extends React.Component {
         return resultCards;
     }
 
-    async componentDidMount(){
+    async componentDidMount() {
         this.setState({
             recommends: await this.getRecommends()
         })

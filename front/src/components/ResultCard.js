@@ -31,8 +31,8 @@ class ResultCard extends React.Component {
                             {this.item.name}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            추천하는 게임의 id 는 {String(this.item.id)} 입니다.<br/>
-                            추천하는 게임의 요구 램은 {String(this.item.min_ram)} 입니다.<br/>
+                            추천하는 노트북의 id 는 {String(this.item.id)} 입니다.<br/>
+                            추천하는 노트북의 요구 램은 {String(this.item.ram)} 입니다.<br/>
                         </Typography>
                     </CardContent>
                 </Card>
