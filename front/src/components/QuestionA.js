@@ -94,7 +94,6 @@ class QuestionA extends React.Component {
                     </FormGroup>
                 </FormControl>
                 <div>
-                    <Button onClick={() => { this.handlePrevious() }} variant='contained'>이전</Button>
                     <Button onClick={() => { this.handleNext() }} variant='contained'>다음</Button>
                 </div>
             </div>
