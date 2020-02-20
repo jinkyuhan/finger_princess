@@ -13,8 +13,6 @@ class QuestionB extends React.Component {
     state = {
         env: "",
         bag: ""
-        // inputLabel: "indoor",
-        // labelWidth: 100
     }
     handlePrevious = () => {
         this.props.goPreviousSurvey();
@@ -24,7 +22,9 @@ class QuestionB extends React.Component {
             if (this.state.env === "outdoor" || this.state.env === "both") {
                 this.props.setParentAnswer("outdoor", true);
                 this.props.setParentAnswer("bag", this.state.bag);
-
+            }
+            else{
+                this.props.setParentAnswer("outdoor", false);
             }
             this.props.goNextSurvey();
         }
@@ -34,8 +34,6 @@ class QuestionB extends React.Component {
 
         }
     }
-
-
 
 
     handleChange = function (event) {

@@ -41,7 +41,7 @@ class QuestionE extends React.Component {
                 </FormControl>
                 <div>
                     <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
-                    <Button onClick={ () => { this.handleSubmit() } } variant='contained'>제출</Button>
+                    <Button href="#result" onClick={ () => { this.handleSubmit() } } variant='contained'>제출</Button>
                 </div>
             </div>
         )
