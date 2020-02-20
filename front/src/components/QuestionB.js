@@ -20,12 +20,23 @@ class QuestionB extends React.Component {
         this.props.goPreviousSurvey();
     }
     handleNext = () => {
-        if(this.state.env === "outdoor" || this.state.env === "both"){
-            this.props.setParentAnswer("outdoor", true);
-            this.props.setParentAnswer("bag", this.state.bag);
+        if (this.state.env !== '') {
+            if (this.state.env === "outdoor" || this.state.env === "both") {
+                this.props.setParentAnswer("outdoor", true);
+                this.props.setParentAnswer("bag", this.state.bag);
+
+            }
+            this.props.goNextSurvey();
         }
-        this.props.goNextSurvey();
+
+        else {
+            alert("잘못된 입력입니다.")
+
+        }
     }
+
+
+
 
     handleChange = function (event) {
         if (event.target.name === "bagtype")
@@ -39,15 +50,16 @@ class QuestionB extends React.Component {
             bag =
                 <div>
                     <FormControl>
-                        <InputLabel id="bag" variant="filled" ></InputLabel>
+                        <InputLabel id="bag" variant="outlined">Bag</InputLabel>
                         <Select
                             labelId="bag-select-label"
                             id="bag-select"
-                            value={ this.state.bag }
-                            onChange={ (event) => {
+                            value={this.state.bag}
+                            onChange={(event) => {
                                 event.target.name = "bagtype"
                                 this.handleChange(event)
-                            } }
+                            }}
+                            variant='filled'
                         // required={true}
                         >
                             <MenuItem value="eco-bag">에코백</MenuItem>
@@ -62,13 +74,18 @@ class QuestionB extends React.Component {
         }
         return (
             <div id="QuestionB">
-                <FormControl>
-                    <InputLabel id="env" variant="filled" ></InputLabel>
+                <FormControl style={
+                    {
+                        minWidth: 120
+                    }
+                }>
+                    <InputLabel id="env" variant='outlined'>휴대성</InputLabel>
                     <Select
                         labelId="env-select-label"
                         id="env-select"
-                        value={ this.state.env }
-                        onChange={ (event) => this.handleChange(event) }
+                        value={this.state.env}
+                        onChange={(event) => this.handleChange(event)}
+                        variant='filled'
                     // required={true}
                     >
                         <MenuItem value="indoor">실내에서 사용</MenuItem>
@@ -76,10 +93,10 @@ class QuestionB extends React.Component {
                         <MenuItem value="both">실내외 겸용</MenuItem>
                     </Select>
                 </FormControl>
-                { bag }
+                {bag}
                 <div>
-                    <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
-                    <Button onClick={ () => { this.handleNext() } } variant='contained'>다음</Button>
+                    <Button onClick={() => { this.handlePrevious() }} variant='contained'>이전</Button>
+                    <Button onClick={() => { this.handleNext() }} variant='contained'>다음</Button>
                 </div>
             </div>
         );
