@@ -7,7 +7,7 @@ dependencies:
   - astroid=2.3.3=py37_0
   - autopep8=1.4.4=py_0
   - beautifulsoup4=4.8.2=py37_0
-  - ca-certificates=2019.11.27=0
+  - ca-certificates=2020.1.1=0
   - certifi=2019.11.28=py37_0
   - cffi=1.13.2=py37h2e261b9_0
   - chardet=3.0.4=py37_1003
@@ -23,8 +23,8 @@ dependencies:
   - libstdcxx-ng=9.1.0=hdf63c60_0
   - mccabe=0.6.1=py37_1
   - ncurses=6.1=he6710b0_1
-  - openssl=1.1.1d=h7b6447c_3
-  - pip=19.3.1=py37_0
+  - openssl=1.1.1d=h7b6447c_4
+  - pip=20.0.2=py37_1
   - pycodestyle=2.5.0=py37_0
   - pycparser=2.19=py37_0
   - pylint=2.4.4=py37_0
@@ -46,5 +46,7 @@ dependencies:
   - wrapt=1.11.2=py37h7b6447c_0
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
-prefix: /home/jhyun1000/anaconda3/envs/fp-py375
+  - pip:
+    - djangorestframework==3.11.0
+prefix: /root/anaconda3/envs/fp-py375
 
