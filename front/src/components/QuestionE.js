@@ -3,15 +3,14 @@ import {
     Button,
     FormControl,
     InputLabel,
-    Select,
-    MenuItem
+    Select
 } from '@material-ui/core'
 class QuestionE extends React.Component {
 
     state = {
         priority: ""
     }
-    handleSubmit = () =>{
+    handleSubmit = () => {
         this.props.setParentAnswer("priority", this.state.priority);
         this.props.submitSurvey();
     }
@@ -24,24 +23,28 @@ class QuestionE extends React.Component {
     render() {
         return (
             <div id="QuestionE">
-                <FormControl>
-                    <InputLabel id="priority" variant="filled" ></InputLabel>
+                <FormControl variant="filled" style={
+                    { 
+                        minWidth: 150 
+                    }
+                }>
+                    <InputLabel>정렬 우선순위</InputLabel>
                     <Select
-                        labelId="priority-select-label"
-                        id="priority-select"
-                        value={ this.state.priority }
-                        onChange={ (event) => {
+                        native
+                        value={this.state.priority}
+                        onChange={(event) => {
                             this.handleChange(event)
-                        } }
+                        }}
                     >
-                        <MenuItem value="performance-first">성능우선</MenuItem>
-                        <MenuItem value="price-first">가격우선</MenuItem>
-                        <MenuItem value="service-first">서비스우선</MenuItem>
+                        <option value="" />
+                        <option value="performance-first">성능우선</option>
+                        <option value="price-first">가격우선</option>
+                        <option value="service-first">서비스우선</option>
                     </Select>
                 </FormControl>
                 <div>
-                    <Button onClick={ () => { this.handlePrevious() } } variant='contained'>이전</Button>
-                    <Button href="#result" onClick={ () => { this.handleSubmit() } } variant='contained'>제출</Button>
+                    <Button onClick={() => { this.handlePrevious() }} variant='contained'>이전</Button>
+                    <Button href="#result" onClick={() => { this.handleSubmit() }} variant='contained'>제출</Button>
                 </div>
             </div>
         )
