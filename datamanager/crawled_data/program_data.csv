@@ -1,11 +1,11 @@
 name,cpu,gpu,ram
-Photoshop_Normal,i3-6006u,None,8
-Photoshop_4K,i5-7200u,None,8
-Illustrator_Normal,i3-6006u,None,8
-Illustrator_4K,i5-7200u,None,8
-Lightroom_Normal,i3-6006u,None,8
-Lightroom_4K,i5-7200u,None,8
-PremierePro_Normal,i5-7300hq,Geforce gtx 1050,16
-PremierePro_4K,i7-7700hq,Geforce gtx 1050,32
-Unity_Normal,i7-7700hq,Geforce gtx 1050,16
-Unreal_Normal,i7-7700hq,Geforce gtx 1050,16
+어도비 포토샵,i3-6006u,None,8
+어도비 포토샵(4K 작업용),i5-7200u,None,8
+어도비 일러스트레이터,i3-6006u,None,8
+어도비 일러스트레이터(4K 작업용),i5-7200u,None,8
+어도비 라이트룸,i3-6006u,None,8
+어도비 라이트룸(4K 작업용),i5-7200u,None,8
+프리미어 프로,i5-7300hq,Geforce gtx 1050,16
+프리미어 프로(4K 작업용),i7-7700hq,Geforce gtx 1050,32
+유니티,i7-7700hq,Geforce gtx 1050,16
+언리얼,i7-7700hq,Geforce gtx 1050,16
