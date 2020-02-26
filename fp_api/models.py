@@ -1,4 +1,5 @@
 from django.db import models
+from django_db_views.db_view import DBView
 # Create your models here.
 
 
@@ -73,3 +74,52 @@ class Program(models.Model):
 
     def __str__(self):
         return self.name
+
+class LaptopPerformance(DBView):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=30)
+    weight = models.FloatField(null=True)
+    cpu = models.ForeignKey(Cpu, on_delete=models,null=True)
+    cpu_point = models.FloatField()
+    gpu = models.ForeignKey(Gpu, on_delete=models.CASCADE, null=True)
+    gpu_point = models.FloatField()
+    ram = models.IntegerField(null=True)
+    ssd = models.FloatField(null=True)
+    hdd = models.FloatField(null=True)
+    resolution = models.CharField(max_length=15, null=True)
+    display_choices = [
+        (13, '13인치 (32~34)cm'),
+        (14, '14인치 (35~36)cm'),
+        (15, '15인치 (37~39)cm'),
+        (16, '16인치 (40~42)cm'),
+        (17, '17인치 (43~44)cm'),
+    ]
+    display = models.IntegerField(choices=display_choices, null=True)
+    price = models.IntegerField()
+    view_definition = """
+        SELECT
+        Laptop.id as id,
+        Laptop.name as name,
+        Laptop.weight as weight,
+        Cpu.id as cpu_id,
+        Cpu.point as cpu_point,
+        Gpu.id as gpu_id,
+        Gpu.point as gpu_point,
+        Laptop.ram as ram,
+        Laptop.ssd as ssd,
+        Laptop.hdd as hdd,
+        Laptop.resolution as resolution,
+        Laptop.display as display,
+        Laptop.price as price    
+        FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
+        WHERE Laptop.cpu_id = Cpu.id
+        AND Laptop.gpu_id = Gpu.id
+    """
+    
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        managed = False
+        db_table = "LaptopPerformance"
+
