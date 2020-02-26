@@ -23,3 +23,6 @@ class ProgramViewSet(viewsets.ModelViewSet):
     queryset=Program.objects.all()
     serializer_class=ProgramSerializer
 
+class LaptopPerformanceViewSet(viewsets.ModelViewSet):
+    queryset=LaptopPerformance.objects.all()
+    serializer_class=LaptopPerformanceSerializer
