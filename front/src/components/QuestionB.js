@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-    MenuItem,
     FormControl,
     InputLabel,
     Select,
@@ -12,9 +11,9 @@ import {
 class QuestionB extends React.Component {
     state = {
         env: "",
-        bag: ""
-        // inputLabel: "indoor",
-        // labelWidth: 100
+        bag: "",
+        selectbox1: "휴대성",
+        selectbox2: "가방 종류"
     }
     handlePrevious = () => {
         this.props.goPreviousSurvey();
@@ -23,77 +22,72 @@ class QuestionB extends React.Component {
         if (this.state.env !== '') {
             if (this.state.env === "outdoor" || this.state.env === "both") {
                 this.props.setParentAnswer("outdoor", true);
-                this.props.setParentAnswer("bag", this.state.bag);
-
+                if (this.state.bag !== "") {
+                    this.props.setParentAnswer("bag", this.state.bag);
+                    this.props.goNextSurvey();
+                }
+                else {
+                    alert("필수 입력사항이 누락되었습니다.")
+                }
             }
-            this.props.goNextSurvey();
+            else {
+                this.props.setParentAnswer("outdoor", false);
+                this.props.goNextSurvey();
+            }
         }
 
         else {
-            alert("잘못된 입력입니다.")
-
+            alert("필수 입력사항이 누락되었습니다.")
         }
     }
-
-
 
 
     handleChange = function (event) {
         if (event.target.name === "bagtype")
-            this.setState({ bag: event.target.value })
+            this.setState({ bag: event.target.value, selectbox2: '' })
         else
-            this.setState({ env: event.target.value })
+            this.setState({ env: event.target.value, selectbox1: '' })
     }
     render() {
-        let bag = <div></div>
+        let bag = <FormControl></FormControl>
         if (this.state.env === "outdoor" || this.state.env === "both") {
-            bag =
-                <div>
-                    <FormControl>
-                        <InputLabel id="bag" variant="outlined">Bag</InputLabel>
+            bag =<FormControl variant="filled">
+                        <InputLabel>가방 종류</InputLabel>
                         <Select
-                            labelId="bag-select-label"
-                            id="bag-select"
+                            native
                             value={this.state.bag}
                             onChange={(event) => {
                                 event.target.name = "bagtype"
                                 this.handleChange(event)
                             }}
-                            variant='filled'
-                        // required={true}
                         >
-                            <MenuItem value="eco-bag">에코백</MenuItem>
-                            <MenuItem value="cross-bag">크로스백</MenuItem>
-                            <MenuItem value="hand-bag">핸드백</MenuItem>
-                            <MenuItem value="briefcase">서류가방</MenuItem>
-                            <MenuItem value="backpack">백팩</MenuItem>
-
+                            <option value="" />
+                            <option value="eco-bag">에코백</option>
+                            <option value="cross-bag">크로스백</option>
+                            <option value="hand-bag">핸드백</option>
+                            <option value="briefcase">서류가방</option>
+                            <option value="backpack">백팩</option>
                         </Select>
                     </FormControl>
-                </div>
         }
         return (
             <div id="QuestionB">
-                <FormControl style={
-                    {
-                        minWidth: 120
-                    }
-                }>
-                    <InputLabel id="env" variant='outlined'>휴대성</InputLabel>
-                    <Select
-                        labelId="env-select-label"
-                        id="env-select"
-                        value={this.state.env}
-                        onChange={(event) => this.handleChange(event)}
-                        variant='filled'
-                    // required={true}
-                    >
-                        <MenuItem value="indoor">실내에서 사용</MenuItem>
-                        <MenuItem value="outdoor">실외에서 사용</MenuItem>
-                        <MenuItem value="both">실내외 겸용</MenuItem>
-                    </Select>
-                </FormControl>
-                {bag}
+                <div>
+                    <FormControl variant="filled">
+                        <InputLabel>휴대성</InputLabel>
+                        <Select
+                            native
+                            value={this.state.env}
+                            onChange={(event) => this.handleChange(event)}
+                        >
+                            <option value="" />
+                            <option value="indoor">실내에서 사용</option>
+                            <option value="outdoor">실외에서 사용</option>
+                            <option value="both">실내외 겸용</option>
+                        </Select>
+                    </FormControl>
+                    {bag}
+                </div>
                 <div>
                     <Button onClick={() => { this.handlePrevious() }} variant='contained'>이전</Button>
                     <Button onClick={() => { this.handleNext() }} variant='contained'>다음</Button>

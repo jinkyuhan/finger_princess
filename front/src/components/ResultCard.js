@@ -7,19 +7,10 @@ import {
 } from '@material-ui/core'
 
 class ResultCard extends React.Component {
-    state = {
-        laptop: {
-            name:"",
-            weight:"",
-            cpu:"",
-            gpu:"",
-            ram:"",
-            ssd:"",
-            hdd:"",
-            resolution:"",
-            size:"",
-            price:""
-        }
+    
+    constructor(props){
+        super(props)
+        this.item = props.laptop    
     }
 
     render() {
@@ -37,11 +28,11 @@ class ResultCard extends React.Component {
                         } } />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            {this.state.laptop.name}
+                            {this.item.name}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
+                            추천하는 노트북의 id 는 {String(this.item.id)} 입니다.<br/>
+                            추천하는 노트북의 요구 램은 {String(this.item.ram)} 입니다.<br/>
                         </Typography>
                     </CardContent>
                 </Card>

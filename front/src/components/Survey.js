@@ -11,27 +11,19 @@ class Survey extends React.Component {
     state = {
         activeStep: 0,
         steps: ['게임을 하는가', '실내/실외', '자주 쓰는 프로그램', '가격 상한선', '성능우선/가격우선/서비스우선'],
-        answers: {
-            games: {},
-            outdoor: false,
-            bag: "",
-            programs: {},
-            budget: 0,
-            priority: ""
-        }
     }
 
-    setAnswer = (key, value) => {
-        this.setState(current => {
-            let newState = current;
-            newState.answers[key] = value;
-            return newState;
-        })
-        console.log(this.state.answers)
-    }
+    // setParentAnswer = (key, value) => {
+    //     this.setState(current => {
+    //         let newState = current;
+    //         newState.answer[key] = value;
+    //         return newState;
+    //     })
+    //     this.props.setParentAnswer(this.state.answer)
+    //     console.log(this.state.answer)
+    // }
     hanldeSubmit = () => {
         console.log("request to api")   //request filtered id list
-        document.location.href = "localhost:3000/#/result"
     }
     handleNext = () => {
         this.setState(current => ({ activeStep: current.activeStep + 1 }))
@@ -55,33 +47,33 @@ class Survey extends React.Component {
                         < Step key={ 1 } >
                             <StepLabel>{ '플레이 하는 모든 게임을 선택하세요' }</StepLabel>
                             <StepContent>
-                                <QuestionA setParentAnswer={this.setAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
+                                <QuestionA setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
                         </Step>
                         < Step key={ 2 } >
                             <StepLabel>{ '실내/실외' }</StepLabel>
                             <StepContent>
-                                <QuestionB setParentAnswer={this.setAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
+                                <QuestionB setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
                         </Step>
                         < Step key={ 3 } >
                             <StepLabel>{ '자주 사용하는 프로그램' }</StepLabel>
                             <StepContent>
-                                <QuestionC setParentAnswer={this.setAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
+                                <QuestionC setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
 
                         </Step>
                         < Step key={ 4 } >
                             <StepLabel>{ '가격 상한선' }</StepLabel>
                             <StepContent>
-                                <QuestionD setParentAnswer={this.setAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
+                                <QuestionD setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
 
                         </Step>
                         < Step key={ 5 } >
                             <StepLabel>{ '성능우선/기능우선/서비스우선' }</StepLabel>
                             <StepContent>
-                                <QuestionE setParentAnswer={this.setAnswer} goPreviousSurvey={this.handlePrevious} submitSurvey={this.hanldeSubmit}/>
+                                <QuestionE setParentAnswer={this.props.setParentAnswer} goPreviousSurvey={this.handlePrevious} submitSurvey={this.hanldeSubmit}/>
                             </StepContent>
                         </Step>
                     </Stepper>
