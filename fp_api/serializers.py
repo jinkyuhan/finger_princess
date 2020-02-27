@@ -24,14 +24,14 @@ class LaptopSerializer(serializers.ModelSerializer):
 class GameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Game
-        fields = ('id', 'name', 'min_cpu_itl', 'min_cpu_amd', 'min_gpu_itl',
-                  'min_gpu_amd', 'min_gpuram', 'min_ram', 'min_storage')
+        fields = ('id', 'name', 'rec_cpu_itl', 'rec_cpu_amd', 'rec_gpu_itl',
+                  'rec_gpu_amd', 'rec_gpuram', 'rec_ram', 'rec_storage')
 
 
 class ProgramSerializer(serializers.ModelSerializer):
     class Meta:
         model = Program
-        fields = ('id', 'name', 'min_cpu', 'min_gpu', 'min_ram')
+        fields = ('id', 'name', 'rec_cpu', 'rec_gpu', 'rec_ram')
 
 
 class LaptopPerformanceSerializer(serializers.ModelSerializer):
@@ -39,3 +39,17 @@ class LaptopPerformanceSerializer(serializers.ModelSerializer):
         model = LaptopPerformance
         fields = ('id', 'name', 'weight', 'cpu', 'cpu_point', 'gpu', 'gpu_point', 'ram',
                   'ssd', 'hdd', 'resolution', 'display', 'price')
+
+
+class GameRequirementsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GameRequirements
+        fields = ('id', 'name', 'rec_cpu', 'rec_cpu_point', 'rec_gpu',
+                  'rec_gpu_point', 'rec_gpuram', 'rec_ram', 'rec_storage')
+
+
+class ProgramRequirementsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProgramRequirements
+        fields = ('id', 'name', 'rec_cpu', 'rec_cpu_point',
+                  'rec_gpu', 'rec_gpu_point', 'rec_ram')

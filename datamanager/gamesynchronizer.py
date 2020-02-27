@@ -18,7 +18,7 @@ def synchronize_with_db():
     c=db.cursor()
     sql="DELETE FROM fp_api_game"
     c.execute(sql)
-    sql="INSERT OR IGNORE INTO fp_api_game(id,name,min_ram,min_gpuram,min_storage,min_cpu_itl_id,min_cpu_amd_id,min_gpu_itl_id,min_gpu_amd_id) VALUES({},'{}',{},{},{},(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'))"
+    sql="INSERT OR IGNORE INTO fp_api_game(id,name,rec_ram,rec_gpuram,rec_storage,rec_cpu_itl_id,rec_cpu_amd_id,rec_gpu_itl_id,rec_gpu_amd_id) VALUES({},'{}',{},{},{},(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'))"
 
     for index in range(len(game_data)):
         c.execute(sql.format(index+1,game_data['game_name'][index],game_data['ram'][index],game_data['vram'][index],game_data['storage'][index],game_data['intel_cpu'][index],game_data['amd_cpu'][index],game_data['nvidia_gpu'][index],game_data['amd_gpu'][index]))

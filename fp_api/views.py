@@ -26,3 +26,11 @@ class ProgramViewSet(viewsets.ModelViewSet):
 class LaptopPerformanceViewSet(viewsets.ModelViewSet):
     queryset=LaptopPerformance.objects.all()
     serializer_class=LaptopPerformanceSerializer
+
+class GameRequirementsViewSet(viewsets.ModelViewSet):
+    queryset = GameRequirements.objects.all()
+    serializer_class = GameRequirementsSerializer
+
+class ProgramRequirementsViewSet(viewsets.ModelViewSet):
+    queryset=ProgramRequirements.objects.all()
+    serializer_class=ProgramRequirementsSerializer

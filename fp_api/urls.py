@@ -10,6 +10,8 @@ router.register('laptops',views.LaptopViewSet)
 router.register('games',views.GameViewSet)
 router.register('programs',views.ProgramViewSet)
 router.register('laptop_performances',views.LaptopPerformanceViewSet)
+router.register('game_requirements',views.GameRequirementsViewSet)
+router.register('program_requirements',views.ProgramRequirementsViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -14,7 +14,7 @@ def synchronize_with_db():
     c=db.cursor()
     sql="DELETE FROM fp_api_program"
     c.execute(sql)
-    sql="INSERT OR IGNORE INTO fp_api_program(id,name,min_ram,min_cpu_id,min_gpu_id) VALUES({},'{}',{},(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'))"
+    sql="INSERT OR IGNORE INTO fp_api_program(id,name,rec_ram,rec_cpu_id,rec_gpu_id) VALUES({},'{}',{},(SELECT id from fp_api_cpu where name like '%{}'),(SELECT id from fp_api_gpu where name like '%{}'))"
 
     for index in range(len(game_data)):
         c.execute(sql.format(index+1,game_data['program_name'][index],game_data['ram'][index],game_data['cpu'][index],game_data['gpu'][index]))
