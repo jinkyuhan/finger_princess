@@ -3,36 +3,37 @@ import {
     Card,
     CardMedia,
     CardContent,
-    Typography
+    Typography,
+    Link
 } from '@material-ui/core'
 
 class ResultCard extends React.Component {
-    
-    constructor(props){
+
+    constructor(props) {
         super(props)
-        this.item = props.laptop    
+        this.item = props.laptop
     }
 
     render() {
         return (
             <dir className="ResultCard">
                 <Card
-                    style={ {
+                    style={{
                         maxWidth: 345
-                    } }>
+                    }}>
                     <CardMedia
-                        image="https://images.unsplash.com/photo-1504707748692-419802cf939d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1330&q=80"
+                        image={this.item.img}
                         title="#"
-                        style={ {
+                        style={{
                             height: 140
-                        } } />
+                        }} />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            {this.item.name}
+                            <Link href={this.item.url}>{this.item.name}</Link>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            추천하는 노트북의 id 는 {String(this.item.id)} 입니다.<br/>
-                            추천하는 노트북의 요구 램은 {String(this.item.ram)} 입니다.<br/>
+                            추천하는 노트북의 id 는 {String(this.item.id)} 입니다.<br />
+                            추천하는 노트북의 요구 램은 {String(this.item.ram)} 입니다.<br />
                         </Typography>
                     </CardContent>
                 </Card>
