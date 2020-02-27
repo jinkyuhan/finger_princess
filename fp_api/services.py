@@ -17,7 +17,7 @@ def recommend(request):
         print('PROGRAMS: ',body['programs'])
         print('BUDGET: ',body['budget'])
         print('PRIORITY: ',body['priority'])
-        queryset=Laptop.objects.filter(ram__gte=16)
+        queryset=Laptop.objects.filter(id__lte=10)
         #queryset=Program.objects.get(name__startswith='unreal').rec_cpu_set.all()
         serializer=LaptopSerializer(queryset,many=True)
         return JsonResponse(serializer.data,safe=False)

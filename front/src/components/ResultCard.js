@@ -25,7 +25,8 @@ class ResultCard extends React.Component {
                         image={this.item.img}
                         title="#"
                         style={{
-                            height: 140
+                            height: 140,
+                            width:140
                         }} />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
