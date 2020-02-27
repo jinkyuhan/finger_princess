@@ -99,11 +99,11 @@ def synchronize_with_db():
     c.execute(sql)
     db.commit()
     
-    insert_sql = "INSERT OR IGNORE INTO fp_api_laptop(id,name,weight,cpu_id,gpu_id,ram,ssd,hdd,resolution,display,price) VALUES({},'{}', {}, ({}), ({}), {}, {}, {}, '{}', {}, {})"
+    insert_sql = "INSERT OR IGNORE INTO fp_api_laptop(id,name,weight,cpu_id,gpu_id,ram,ssd,hdd,resolution,display,price,img,url) VALUES({},'{}', {}, ({}), ({}), {}, {}, {}, '{}', {}, {},'{}','{}')"
     count = 0
     for laptop in naver_data:
         count += 1
-        c.execute(insert_sql.format(count,laptop['name'],laptop['무게'],"SELECT id from fp_api_cpu where name like '%{}'".format(laptop['CPU']),"SELECT id from fp_api_gpu where name like '%{}'".format(laptop['GPU']),laptop['램'],laptop['SSD'],laptop['HDD'],laptop['해상도'],laptop['화면크기'],laptop['price']))
+        c.execute(insert_sql.format(count,laptop['name'],laptop['무게'],"SELECT id from fp_api_cpu where name like '%{}'".format(laptop['CPU']),"SELECT id from fp_api_gpu where name like '%{}'".format(laptop['GPU']),laptop['램'],laptop['SSD'],laptop['HDD'],laptop['해상도'],laptop['화면크기'],laptop['price'],laptop['img'],laptop['url']))
     db.commit()
     c.close()
 

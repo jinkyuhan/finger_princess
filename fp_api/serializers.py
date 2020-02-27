@@ -18,7 +18,7 @@ class LaptopSerializer(serializers.ModelSerializer):
     class Meta:
         model = Laptop
         fields = ('id', 'name', 'weight', 'cpu', 'gpu', 'ram',
-                  'ssd', 'hdd', 'resolution', 'display', 'price')
+                  'ssd', 'hdd', 'resolution', 'display', 'price','img','url')
 
 
 class GameSerializer(serializers.ModelSerializer):
@@ -38,7 +38,7 @@ class LaptopPerformanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = LaptopPerformance
         fields = ('id', 'name', 'weight', 'cpu', 'cpu_point', 'gpu', 'gpu_point', 'ram',
-                  'ssd', 'hdd', 'resolution', 'display', 'price')
+                  'ssd', 'hdd', 'resolution', 'display', 'price','img','url')
 
 
 class GameRequirementsSerializer(serializers.ModelSerializer):

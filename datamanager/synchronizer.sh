@@ -7,6 +7,8 @@ then
     then 
         python ./passmarksynchronizer.py -a
         python ./naversynchronizer.py -a
+        python ./programsynchronizer.py
+        python ./gamesynchronizer.py
         echo "Crawling and Synchronization complete"
     fi
 #otherwise just synchronizes db with local data

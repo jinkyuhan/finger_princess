@@ -46,6 +46,8 @@ class Laptop(models.Model):
     ]
     display = models.IntegerField(choices=display_choices, null=True)
     price = models.IntegerField()
+    img=models.CharField(max_length=150)
+    url=models.CharField(max_length=1000)
 
     def __str__(self):
         return self.name
@@ -112,6 +114,8 @@ class LaptopPerformance(DBView):
 
     display = models.IntegerField(choices=display_choices, null=True)
     price = models.IntegerField()
+    img=models.CharField(max_length=150)
+    url=models.CharField(max_length=1000)
     view_definition = """
         SELECT
         Laptop.id as id,
@@ -126,7 +130,9 @@ class LaptopPerformance(DBView):
         Laptop.hdd as hdd,
         Laptop.resolution as resolution,
         Laptop.display as display,
-        Laptop.price as price    
+        Laptop.price as price,
+        Laptop.image as img,
+        Laptop.url as url    
         FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
         WHERE Laptop.cpu_id = Cpu.id
         AND Laptop.gpu_id = Gpu.id

@@ -9,15 +9,15 @@
 	},
 	{
 		"name": "TITAN RTX",
-		"index": "16,305"
+		"index": "16,141"
 	},
 	{
 		"name": "GeForce RTX 2080 SUPER",
-		"index": "15,861"
+		"index": "15,856"
 	},
 	{
 		"name": "GeForce RTX 2080",
-		"index": "15,475"
+		"index": "15,465"
 	},
 	{
 		"name": "TITAN Xp COLLECTORS EDITION",
@@ -25,79 +25,75 @@
 	},
 	{
 		"name": "GeForce RTX 2070 SUPER",
-		"index": "14,889"
+		"index": "14,895"
+	},
+	{
+		"name": "Quadro RTX 6000",
+		"index": "14,837"
 	},
 	{
 		"name": "Quadro RTX 5000 with Max-Q Design",
 		"index": "14,700"
 	},
 	{
-		"name": "Quadro RTX 6000",
-		"index": "14,627"
-	},
-	{
 		"name": "TITAN V",
 		"index": "14,453"
 	},
 	{
-		"name": "Radeon Pro W5700",
-		"index": "14,366"
-	},
-	{
 		"name": "Radeon VII",
-		"index": "14,332"
+		"index": "14,353"
 	},
 	{
 		"name": "NVIDIA TITAN Xp",
-		"index": "14,237"
+		"index": "14,273"
 	},
 	{
 		"name": "GeForce GTX 1080 Ti",
-		"index": "14,201"
+		"index": "14,199"
 	},
 	{
 		"name": "Radeon RX 5700 XT 50th Anniversary",
-		"index": "14,142"
+		"index": "14,181"
 	},
 	{
 		"name": "Radeon RX 5700 XT",
-		"index": "14,090"
+		"index": "14,117"
 	},
 	{
 		"name": "GeForce RTX 2070",
-		"index": "13,998"
+		"index": "14,000"
 	},
 	{
 		"name": "GeForce RTX 2060 SUPER",
-		"index": "13,763"
+		"index": "13,767"
 	},
 	{
 		"name": "NVIDIA TITAN X",
 		"index": "13,660"
 	},
 	{
+		"name": "Quadro RTX 8000",
+		"index": "13,546"
+	},
+	{
 		"name": "Quadro P6000",
 		"index": "13,202"
 	},
 	{
+		"name": "Quadro RTX 5000",
+		"index": "13,182"
+	},
+	{
 		"name": "Quadro RTX 4000",
-		"index": "13,168"
+		"index": "13,154"
 	},
 	{
 		"name": "GeForce RTX 2080 (Mobile)",
-		"index": "13,121"
-	},
-	{
-		"name": "Quadro RTX 5000",
-		"index": "13,087"
+		"index": "13,129"
 	},
 	{
 		"name": "GeForce RTX 2060",
-		"index": "12,801"
-	},
-	{
-		"name": "Quadro RTX 8000",
-		"index": "12,772"
+		"index": "12,804"
 	},
 	{
 		"name": "Quadro GV100",
@@ -109,35 +105,39 @@
 	},
 	{
 		"name": "Radeon RX 5700",
-		"index": "12,558"
+		"index": "12,591"
 	},
 	{
 		"name": "GeForce GTX 1080",
-		"index": "12,452"
+		"index": "12,451"
 	},
 	{
 		"name": "GeForce RTX 2080 with Max-Q Design",
-		"index": "12,331"
-	},
-	{
-		"name": "GeForce GTX 1070 Ti",
-		"index": "12,293"
+		"index": "12,318"
 	},
 	{
 		"name": "Radeon RX Vega 64",
-		"index": "12,282"
+		"index": "12,298"
 	},
 	{
-		"name": "Quadro RTX 5000 (Mobile)",
-		"index": "12,259"
+		"name": "GeForce GTX 1070 Ti",
+		"index": "12,289"
 	},
 	{
 		"name": "Radeon RX Vega 56",
-		"index": "12,077"
+		"index": "12,072"
+	},
+	{
+		"name": "Radeon Pro W5700",
+		"index": "12,032"
+	},
+	{
+		"name": "Quadro RTX 5000 (Mobile)",
+		"index": "12,027"
 	},
 	{
 		"name": "Radeon RX 5600 XT",
-		"index": "11,928"
+		"index": "11,973"
 	},
 	{
 		"name": "Radeon Pro Vega II",
@@ -152,12 +152,12 @@
 		"index": "11,872"
 	},
 	{
-		"name": "GeForce GTX 1660 Ti",
-		"index": "11,479"
+		"name": "Radeon PRO WX 8200",
+		"index": "11,584"
 	},
 	{
-		"name": "Radeon PRO WX 8200",
-		"index": "11,473"
+		"name": "GeForce GTX 1660 Ti",
+		"index": "11,463"
 	},
 	{
 		"name": "Radeon Pro Vega 64",
@@ -165,31 +165,31 @@
 	},
 	{
 		"name": "GeForce GTX 980 Ti",
-		"index": "11,446"
+		"index": "11,448"
 	},
 	{
 		"name": "GeForce GTX 1070",
-		"index": "11,388"
-	},
-	{
-		"name": "GeForce RTX 2070 (Mobile)",
-		"index": "11,310"
+		"index": "11,389"
 	},
 	{
 		"name": "GeForce GTX 1660 SUPER",
-		"index": "11,300"
+		"index": "11,283"
+	},
+	{
+		"name": "GeForce RTX 2070 (Mobile)",
+		"index": "11,282"
 	},
 	{
 		"name": "Quadro RTX 4000 with Max-Q Design",
-		"index": "11,268"
+		"index": "11,186"
 	},
 	{
 		"name": "GeForce RTX 2070 with Max-Q Design",
-		"index": "11,180"
+		"index": "11,168"
 	},
 	{
 		"name": "Radeon Vega Frontier Edition",
-		"index": "11,131"
+		"index": "11,138"
 	},
 	{
 		"name": "Radeon Pro WX 9100",
@@ -197,27 +197,23 @@
 	},
 	{
 		"name": "GeForce GTX 1660",
-		"index": "10,829"
+		"index": "10,828"
 	},
 	{
 		"name": "GeForce GTX TITAN X",
-		"index": "10,688"
-	},
-	{
-		"name": "GeForce RTX 2060 (Mobile)",
-		"index": "10,499"
+		"index": "10,691"
 	},
 	{
 		"name": "Radeon Pro SSG",
 		"index": "10,498"
 	},
 	{
-		"name": "Radeon Instinct MI25 MxGPU",
-		"index": "10,466"
+		"name": "GeForce RTX 2060 (Mobile)",
+		"index": "10,476"
 	},
 	{
 		"name": "Quadro P4000",
-		"index": "10,455"
+		"index": "10,442"
 	},
 	{
 		"name": "Quadro P4200",
@@ -228,12 +224,12 @@
 		"index": "10,323"
 	},
 	{
-		"name": "Quadro RTX 3000",
-		"index": "10,266"
-	},
-	{
 		"name": "GeForce GTX 1080 with Max-Q Design",
 		"index": "10,175"
+	},
+	{
+		"name": "Quadro RTX 3000",
+		"index": "10,144"
 	},
 	{
 		"name": "Quadro M6000 24GB",
@@ -241,11 +237,11 @@
 	},
 	{
 		"name": "Quadro P5000",
-		"index": "10,017"
+		"index": "10,043"
 	},
 	{
 		"name": "Quadro P2200",
-		"index": "9,849"
+		"index": "9,918"
 	},
 	{
 		"name": "Quadro P5200 with Max-Q Design",
@@ -257,7 +253,7 @@
 	},
 	{
 		"name": "GeForce GTX 1650 SUPER",
-		"index": "9,616"
+		"index": "9,650"
 	},
 	{
 		"name": "Quadro M6000",
@@ -265,31 +261,27 @@
 	},
 	{
 		"name": "GeForce GTX 1660 Ti (Mobile)",
-		"index": "9,564"
-	},
-	{
-		"name": "GeForce GTX 1070 (Mobile)",
-		"index": "9,472"
-	},
-	{
-		"name": "Radeon RX 590",
-		"index": "9,465"
+		"index": "9,534"
 	},
 	{
 		"name": "GeForce GTX 1070 with Max-Q Design",
-		"index": "9,456"
+		"index": "9,470"
+	},
+	{
+		"name": "Radeon RX 590",
+		"index": "9,466"
+	},
+	{
+		"name": "GeForce GTX 1070 (Mobile)",
+		"index": "9,437"
 	},
 	{
 		"name": "Radeon Pro Duo",
 		"index": "9,436"
 	},
 	{
-		"name": "Radeon Pro W5500",
-		"index": "9,304"
-	},
-	{
 		"name": "Radeon R9 Fury",
-		"index": "9,224"
+		"index": "9,213"
 	},
 	{
 		"name": "Quadro P5200",
@@ -305,67 +297,71 @@
 	},
 	{
 		"name": "GeForce GTX 1060 3GB",
-		"index": "8,995"
+		"index": "8,996"
 	},
 	{
 		"name": "GeForce GTX 780 Ti",
-		"index": "8,892"
-	},
-	{
-		"name": "Quadro P3200 with Max-Q Design",
-		"index": "8,714"
+		"index": "8,893"
 	},
 	{
 		"name": "GeForce GTX 970",
-		"index": "8,662"
+		"index": "8,663"
+	},
+	{
+		"name": "Quadro P3200 with Max-Q Design",
+		"index": "8,657"
 	},
 	{
 		"name": "GeForce GTX TITAN Black",
 		"index": "8,653"
 	},
 	{
-		"name": "GeForce GTX 1660 Ti with Max-Q Design",
-		"index": "8,618"
+		"name": "Radeon Pro W5500",
+		"index": "8,628"
 	},
 	{
 		"name": "Radeon RX 580",
-		"index": "8,607"
+		"index": "8,610"
+	},
+	{
+		"name": "GeForce GTX 1660 Ti with Max-Q Design",
+		"index": "8,592"
 	},
 	{
 		"name": "Quadro M5000",
-		"index": "8,517"
+		"index": "8,538"
 	},
 	{
 		"name": "Radeon R9 390X",
-		"index": "8,515"
+		"index": "8,516"
 	},
 	{
 		"name": "Radeon R9 Fury + Fury X",
-		"index": "8,492"
+		"index": "8,491"
 	},
 	{
 		"name": "Radeon RX 5500 XT",
-		"index": "8,357"
+		"index": "8,255"
 	},
 	{
 		"name": "Radeon RX 580 2048SP",
-		"index": "8,208"
+		"index": "8,169"
 	},
 	{
 		"name": "Radeon RX 480",
-		"index": "8,157"
+		"index": "8,158"
 	},
 	{
 		"name": "Radeon R9 390",
-		"index": "8,118"
+		"index": "8,123"
 	},
 	{
 		"name": "Quadro P3200",
-		"index": "7,961"
+		"index": "7,968"
 	},
 	{
 		"name": "GeForce GTX 780",
-		"index": "7,957"
+		"index": "7,956"
 	},
 	{
 		"name": "GeForce GTX Titan",
@@ -373,7 +369,7 @@
 	},
 	{
 		"name": "GeForce GTX 1650",
-		"index": "7,920"
+		"index": "7,919"
 	},
 	{
 		"name": "Quadro M5500",
@@ -381,15 +377,15 @@
 	},
 	{
 		"name": "Radeon Pro WX 7100",
-		"index": "7,881"
+		"index": "7,885"
 	},
 	{
 		"name": "GeForce GTX 1060 with Max-Q Design",
-		"index": "7,863"
+		"index": "7,856"
 	},
 	{
 		"name": "Radeon RX 470",
-		"index": "7,817"
+		"index": "7,823"
 	},
 	{
 		"name": "Radeon R9 295X2",
@@ -405,7 +401,7 @@
 	},
 	{
 		"name": "GeForce GTX 1060 (Mobile)",
-		"index": "7,645"
+		"index": "7,646"
 	},
 	{
 		"name": "FirePro W8100 Graphic Adapter",
@@ -417,27 +413,31 @@
 	},
 	{
 		"name": "Radeon R9 290X / 390X",
-		"index": "7,457"
+		"index": "7,458"
+	},
+	{
+		"name": "Quadro RTX 3000 with Max-Q Design",
+		"index": "7,429"
 	},
 	{
 		"name": "Quadro T2000",
-		"index": "7,414"
+		"index": "7,401"
+	},
+	{
+		"name": "Tesla M60",
+		"index": "7,324"
 	},
 	{
 		"name": "Tesla P100-PCIE-16GB",
 		"index": "7,225"
 	},
 	{
-		"name": "Quadro P2000",
-		"index": "7,193"
-	},
-	{
-		"name": "Tesla M60",
-		"index": "7,192"
-	},
-	{
 		"name": "FirePro W9100",
 		"index": "7,187"
+	},
+	{
+		"name": "Quadro P2000",
+		"index": "7,179"
 	},
 	{
 		"name": "Radeon R9 290 / 390",
@@ -445,31 +445,27 @@
 	},
 	{
 		"name": "Radeon RX Vega M GH",
-		"index": "7,056"
+		"index": "7,058"
 	},
 	{
 		"name": "Radeon RX 570",
-		"index": "6,958"
+		"index": "6,968"
 	},
 	{
 		"name": "GeForce GTX 1650 (Mobile)",
-		"index": "6,937"
-	},
-	{
-		"name": "Quadro RTX 3000 with Max-Q Design",
-		"index": "6,921"
-	},
-	{
-		"name": "Quadro T1000",
-		"index": "6,673"
+		"index": "6,938"
 	},
 	{
 		"name": "Quadro M4000",
-		"index": "6,671"
+		"index": "6,675"
+	},
+	{
+		"name": "Quadro T1000",
+		"index": "6,674"
 	},
 	{
 		"name": "Radeon Pro 5500M",
-		"index": "6,547"
+		"index": "6,572"
 	},
 	{
 		"name": "GeForce GTX 1060 5GB",
@@ -485,7 +481,7 @@
 	},
 	{
 		"name": "Radeon R9 380X",
-		"index": "6,248"
+		"index": "6,249"
 	},
 	{
 		"name": "Radeon R9 380",
@@ -501,31 +497,35 @@
 	},
 	{
 		"name": "GeForce GTX 1050 Ti",
-		"index": "6,076"
+		"index": "6,078"
 	},
 	{
 		"name": "GeForce GTX 770",
 		"index": "6,063"
 	},
 	{
-		"name": "GeForce GTX 1050 Ti (Mobile)",
-		"index": "6,001"
-	},
-	{
 		"name": "GeForce GTX 980M",
-		"index": "5,994"
+		"index": "5,998"
 	},
 	{
-		"name": "Quadro P3000",
-		"index": "5,930"
+		"name": "GeForce GTX 1050 Ti (Mobile)",
+		"index": "5,993"
 	},
 	{
 		"name": "GeForce GTX 1650 with Max-Q Design",
-		"index": "5,918"
+		"index": "5,921"
+	},
+	{
+		"name": "Quadro P3000",
+		"index": "5,921"
 	},
 	{
 		"name": "GRID M60-2Q",
 		"index": "5,904"
+	},
+	{
+		"name": "Radeon Pro 5300M",
+		"index": "5,882"
 	},
 	{
 		"name": "RadeonT RX 5500M",
@@ -533,35 +533,31 @@
 	},
 	{
 		"name": "Radeon R9 280X",
-		"index": "5,850"
+		"index": "5,851"
 	},
 	{
 		"name": "GeForce GTX 960",
-		"index": "5,839"
+		"index": "5,841"
+	},
+	{
+		"name": "Quadro M5000M",
+		"index": "5,797"
 	},
 	{
 		"name": "GeForce GTX 1050 Ti with Max-Q Design",
-		"index": "5,783"
+		"index": "5,784"
 	},
 	{
 		"name": "Radeon R9 M395X",
 		"index": "5,782"
 	},
 	{
-		"name": "Quadro M5000M",
-		"index": "5,780"
-	},
-	{
-		"name": "Radeon Pro 5300M",
-		"index": "5,696"
-	},
-	{
 		"name": "GeForce GTX 680",
-		"index": "5,668"
+		"index": "5,667"
 	},
 	{
 		"name": "Radeon Pro WX 5100",
-		"index": "5,648"
+		"index": "5,643"
 	},
 	{
 		"name": "Radeon HD 7990",
@@ -576,24 +572,24 @@
 		"index": "5,550"
 	},
 	{
+		"name": "GeForce GTX 760 Ti OEM",
+		"index": "5,427"
+	},
+	{
 		"name": "FirePro W7100",
-		"index": "5,417"
+		"index": "5,413"
 	},
 	{
 		"name": "GeForce GTX 690",
 		"index": "5,407"
 	},
 	{
-		"name": "Radeon R9 280",
-		"index": "5,384"
-	},
-	{
 		"name": "Quadro P2000 with Max-Q Design",
-		"index": "5,384"
+		"index": "5,392"
 	},
 	{
-		"name": "GeForce GTX 760 Ti OEM",
-		"index": "5,377"
+		"name": "Radeon R9 280",
+		"index": "5,387"
 	},
 	{
 		"name": "GeForce GTX 670",
@@ -605,7 +601,7 @@
 	},
 	{
 		"name": "GeForce GTX 950",
-		"index": "5,253"
+		"index": "5,254"
 	},
 	{
 		"name": "Radeon HD 7970 / R9 280X",
@@ -616,16 +612,16 @@
 		"index": "5,235"
 	},
 	{
-		"name": "Radeon RX Vega M GL",
-		"index": "5,186"
-	},
-	{
 		"name": "Radeon HD 8990",
 		"index": "5,157"
 	},
 	{
 		"name": "Radeon R9 M295X",
 		"index": "5,150"
+	},
+	{
+		"name": "Radeon RX Vega M GL",
+		"index": "5,146"
 	},
 	{
 		"name": "GeForce GTX 760 Ti",
@@ -657,7 +653,7 @@
 	},
 	{
 		"name": "GeForce GTX 1050",
-		"index": "4,805"
+		"index": "4,808"
 	},
 	{
 		"name": "Radeon HD 7950 / R9 280",
@@ -673,7 +669,7 @@
 	},
 	{
 		"name": "Radeon R9 270X",
-		"index": "4,698"
+		"index": "4,699"
 	},
 	{
 		"name": "GRID M60-1Q",
@@ -689,7 +685,7 @@
 	},
 	{
 		"name": "Radeon R7 370",
-		"index": "4,638"
+		"index": "4,639"
 	},
 	{
 		"name": "FirePro W7170M",
@@ -697,15 +693,15 @@
 	},
 	{
 		"name": "Quadro M3000M",
-		"index": "4,566"
+		"index": "4,571"
 	},
 	{
 		"name": "GeForce GTX 1050 (Mobile)",
-		"index": "4,507"
+		"index": "4,505"
 	},
 	{
 		"name": "Quadro K4200",
-		"index": "4,477"
+		"index": "4,481"
 	},
 	{
 		"name": "Radeon HD 7870 XT",
@@ -721,11 +717,11 @@
 	},
 	{
 		"name": "Quadro P1000",
-		"index": "4,407"
+		"index": "4,411"
 	},
 	{
 		"name": "Radeon HD 7870",
-		"index": "4,385"
+		"index": "4,386"
 	},
 	{
 		"name": "GRID K520",
@@ -733,19 +729,19 @@
 	},
 	{
 		"name": "GeForce GTX 480",
-		"index": "4,362"
-	},
-	{
-		"name": "FirePro W7000",
-		"index": "4,358"
+		"index": "4,361"
 	},
 	{
 		"name": "Radeon R9 M390X",
 		"index": "4,357"
 	},
 	{
+		"name": "FirePro W7000",
+		"index": "4,357"
+	},
+	{
 		"name": "Radeon RX 460",
-		"index": "4,332"
+		"index": "4,333"
 	},
 	{
 		"name": "Barco MXRT 7500",
@@ -753,15 +749,15 @@
 	},
 	{
 		"name": "Radeon RX 560",
-		"index": "4,294"
+		"index": "4,289"
 	},
 	{
 		"name": "Quadro M2000",
-		"index": "4,282"
+		"index": "4,283"
 	},
 	{
 		"name": "GeForce GTX 970M",
-		"index": "4,276"
+		"index": "4,279"
 	},
 	{
 		"name": "GeForce GTX 680MX",
@@ -801,11 +797,11 @@
 	},
 	{
 		"name": "GeForce GTX 780M",
-		"index": "4,037"
+		"index": "4,039"
 	},
 	{
 		"name": "Quadro K5000",
-		"index": "4,019"
+		"index": "4,021"
 	},
 	{
 		"name": "GRID P6-2Q",
@@ -816,6 +812,10 @@
 		"index": "3,953"
 	},
 	{
+		"name": "Quadro P620",
+		"index": "3,890"
+	},
+	{
 		"name": "GRID M60-8Q",
 		"index": "3,884"
 	},
@@ -824,16 +824,12 @@
 		"index": "3,876"
 	},
 	{
-		"name": "Quadro P620",
-		"index": "3,869"
+		"name": "GeForce GTX 1050 with Max-Q Design",
+		"index": "3,861"
 	},
 	{
 		"name": "Radeon HD 7850",
 		"index": "3,850"
-	},
-	{
-		"name": "GeForce GTX 1050 with Max-Q Design",
-		"index": "3,847"
 	},
 	{
 		"name": "P106-100",
@@ -845,19 +841,19 @@
 	},
 	{
 		"name": "GeForce GTX 750 Ti",
-		"index": "3,778"
+		"index": "3,779"
+	},
+	{
+		"name": "Quadro M2200",
+		"index": "3,777"
 	},
 	{
 		"name": "GRID K2",
 		"index": "3,773"
 	},
 	{
-		"name": "Quadro M2200",
-		"index": "3,769"
-	},
-	{
 		"name": "GeForce GTX 880M",
-		"index": "3,736"
+		"index": "3,745"
 	},
 	{
 		"name": "Radeon Pro 560X",
@@ -865,7 +861,7 @@
 	},
 	{
 		"name": "Quadro K2200",
-		"index": "3,604"
+		"index": "3,605"
 	},
 	{
 		"name": "GeForce GTX 470",
@@ -880,12 +876,12 @@
 		"index": "3,537"
 	},
 	{
-		"name": "GeForce GTX 560 Ti",
+		"name": "Quadro 6000",
 		"index": "3,529"
 	},
 	{
-		"name": "Quadro 6000",
-		"index": "3,529"
+		"name": "GeForce GTX 560 Ti",
+		"index": "3,528"
 	},
 	{
 		"name": "Radeon HD 6970",
@@ -917,7 +913,7 @@
 	},
 	{
 		"name": "Radeon RX 550",
-		"index": "3,416"
+		"index": "3,414"
 	},
 	{
 		"name": "Radeon HD8970M",
@@ -933,7 +929,7 @@
 	},
 	{
 		"name": "GeForce GTX 750",
-		"index": "3,332"
+		"index": "3,333"
 	},
 	{
 		"name": "Radeon R7 360",
@@ -941,23 +937,27 @@
 	},
 	{
 		"name": "Radeon Pro WX 3100",
-		"index": "3,311"
+		"index": "3,306"
+	},
+	{
+		"name": "GeForce GTX 965M",
+		"index": "3,275"
 	},
 	{
 		"name": "Tesla C2070",
 		"index": "3,275"
 	},
 	{
-		"name": "GeForce GTX 965M",
-		"index": "3,269"
-	},
-	{
 		"name": "Quadro P600",
-		"index": "3,230"
+		"index": "3,226"
 	},
 	{
 		"name": "Radeon HD 6950",
 		"index": "3,220"
+	},
+	{
+		"name": "Radeon RX 5500M",
+		"index": "3,191"
 	},
 	{
 		"name": "GRID M60-4Q",
@@ -965,7 +965,7 @@
 	},
 	{
 		"name": "Radeon R7 260X",
-		"index": "3,183"
+		"index": "3,184"
 	},
 	{
 		"name": "FirePro V7000 Adapter",
@@ -993,7 +993,7 @@
 	},
 	{
 		"name": "Quadro M1200",
-		"index": "3,103"
+		"index": "3,112"
 	},
 	{
 		"name": "FirePro W5000",
@@ -1009,7 +1009,7 @@
 	},
 	{
 		"name": "Quadro K1200",
-		"index": "3,042"
+		"index": "3,044"
 	},
 	{
 		"name": "FirePro W5100",
@@ -1028,20 +1028,20 @@
 		"index": "3,006"
 	},
 	{
+		"name": "Quadro M2000M",
+		"index": "2,989"
+	},
+	{
 		"name": "Radeon Pro WX 4130",
 		"index": "2,984"
 	},
 	{
-		"name": "Quadro M2000M",
-		"index": "2,981"
-	},
-	{
 		"name": "FirePro M6100",
-		"index": "2,963"
+		"index": "2,948"
 	},
 	{
 		"name": "GeForce GTX 465",
-		"index": "2,947"
+		"index": "2,946"
 	},
 	{
 		"name": "GRID K260Q",
@@ -1061,11 +1061,11 @@
 	},
 	{
 		"name": "Quadro K4000",
-		"index": "2,880"
+		"index": "2,881"
 	},
 	{
 		"name": "Quadro 5000",
-		"index": "2,857"
+		"index": "2,858"
 	},
 	{
 		"name": "FirePro 3D V9800",
@@ -1093,7 +1093,7 @@
 	},
 	{
 		"name": "Quadro K4100M",
-		"index": "2,691"
+		"index": "2,690"
 	},
 	{
 		"name": "GeForce GTX 770M",
@@ -1121,7 +1121,7 @@
 	},
 	{
 		"name": "GeForce MX250",
-		"index": "2,583"
+		"index": "2,595"
 	},
 	{
 		"name": "Quadro K5000M",
@@ -1140,12 +1140,12 @@
 		"index": "2,476"
 	},
 	{
-		"name": "FirePro 3D V8800",
-		"index": "2,438"
+		"name": "Quadro M1000M",
+		"index": "2,439"
 	},
 	{
-		"name": "Quadro M1000M",
-		"index": "2,437"
+		"name": "FirePro 3D V8800",
+		"index": "2,438"
 	},
 	{
 		"name": "Radeon R9 M470",
@@ -1153,7 +1153,7 @@
 	},
 	{
 		"name": "GeForce GTX 960M",
-		"index": "2,420"
+		"index": "2,425"
 	},
 	{
 		"name": "GeForce GTX 960A",
@@ -1165,15 +1165,15 @@
 	},
 	{
 		"name": "GRID K280Q",
-		"index": "2,359"
+		"index": "2,363"
 	},
 	{
 		"name": "Quadro K620",
-		"index": "2,340"
+		"index": "2,341"
 	},
 	{
 		"name": "GeForce GT 1030",
-		"index": "2,323"
+		"index": "2,326"
 	},
 	{
 		"name": "GRID M10-1B",
@@ -1192,19 +1192,19 @@
 		"index": "2,282"
 	},
 	{
+		"name": "Radeon Pro WX 2100",
+		"index": "2,281"
+	},
+	{
 		"name": "GeForce GTX 580M",
 		"index": "2,279"
 	},
 	{
 		"name": "Radeon RX Vega 11",
-		"index": "2,277"
+		"index": "2,276"
 	},
 	{
 		"name": "Radeon HD 6970M",
-		"index": "2,270"
-	},
-	{
-		"name": "Radeon Pro WX 2100",
 		"index": "2,270"
 	},
 	{
@@ -1221,7 +1221,7 @@
 	},
 	{
 		"name": "GeForce MX150",
-		"index": "2,252"
+		"index": "2,253"
 	},
 	{
 		"name": "GeForce GT 645",
@@ -1237,15 +1237,15 @@
 	},
 	{
 		"name": "GeForce GTX 745",
-		"index": "2,202"
+		"index": "2,204"
 	},
 	{
 		"name": "GeForce GTX 560 SE",
-		"index": "2,199"
+		"index": "2,201"
 	},
 	{
 		"name": "Radeon R7 450",
-		"index": "2,195"
+		"index": "2,197"
 	},
 	{
 		"name": "RadeonT R7 450",
@@ -1253,7 +1253,7 @@
 	},
 	{
 		"name": "Firepro W5170M",
-		"index": "2,168"
+		"index": "2,176"
 	},
 	{
 		"name": "GeForce GTX 555",
@@ -1261,15 +1261,11 @@
 	},
 	{
 		"name": "GeForce MX230",
-		"index": "2,149"
+		"index": "2,156"
 	},
 	{
 		"name": "Radeon TM R9 A360",
 		"index": "2,148"
-	},
-	{
-		"name": "Radeon Pro WX 7130",
-		"index": "2,146"
 	},
 	{
 		"name": "GRID K240Q",
@@ -1277,11 +1273,15 @@
 	},
 	{
 		"name": "GeForce GTX 675M",
-		"index": "2,142"
+		"index": "2,144"
 	},
 	{
 		"name": "Radeon R9 M375X",
 		"index": "2,132"
+	},
+	{
+		"name": "Quadro P520",
+		"index": "2,123"
 	},
 	{
 		"name": "FirePro M5100",
@@ -1293,7 +1293,7 @@
 	},
 	{
 		"name": "GeForce GTX 670MX",
-		"index": "2,081"
+		"index": "2,080"
 	},
 	{
 		"name": "Intel Iris Pro P580",
@@ -1332,10 +1332,6 @@
 		"index": "2,042"
 	},
 	{
-		"name": "Quadro P520",
-		"index": "2,041"
-	},
-	{
 		"name": "GeForce GTX 570M",
 		"index": "2,024"
 	},
@@ -1345,30 +1341,30 @@
 	},
 	{
 		"name": "GeForce GTX 860M",
-		"index": "1,991"
+		"index": "1,993"
+	},
+	{
+		"name": "GeForce MX130",
+		"index": "1,982"
 	},
 	{
 		"name": "Radeon R7 + R7 350 Dual",
 		"index": "1,982"
 	},
 	{
-		"name": "GeForce MX130",
-		"index": "1,981"
-	},
-	{
 		"name": "Intel Iris Plus 655",
-		"index": "1,972"
+		"index": "1,970"
 	},
 	{
 		"name": "Radeon HD 6900M",
 		"index": "1,965"
 	},
 	{
-		"name": "Radeon R7 + HD 7700 Dual",
-		"index": "1,962"
+		"name": "GeForce GTX 950M",
+		"index": "1,964"
 	},
 	{
-		"name": "GeForce GTX 950M",
+		"name": "Radeon R7 + HD 7700 Dual",
 		"index": "1,962"
 	},
 	{
@@ -1381,7 +1377,7 @@
 	},
 	{
 		"name": "GeForce GTX 670M",
-		"index": "1,954"
+		"index": "1,953"
 	},
 	{
 		"name": "GeForce GTX 470M",
@@ -1392,28 +1388,28 @@
 		"index": "1,940"
 	},
 	{
-		"name": "Radeon R9 M370X",
-		"index": "1,937"
-	},
-	{
 		"name": "Quadro M600M",
 		"index": "1,932"
 	},
 	{
+		"name": "Radeon R9 M370X",
+		"index": "1,932"
+	},
+	{
 		"name": "GeForce GTX 550 Ti",
-		"index": "1,921"
+		"index": "1,922"
 	},
 	{
 		"name": "GeForce GTX 765M",
-		"index": "1,889"
-	},
-	{
-		"name": "Intel Iris Pro 580",
-		"index": "1,881"
+		"index": "1,890"
 	},
 	{
 		"name": "GeForce GTX 950A",
-		"index": "1,876"
+		"index": "1,885"
+	},
+	{
+		"name": "Intel Iris Pro 580",
+		"index": "1,882"
 	},
 	{
 		"name": "FirePro 3D V7800",
@@ -1440,6 +1436,10 @@
 		"index": "1,826"
 	},
 	{
+		"name": "Intel Iris Plus",
+		"index": "1,821"
+	},
+	{
 		"name": "Radeon RX Vega11",
 		"index": "1,820"
 	},
@@ -1448,12 +1448,8 @@
 		"index": "1,812"
 	},
 	{
-		"name": "Intel Iris Plus",
-		"index": "1,809"
-	},
-	{
 		"name": "Radeon R9 255",
-		"index": "1,801"
+		"index": "1,808"
 	},
 	{
 		"name": "Radeon HD 8870M / R9 M270X / M370X",
@@ -1461,7 +1457,7 @@
 	},
 	{
 		"name": "Radeon R7 FX-9830P RADEON",
-		"index": "1,796"
+		"index": "1,790"
 	},
 	{
 		"name": "Quadro 4000M",
@@ -1473,7 +1469,7 @@
 	},
 	{
 		"name": "Radeon Vega 10",
-		"index": "1,769"
+		"index": "1,767"
 	},
 	{
 		"name": "Radeon Pro WX3200",
@@ -1481,18 +1477,18 @@
 	},
 	{
 		"name": "Quadro K3000M",
-		"index": "1,753"
+		"index": "1,748"
 	},
 	{
 		"name": "Radeon RX Vega 8",
 		"index": "1,745"
 	},
 	{
-		"name": "Radeon Vega 8",
-		"index": "1,736"
+		"name": "FirePro M6000 Mobility Pro",
+		"index": "1,734"
 	},
 	{
-		"name": "FirePro M6000 Mobility Pro",
+		"name": "Radeon Vega 8",
 		"index": "1,734"
 	},
 	{
@@ -1501,15 +1497,15 @@
 	},
 	{
 		"name": "Quadro K2000",
-		"index": "1,725"
-	},
-	{
-		"name": "Radeon RX Vega 10",
-		"index": "1,717"
+		"index": "1,726"
 	},
 	{
 		"name": "Quadro P500",
-		"index": "1,717"
+		"index": "1,724"
+	},
+	{
+		"name": "Radeon RX Vega 10",
+		"index": "1,716"
 	},
 	{
 		"name": "FirePro M4000 Mobility Pro",
@@ -1520,15 +1516,15 @@
 		"index": "1,714"
 	},
 	{
+		"name": "Quadro P400",
+		"index": "1,714"
+	},
+	{
 		"name": "Radeon HD 5770",
-		"index": "1,713"
+		"index": "1,714"
 	},
 	{
 		"name": "Radeon RX 550X",
-		"index": "1,711"
-	},
-	{
-		"name": "Quadro P400",
 		"index": "1,709"
 	},
 	{
@@ -1557,7 +1553,7 @@
 	},
 	{
 		"name": "GeForce GTX 850M",
-		"index": "1,668"
+		"index": "1,669"
 	},
 	{
 		"name": "Radeon Vega 10 Mobile",
@@ -1569,26 +1565,22 @@
 	},
 	{
 		"name": "Radeon Vega 8 Mobile",
-		"index": "1,634"
+		"index": "1,633"
 	},
 	{
 		"name": "Quadro M520",
 		"index": "1,632"
 	},
 	{
+		"name": "GeForce MX110",
+		"index": "1,631"
+	},
+	{
 		"name": "FirePro M4000",
 		"index": "1,629"
 	},
 	{
-		"name": "GeForce MX110",
-		"index": "1,628"
-	},
-	{
 		"name": "Ryzen 7 2700U with Radeon Vega",
-		"index": "1,617"
-	},
-	{
-		"name": "Radeon 540X",
 		"index": "1,617"
 	},
 	{
@@ -1597,26 +1589,30 @@
 	},
 	{
 		"name": "GeForce GT 755M",
-		"index": "1,604"
+		"index": "1,605"
 	},
 	{
 		"name": "Intel Iris 550",
-		"index": "1,586"
+		"index": "1,587"
 	},
 	{
 		"name": "Intel Iris Plus 650",
-		"index": "1,579"
+		"index": "1,580"
 	},
 	{
 		"name": "Radeon E8860",
 		"index": "1,577"
 	},
 	{
-		"name": "Radeon 540",
-		"index": "1,572"
+		"name": "Radeon 540X",
+		"index": "1,574"
 	},
 	{
 		"name": "GeForce GT 740",
+		"index": "1,569"
+	},
+	{
+		"name": "Radeon 540",
 		"index": "1,569"
 	},
 	{
@@ -1625,11 +1621,11 @@
 	},
 	{
 		"name": "GeForce GTS 450",
-		"index": "1,558"
+		"index": "1,557"
 	},
 	{
 		"name": "Radeon Vega 6",
-		"index": "1,549"
+		"index": "1,553"
 	},
 	{
 		"name": "Radeon HD 8470D + HD 7500 Dual",
@@ -1677,15 +1673,15 @@
 	},
 	{
 		"name": "Radeon HD 5750",
-		"index": "1,461"
+		"index": "1,462"
 	},
 	{
 		"name": "GeForce GTX 660M",
-		"index": "1,448"
+		"index": "1,449"
 	},
 	{
 		"name": "Intel Iris Plus 640",
-		"index": "1,446"
+		"index": "1,445"
 	},
 	{
 		"name": "Radeon R9 M270X",
@@ -1709,7 +1705,7 @@
 	},
 	{
 		"name": "Radeon R7 250",
-		"index": "1,404"
+		"index": "1,403"
 	},
 	{
 		"name": "GeForce GTX 460M",
@@ -1721,7 +1717,7 @@
 	},
 	{
 		"name": "GeForce 940MX",
-		"index": "1,379"
+		"index": "1,381"
 	},
 	{
 		"name": "Radeon R7 PRO A12-8870",
@@ -1737,7 +1733,7 @@
 	},
 	{
 		"name": "TITAN RTX",
-		"index": "6.7"
+		"index": "6.6"
 	},
 	{
 		"name": "GeForce RTX 2080 SUPER",
@@ -1745,7 +1741,7 @@
 	},
 	{
 		"name": "GeForce RTX 2080",
-		"index": "22.8"
+		"index": "22.4"
 	},
 	{
 		"name": "TITAN Xp COLLECTORS EDITION",
@@ -1753,27 +1749,23 @@
 	},
 	{
 		"name": "GeForce RTX 2070 SUPER",
-		"index": "31.7"
+		"index": "29.8"
+	},
+	{
+		"name": "Quadro RTX 6000",
+		"index": "2.4"
 	},
 	{
 		"name": "Quadro RTX 5000 with Max-Q Design",
 		"index": "NA"
 	},
 	{
-		"name": "Quadro RTX 6000",
-		"index": "2.3"
-	},
-	{
 		"name": "TITAN V",
 		"index": "4.5"
 	},
 	{
-		"name": "Radeon Pro W5700",
-		"index": "18.0"
-	},
-	{
 		"name": "Radeon VII",
-		"index": "26.1"
+		"index": "23.9"
 	},
 	{
 		"name": "NVIDIA TITAN Xp",
@@ -1789,7 +1781,7 @@
 	},
 	{
 		"name": "Radeon RX 5700 XT",
-		"index": "36.1"
+		"index": "37.2"
 	},
 	{
 		"name": "GeForce RTX 2070",
@@ -1804,8 +1796,16 @@
 		"index": "11.4"
 	},
 	{
+		"name": "Quadro RTX 8000",
+		"index": "2.9"
+	},
+	{
 		"name": "Quadro P6000",
-		"index": "4.1"
+		"index": "4.5"
+	},
+	{
+		"name": "Quadro RTX 5000",
+		"index": "NA"
 	},
 	{
 		"name": "Quadro RTX 4000",
@@ -1816,16 +1816,8 @@
 		"index": "NA"
 	},
 	{
-		"name": "Quadro RTX 5000",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce RTX 2060",
 		"index": "42.7"
-	},
-	{
-		"name": "Quadro RTX 8000",
-		"index": "2.7"
 	},
 	{
 		"name": "Quadro GV100",
@@ -1837,7 +1829,7 @@
 	},
 	{
 		"name": "Radeon RX 5700",
-		"index": "38.6"
+		"index": "42.0"
 	},
 	{
 		"name": "GeForce GTX 1080",
@@ -1848,24 +1840,28 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 1070 Ti",
-		"index": "23.4"
-	},
-	{
 		"name": "Radeon RX Vega 64",
 		"index": "31.5"
+	},
+	{
+		"name": "GeForce GTX 1070 Ti",
+		"index": "24.4"
+	},
+	{
+		"name": "Radeon RX Vega 56",
+		"index": "48.3"
+	},
+	{
+		"name": "Radeon Pro W5700",
+		"index": "15.0"
 	},
 	{
 		"name": "Quadro RTX 5000 (Mobile)",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon RX Vega 56",
-		"index": "45.6"
-	},
-	{
 		"name": "Radeon RX 5600 XT",
-		"index": "42.6"
+		"index": "42.8"
 	},
 	{
 		"name": "Radeon Pro Vega II",
@@ -1880,12 +1876,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 1660 Ti",
-		"index": "44.2"
+		"name": "Radeon PRO WX 8200",
+		"index": "11.9"
 	},
 	{
-		"name": "Radeon PRO WX 8200",
-		"index": "11.8"
+		"name": "GeForce GTX 1660 Ti",
+		"index": "44.1"
 	},
 	{
 		"name": "Radeon Pro Vega 64",
@@ -1900,12 +1896,12 @@
 		"index": "28.5"
 	},
 	{
-		"name": "GeForce RTX 2070 (Mobile)",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GTX 1660 SUPER",
 		"index": "49.1"
+	},
+	{
+		"name": "GeForce RTX 2070 (Mobile)",
+		"index": "NA"
 	},
 	{
 		"name": "Quadro RTX 4000 with Max-Q Design",
@@ -1925,27 +1921,23 @@
 	},
 	{
 		"name": "GeForce GTX 1660",
-		"index": "54.1"
+		"index": "51.6"
 	},
 	{
 		"name": "GeForce GTX TITAN X",
 		"index": "5.3"
 	},
 	{
-		"name": "GeForce RTX 2060 (Mobile)",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon Pro SSG",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon Instinct MI25 MxGPU",
+		"name": "GeForce RTX 2060 (Mobile)",
 		"index": "NA"
 	},
 	{
 		"name": "Quadro P4000",
-		"index": "15.0"
+		"index": "14.5"
 	},
 	{
 		"name": "Quadro P4200",
@@ -1956,11 +1948,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Quadro RTX 3000",
+		"name": "GeForce GTX 1080 with Max-Q Design",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 1080 with Max-Q Design",
+		"name": "Quadro RTX 3000",
 		"index": "NA"
 	},
 	{
@@ -1973,7 +1965,7 @@
 	},
 	{
 		"name": "Quadro P2200",
-		"index": "23.7"
+		"index": "23.8"
 	},
 	{
 		"name": "Quadro P5200 with Max-Q Design",
@@ -1985,7 +1977,7 @@
 	},
 	{
 		"name": "GeForce GTX 1650 SUPER",
-		"index": "60.1"
+		"index": "60.3"
 	},
 	{
 		"name": "Quadro M6000",
@@ -1996,7 +1988,7 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 1070 (Mobile)",
+		"name": "GeForce GTX 1070 with Max-Q Design",
 		"index": "NA"
 	},
 	{
@@ -2004,7 +1996,7 @@
 		"index": "39.4"
 	},
 	{
-		"name": "GeForce GTX 1070 with Max-Q Design",
+		"name": "GeForce GTX 1070 (Mobile)",
 		"index": "NA"
 	},
 	{
@@ -2012,12 +2004,8 @@
 		"index": "21.0"
 	},
 	{
-		"name": "Radeon Pro W5500",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon R9 Fury",
-		"index": "23.1"
+		"index": "23.0"
 	},
 	{
 		"name": "Quadro P5200",
@@ -2025,7 +2013,7 @@
 	},
 	{
 		"name": "GeForce GTX 1060",
-		"index": "30.0"
+		"index": "31.5"
 	},
 	{
 		"name": "Quadro P4000 with Max-Q Design",
@@ -2040,24 +2028,28 @@
 		"index": "22.2"
 	},
 	{
-		"name": "Quadro P3200 with Max-Q Design",
-		"index": "NA"
+		"name": "GeForce GTX 970",
+		"index": "26.3"
 	},
 	{
-		"name": "GeForce GTX 970",
-		"index": "26.2"
+		"name": "Quadro P3200 with Max-Q Design",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce GTX TITAN Black",
 		"index": "6.2"
 	},
 	{
-		"name": "GeForce GTX 1660 Ti with Max-Q Design",
+		"name": "Radeon Pro W5500",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon RX 580",
 		"index": "53.8"
+	},
+	{
+		"name": "GeForce GTX 1660 Ti with Max-Q Design",
+		"index": "NA"
 	},
 	{
 		"name": "Quadro M5000",
@@ -2073,7 +2065,7 @@
 	},
 	{
 		"name": "Radeon RX 5500 XT",
-		"index": "46.4"
+		"index": "45.9"
 	},
 	{
 		"name": "Radeon RX 580 2048SP",
@@ -2148,28 +2140,32 @@
 		"index": "10.8"
 	},
 	{
+		"name": "Quadro RTX 3000 with Max-Q Design",
+		"index": "NA"
+	},
+	{
 		"name": "Quadro T2000",
 		"index": "NA"
-	},
-	{
-		"name": "Tesla P100-PCIE-16GB",
-		"index": "NA"
-	},
-	{
-		"name": "Quadro P2000",
-		"index": "17.0"
 	},
 	{
 		"name": "Tesla M60",
 		"index": "3.1"
 	},
 	{
+		"name": "Tesla P100-PCIE-16GB",
+		"index": "NA"
+	},
+	{
 		"name": "FirePro W9100",
 		"index": "2.6"
 	},
 	{
+		"name": "Quadro P2000",
+		"index": "16.9"
+	},
+	{
 		"name": "Radeon R9 290 / 390",
-		"index": "47.8"
+		"index": "18.4"
 	},
 	{
 		"name": "Radeon RX Vega M GH",
@@ -2177,23 +2173,19 @@
 	},
 	{
 		"name": "Radeon RX 570",
-		"index": "60.5"
+		"index": "60.6"
 	},
 	{
 		"name": "GeForce GTX 1650 (Mobile)",
 		"index": "NA"
 	},
 	{
-		"name": "Quadro RTX 3000 with Max-Q Design",
-		"index": "NA"
+		"name": "Quadro M4000",
+		"index": "22.3"
 	},
 	{
 		"name": "Quadro T1000",
 		"index": "NA"
-	},
-	{
-		"name": "Quadro M4000",
-		"index": "19.1"
 	},
 	{
 		"name": "Radeon Pro 5500M",
@@ -2225,7 +2217,7 @@
 	},
 	{
 		"name": "Quadro K5200",
-		"index": "8.7"
+		"index": "10.0"
 	},
 	{
 		"name": "GeForce GTX 1050 Ti",
@@ -2236,15 +2228,11 @@
 		"index": "8.6"
 	},
 	{
-		"name": "GeForce GTX 1050 Ti (Mobile)",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GTX 980M",
 		"index": "NA"
 	},
 	{
-		"name": "Quadro P3000",
+		"name": "GeForce GTX 1050 Ti (Mobile)",
 		"index": "NA"
 	},
 	{
@@ -2252,7 +2240,15 @@
 		"index": "NA"
 	},
 	{
+		"name": "Quadro P3000",
+		"index": "NA"
+	},
+	{
 		"name": "GRID M60-2Q",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon Pro 5300M",
 		"index": "NA"
 	},
 	{
@@ -2268,19 +2264,15 @@
 		"index": "25.4"
 	},
 	{
+		"name": "Quadro M5000M",
+		"index": "11.6"
+	},
+	{
 		"name": "GeForce GTX 1050 Ti with Max-Q Design",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon R9 M395X",
-		"index": "NA"
-	},
-	{
-		"name": "Quadro M5000M",
-		"index": "11.6"
-	},
-	{
-		"name": "Radeon Pro 5300M",
 		"index": "NA"
 	},
 	{
@@ -2304,6 +2296,10 @@
 		"index": "17.9"
 	},
 	{
+		"name": "GeForce GTX 760 Ti OEM",
+		"index": "NA"
+	},
+	{
 		"name": "FirePro W7100",
 		"index": "18.7"
 	},
@@ -2312,15 +2308,11 @@
 		"index": "5.4"
 	},
 	{
-		"name": "Radeon R9 280",
-		"index": "NA"
-	},
-	{
 		"name": "Quadro P2000 with Max-Q Design",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 760 Ti OEM",
+		"name": "Radeon R9 280",
 		"index": "NA"
 	},
 	{
@@ -2344,15 +2336,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon RX Vega M GL",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 8990",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon R9 M295X",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon RX Vega M GL",
 		"index": "NA"
 	},
 	{
@@ -2385,7 +2377,7 @@
 	},
 	{
 		"name": "GeForce GTX 1050",
-		"index": "30.0"
+		"index": "29.9"
 	},
 	{
 		"name": "Radeon HD 7950 / R9 280",
@@ -2433,7 +2425,7 @@
 	},
 	{
 		"name": "Quadro K4200",
-		"index": "20.0"
+		"index": "18.7"
 	},
 	{
 		"name": "Radeon HD 7870 XT",
@@ -2449,7 +2441,7 @@
 	},
 	{
 		"name": "Quadro P1000",
-		"index": "14.2"
+		"index": "14.7"
 	},
 	{
 		"name": "Radeon HD 7870",
@@ -2464,12 +2456,12 @@
 		"index": "60.6"
 	},
 	{
-		"name": "FirePro W7000",
-		"index": "7.6"
-	},
-	{
 		"name": "Radeon R9 M390X",
 		"index": "NA"
+	},
+	{
+		"name": "FirePro W7000",
+		"index": "7.6"
 	},
 	{
 		"name": "Radeon RX 460",
@@ -2497,7 +2489,7 @@
 	},
 	{
 		"name": "Radeon R9 270 / R7 370",
-		"index": "37.0"
+		"index": "39.4"
 	},
 	{
 		"name": "GeForce GTX 775M",
@@ -2544,6 +2536,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Quadro P620",
+		"index": "23.3"
+	},
+	{
 		"name": "GRID M60-8Q",
 		"index": "NA"
 	},
@@ -2552,16 +2548,12 @@
 		"index": "27.7"
 	},
 	{
-		"name": "Quadro P620",
-		"index": "23.2"
+		"name": "GeForce GTX 1050 with Max-Q Design",
+		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 7850",
 		"index": "8.4"
-	},
-	{
-		"name": "GeForce GTX 1050 with Max-Q Design",
-		"index": "NA"
 	},
 	{
 		"name": "P106-100",
@@ -2576,12 +2568,12 @@
 		"index": "12.6"
 	},
 	{
-		"name": "GRID K2",
-		"index": "6.4"
-	},
-	{
 		"name": "Quadro M2200",
 		"index": "15.1"
+	},
+	{
+		"name": "GRID K2",
+		"index": "6.5"
 	},
 	{
 		"name": "GeForce GTX 880M",
@@ -2593,7 +2585,7 @@
 	},
 	{
 		"name": "Quadro K2200",
-		"index": "18.0"
+		"index": "19.0"
 	},
 	{
 		"name": "GeForce GTX 470",
@@ -2608,12 +2600,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 560 Ti",
-		"index": "25.6"
+		"name": "Quadro 6000",
+		"index": "0.9"
 	},
 	{
-		"name": "Quadro 6000",
-		"index": "12.5"
+		"name": "GeForce GTX 560 Ti",
+		"index": "25.6"
 	},
 	{
 		"name": "Radeon HD 6970",
@@ -2672,20 +2664,24 @@
 		"index": "NA"
 	},
 	{
-		"name": "Tesla C2070",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GTX 965M",
 		"index": "NA"
 	},
 	{
+		"name": "Tesla C2070",
+		"index": "NA"
+	},
+	{
 		"name": "Quadro P600",
-		"index": "14.4"
+		"index": "14.3"
 	},
 	{
 		"name": "Radeon HD 6950",
 		"index": "35.8"
+	},
+	{
+		"name": "Radeon RX 5500M",
+		"index": "NA"
 	},
 	{
 		"name": "GRID M60-4Q",
@@ -2709,7 +2705,7 @@
 	},
 	{
 		"name": "Quadro K5100M",
-		"index": "10.9"
+		"index": "3.9"
 	},
 	{
 		"name": "GeForce GTX 560",
@@ -2756,12 +2752,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon Pro WX 4130",
-		"index": "NA"
+		"name": "Quadro M2000M",
+		"index": "10.7"
 	},
 	{
-		"name": "Quadro M2000M",
-		"index": "10.6"
+		"name": "Radeon Pro WX 4130",
+		"index": "NA"
 	},
 	{
 		"name": "FirePro M6100",
@@ -2789,7 +2785,7 @@
 	},
 	{
 		"name": "Quadro K4000",
-		"index": "18.3"
+		"index": "16.3"
 	},
 	{
 		"name": "Quadro 5000",
@@ -2868,12 +2864,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "FirePro 3D V8800",
-		"index": "5.7"
+		"name": "Quadro M1000M",
+		"index": "28.4"
 	},
 	{
-		"name": "Quadro M1000M",
-		"index": "28.3"
+		"name": "FirePro 3D V8800",
+		"index": "5.7"
 	},
 	{
 		"name": "Radeon R9 M470",
@@ -2897,11 +2893,11 @@
 	},
 	{
 		"name": "Quadro K620",
-		"index": "16.7"
+		"index": "16.9"
 	},
 	{
 		"name": "GeForce GT 1030",
-		"index": "27.3"
+		"index": "29.1"
 	},
 	{
 		"name": "GRID M10-1B",
@@ -2920,6 +2916,10 @@
 		"index": "28.5"
 	},
 	{
+		"name": "Radeon Pro WX 2100",
+		"index": "NA"
+	},
+	{
 		"name": "GeForce GTX 580M",
 		"index": "NA"
 	},
@@ -2929,10 +2929,6 @@
 	},
 	{
 		"name": "Radeon HD 6970M",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon Pro WX 2100",
 		"index": "NA"
 	},
 	{
@@ -2969,7 +2965,7 @@
 	},
 	{
 		"name": "GeForce GTX 560 SE",
-		"index": "24.4"
+		"index": "24.5"
 	},
 	{
 		"name": "Radeon R7 450",
@@ -2996,10 +2992,6 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon Pro WX 7130",
-		"index": "NA"
-	},
-	{
 		"name": "GRID K240Q",
 		"index": "NA"
 	},
@@ -3009,6 +3001,10 @@
 	},
 	{
 		"name": "Radeon R9 M375X",
+		"index": "NA"
+	},
+	{
+		"name": "Quadro P520",
 		"index": "NA"
 	},
 	{
@@ -3060,10 +3056,6 @@
 		"index": "NA"
 	},
 	{
-		"name": "Quadro P520",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GTX 570M",
 		"index": "NA"
 	},
@@ -3076,11 +3068,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 + R7 350 Dual",
+		"name": "GeForce MX130",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce MX130",
+		"name": "Radeon R7 + R7 350 Dual",
 		"index": "NA"
 	},
 	{
@@ -3092,11 +3084,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 + HD 7700 Dual",
+		"name": "GeForce GTX 950M",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 950M",
+		"name": "Radeon R7 + HD 7700 Dual",
 		"index": "NA"
 	},
 	{
@@ -3120,12 +3112,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R9 M370X",
-		"index": "NA"
-	},
-	{
 		"name": "Quadro M600M",
 		"index": "18.8"
+	},
+	{
+		"name": "Radeon R9 M370X",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce GTX 550 Ti",
@@ -3136,11 +3128,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel Iris Pro 580",
+		"name": "GeForce GTX 950A",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GTX 950A",
+		"name": "Intel Iris Pro 580",
 		"index": "NA"
 	},
 	{
@@ -3168,6 +3160,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Intel Iris Plus",
+		"index": "NA"
+	},
+	{
 		"name": "Radeon RX Vega11",
 		"index": "NA"
 	},
@@ -3176,12 +3172,8 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel Iris Plus",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon R9 255",
-		"index": "5.2"
+		"index": "5.3"
 	},
 	{
 		"name": "Radeon HD 8870M / R9 M270X / M370X",
@@ -3216,11 +3208,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon Vega 8",
+		"name": "FirePro M6000 Mobility Pro",
 		"index": "NA"
 	},
 	{
-		"name": "FirePro M6000 Mobility Pro",
+		"name": "Radeon Vega 8",
 		"index": "NA"
 	},
 	{
@@ -3229,14 +3221,14 @@
 	},
 	{
 		"name": "Quadro K2000",
-		"index": "13.8"
-	},
-	{
-		"name": "Radeon RX Vega 10",
-		"index": "NA"
+		"index": "14.4"
 	},
 	{
 		"name": "Quadro P500",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon RX Vega 10",
 		"index": "NA"
 	},
 	{
@@ -3248,16 +3240,16 @@
 		"index": "11.8"
 	},
 	{
+		"name": "Quadro P400",
+		"index": "16.2"
+	},
+	{
 		"name": "Radeon HD 5770",
 		"index": "14.8"
 	},
 	{
 		"name": "Radeon RX 550X",
 		"index": "NA"
-	},
-	{
-		"name": "Quadro P400",
-		"index": "16.0"
 	},
 	{
 		"name": "Radeon Vega 11",
@@ -3304,19 +3296,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "FirePro M4000",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce MX110",
 		"index": "NA"
 	},
 	{
-		"name": "Ryzen 7 2700U with Radeon Vega",
+		"name": "FirePro M4000",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon 540X",
+		"name": "Ryzen 7 2700U with Radeon Vega",
 		"index": "NA"
 	},
 	{
@@ -3340,12 +3328,16 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon 540",
+		"name": "Radeon 540X",
 		"index": "NA"
 	},
 	{
 		"name": "GeForce GT 740",
 		"index": "16.5"
+	},
+	{
+		"name": "Radeon 540",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce 945M",
@@ -3405,7 +3397,7 @@
 	},
 	{
 		"name": "Radeon HD 5750",
-		"index": "21.0"
+		"index": "21.1"
 	},
 	{
 		"name": "GeForce GTX 660M",
@@ -3456,12 +3448,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel UHD P630",
+		"name": "Radeon HD 7850M",
 		"index": "1,373"
 	},
 	{
-		"name": "Radeon HD 7850M",
-		"index": "1,373"
+		"name": "Intel UHD P630",
+		"index": "1,371"
 	},
 	{
 		"name": "Radeon R5 A10-9630P 4C+6G",
@@ -3477,19 +3469,19 @@
 	},
 	{
 		"name": "Quadro K2100M",
-		"index": "1,349"
+		"index": "1,352"
 	},
 	{
 		"name": "Radeon R9 M280X",
 		"index": "1,349"
 	},
 	{
-		"name": "Intel UHD 630",
-		"index": "1,348"
-	},
-	{
 		"name": "Radeon HD 7560D + HD 7700 Dual",
 		"index": "1,347"
+	},
+	{
+		"name": "Intel UHD 630",
+		"index": "1,345"
 	},
 	{
 		"name": "Intel Iris 540",
@@ -3500,12 +3492,12 @@
 		"index": "1,341"
 	},
 	{
-		"name": "Radeon R7 430",
-		"index": "1,339"
+		"name": "Radeon R7 PRO A12-9800",
+		"index": "1,340"
 	},
 	{
-		"name": "Radeon R7 PRO A12-9800",
-		"index": "1,336"
+		"name": "Radeon R7 430",
+		"index": "1,339"
 	},
 	{
 		"name": "Radeon R7 PRO A10-8770",
@@ -3513,7 +3505,7 @@
 	},
 	{
 		"name": "Radeon HD 6750",
-		"index": "1,317"
+		"index": "1,319"
 	},
 	{
 		"name": "Quadro 2000",
@@ -3524,16 +3516,12 @@
 		"index": "1,314"
 	},
 	{
+		"name": "FirePro V4900",
+		"index": "1,310"
+	},
+	{
 		"name": "Radeon HD 4870 X2",
 		"index": "1,309"
-	},
-	{
-		"name": "FirePro V4900",
-		"index": "1,309"
-	},
-	{
-		"name": "FirePro W4170M",
-		"index": "1,307"
 	},
 	{
 		"name": "Radeon R7 M465",
@@ -3549,6 +3537,10 @@
 	},
 	{
 		"name": "Intel Iris Pro P6300",
+		"index": "1,292"
+	},
+	{
+		"name": "FirePro W4170M",
 		"index": "1,292"
 	},
 	{
@@ -3637,7 +3629,7 @@
 	},
 	{
 		"name": "Intel UHD",
-		"index": "1,227"
+		"index": "1,232"
 	},
 	{
 		"name": "GeForce 930A",
@@ -3721,7 +3713,7 @@
 	},
 	{
 		"name": "Intel HD 630",
-		"index": "1,141"
+		"index": "1,142"
 	},
 	{
 		"name": "Radeon HD 8850M / R9 M265X",
@@ -3760,6 +3752,10 @@
 		"index": "1,124"
 	},
 	{
+		"name": "FirePro M4150",
+		"index": "1,119"
+	},
+	{
 		"name": "Radeon R7 M260X",
 		"index": "1,116"
 	},
@@ -3772,16 +3768,12 @@
 		"index": "1,115"
 	},
 	{
-		"name": "FirePro M4150",
-		"index": "1,114"
+		"name": "Radeon Vega 3 Mobile",
+		"index": "1,109"
 	},
 	{
 		"name": "Quadro FX 5800",
-		"index": "1,109"
-	},
-	{
-		"name": "Radeon Vega 3 Mobile",
-		"index": "1,109"
+		"index": "1,107"
 	},
 	{
 		"name": "Radeon R7 A12-9800E RADEON",
@@ -3804,10 +3796,6 @@
 		"index": "1,096"
 	},
 	{
-		"name": "Radeon 530",
-		"index": "1,088"
-	},
-	{
 		"name": "Radeon HD 5670",
 		"index": "1,088"
 	},
@@ -3821,11 +3809,15 @@
 	},
 	{
 		"name": "Intel UHD Graphics 620",
-		"index": "1,077"
+		"index": "1,078"
 	},
 	{
 		"name": "Radeon HD 8750M",
 		"index": "1,071"
+	},
+	{
+		"name": "Radeon 530",
+		"index": "1,067"
 	},
 	{
 		"name": "Radeon R7 PRO A10-9700B",
@@ -3841,10 +3833,14 @@
 	},
 	{
 		"name": "Radeon HD 6670",
-		"index": "1,062"
+		"index": "1,063"
 	},
 	{
 		"name": "Radeon HD 7660D + 7670 Dual",
+		"index": "1,062"
+	},
+	{
+		"name": "Radeon Vega 3",
 		"index": "1,062"
 	},
 	{
@@ -3853,7 +3849,7 @@
 	},
 	{
 		"name": "Intel HD P530",
-		"index": "1,059"
+		"index": "1,060"
 	},
 	{
 		"name": "Firepro M4100",
@@ -3872,6 +3868,10 @@
 		"index": "1,053"
 	},
 	{
+		"name": "Quadro K1100M",
+		"index": "1,051"
+	},
+	{
 		"name": "Radeon HD 7670A",
 		"index": "1,050"
 	},
@@ -3882,14 +3882,6 @@
 	{
 		"name": "Radeon R7 PRO A8-9600",
 		"index": "1,049"
-	},
-	{
-		"name": "Quadro K1100M",
-		"index": "1,049"
-	},
-	{
-		"name": "Radeon Vega 3",
-		"index": "1,048"
 	},
 	{
 		"name": "Radeon R7 340",
@@ -3904,12 +3896,16 @@
 		"index": "1,044"
 	},
 	{
+		"name": "Radeon R5 A6-9500 2C+6G",
+		"index": "1,041"
+	},
+	{
 		"name": "Radeon R7 M445",
 		"index": "1,041"
 	},
 	{
 		"name": "Radeon HD 8730M",
-		"index": "1,038"
+		"index": "1,037"
 	},
 	{
 		"name": "Quadro 2000M",
@@ -3924,16 +3920,16 @@
 		"index": "1,033"
 	},
 	{
-		"name": "Radeon R7 FX-8800P",
-		"index": "1,031"
-	},
-	{
 		"name": "GeForce 940A",
 		"index": "1,031"
 	},
 	{
 		"name": "Radeon HD 8600/8700M",
 		"index": "1,030"
+	},
+	{
+		"name": "Radeon R7 FX-8800P",
+		"index": "1,029"
 	},
 	{
 		"name": "Radeon HD7570",
@@ -3956,10 +3952,6 @@
 		"index": "1,021"
 	},
 	{
-		"name": "Radeon 535DX",
-		"index": "1,020"
-	},
-	{
 		"name": "Radeon HD 8670D + R7 240 Dual",
 		"index": "1,020"
 	},
@@ -3976,12 +3968,12 @@
 		"index": "1,015"
 	},
 	{
-		"name": "Radeon R5 A6-9500 2C+6G",
-		"index": "1,014"
-	},
-	{
 		"name": "Intel HD 530",
 		"index": "1,011"
+	},
+	{
+		"name": "Radeon 535DX",
+		"index": "1,010"
 	},
 	{
 		"name": "Radeon HD 7690M XT",
@@ -4020,11 +4012,11 @@
 		"index": "997"
 	},
 	{
-		"name": "Radeon HD 8570",
+		"name": "Radeon HD 6800M",
 		"index": "994"
 	},
 	{
-		"name": "Radeon HD 6800M",
+		"name": "Radeon HD 8570",
 		"index": "994"
 	},
 	{
@@ -4049,18 +4041,22 @@
 	},
 	{
 		"name": "Intel Iris 6100",
-		"index": "979"
+		"index": "977"
 	},
 	{
 		"name": "Radeon R7 A10-8750",
 		"index": "976"
 	},
 	{
-		"name": "Radeon R7 240",
-		"index": "975"
+		"name": "Radeon R7 A10-7860K",
+		"index": "974"
 	},
 	{
-		"name": "Radeon R7 A10-7860K",
+		"name": "Radeon R7 240",
+		"index": "974"
+	},
+	{
+		"name": "GeForce GT 640M",
 		"index": "974"
 	},
 	{
@@ -4072,8 +4068,8 @@
 		"index": "973"
 	},
 	{
-		"name": "GeForce GT 640M",
-		"index": "972"
+		"name": "Radeon R7 M440",
+		"index": "969"
 	},
 	{
 		"name": "Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D",
@@ -4081,7 +4077,7 @@
 	},
 	{
 		"name": "GeForce 930M",
-		"index": "965"
+		"index": "966"
 	},
 	{
 		"name": "Radeon HD 6770M",
@@ -4096,12 +4092,8 @@
 		"index": "962"
 	},
 	{
-		"name": "Radeon R7 M440",
-		"index": "961"
-	},
-	{
 		"name": "Radeon HD 5600/5700",
-		"index": "955"
+		"index": "959"
 	},
 	{
 		"name": "Radeon R6 Opteron X3418",
@@ -4120,15 +4112,19 @@
 		"index": "950"
 	},
 	{
+		"name": "Radeon R7 A8-7680",
+		"index": "949"
+	},
+	{
 		"name": "Quadro CX",
 		"index": "947"
 	},
 	{
-		"name": "Radeon HD 4830",
-		"index": "946"
+		"name": "Radeon R7 PRO A10-8850B",
+		"index": "945"
 	},
 	{
-		"name": "Radeon R7 PRO A10-8850B",
+		"name": "Radeon HD 4830",
 		"index": "945"
 	},
 	{
@@ -4145,18 +4141,18 @@
 	},
 	{
 		"name": "Intel HD Graphics 620",
-		"index": "936"
+		"index": "937"
 	},
 	{
 		"name": "Quadro K620M",
 		"index": "933"
 	},
 	{
-		"name": "Radeon HD 7660G + 7730M Dual",
+		"name": "GeForce 840M",
 		"index": "931"
 	},
 	{
-		"name": "GeForce 840M",
+		"name": "Radeon HD 7660G + 7730M Dual",
 		"index": "931"
 	},
 	{
@@ -4168,12 +4164,12 @@
 		"index": "923"
 	},
 	{
-		"name": "Radeon R7 A12-9720P RADEON",
-		"index": "922"
+		"name": "GeForce GT 730",
+		"index": "921"
 	},
 	{
-		"name": "GeForce GT 730",
-		"index": "922"
+		"name": "Radeon R7 A12-9720P RADEON",
+		"index": "921"
 	},
 	{
 		"name": "GeForce 920A",
@@ -4184,15 +4180,19 @@
 		"index": "918"
 	},
 	{
+		"name": "Radeon HD 6650M",
+		"index": "917"
+	},
+	{
 		"name": "GeForce GT 645M",
 		"index": "915"
 	},
 	{
-		"name": "Radeon R7 A8-7680",
-		"index": "914"
+		"name": "GeForce GT 635",
+		"index": "913"
 	},
 	{
-		"name": "GeForce GT 635",
+		"name": "Radeon R7 A8-8650",
 		"index": "913"
 	},
 	{
@@ -4201,27 +4201,15 @@
 	},
 	{
 		"name": "GeForce 830M",
-		"index": "911"
-	},
-	{
-		"name": "Radeon R7 A8-8650",
-		"index": "911"
+		"index": "912"
 	},
 	{
 		"name": "Radeon HD 8650G",
 		"index": "910"
 	},
 	{
-		"name": "Radeon R5 PRO A6-9500 2C+6G",
-		"index": "907"
-	},
-	{
 		"name": "FirePro W2100",
-		"index": "905"
-	},
-	{
-		"name": "Radeon HD 6650M",
-		"index": "903"
+		"index": "906"
 	},
 	{
 		"name": "Radeon R7 M365X",
@@ -4229,6 +4217,10 @@
 	},
 	{
 		"name": "Radeon R7 A10-7700K",
+		"index": "896"
+	},
+	{
+		"name": "Radeon R5 PRO A6-9500 2C+6G",
 		"index": "896"
 	},
 	{
@@ -4336,11 +4328,11 @@
 		"index": "846"
 	},
 	{
-		"name": "Radeon R5 PRO A8-9600B 4C+6G",
+		"name": "GeForce GT 730M",
 		"index": "845"
 	},
 	{
-		"name": "GeForce GT 730M",
+		"name": "Radeon R5 PRO A8-9600B 4C+6G",
 		"index": "845"
 	},
 	{
@@ -4352,11 +4344,11 @@
 		"index": "840"
 	},
 	{
-		"name": "Quadro FX 3800",
+		"name": "Radeon R5 PRO A6-8570E 2C+4G",
 		"index": "839"
 	},
 	{
-		"name": "Radeon R5 PRO A6-8570E 2C+4G",
+		"name": "Quadro FX 3800",
 		"index": "839"
 	},
 	{
@@ -4416,8 +4408,8 @@
 		"index": "821"
 	},
 	{
-		"name": "Radeon R7 M265",
-		"index": "820"
+		"name": "Radeon 520",
+		"index": "821"
 	},
 	{
 		"name": "Radeon HD 8650G + HD 7600M Dual",
@@ -4432,8 +4424,8 @@
 		"index": "818"
 	},
 	{
-		"name": "Radeon 520",
-		"index": "815"
+		"name": "Radeon R7 M265",
+		"index": "813"
 	},
 	{
 		"name": "Radeon HD 8550G + HD 8600/8700M Dual",
@@ -4464,14 +4456,6 @@
 		"index": "803"
 	},
 	{
-		"name": "Radeon R5 A10-9620P 4C+6G",
-		"index": "801"
-	},
-	{
-		"name": "Intel UHD 610",
-		"index": "799"
-	},
-	{
 		"name": "GeForce 9800 GX2",
 		"index": "798"
 	},
@@ -4480,11 +4464,23 @@
 		"index": "798"
 	},
 	{
+		"name": "Intel UHD 610",
+		"index": "797"
+	},
+	{
+		"name": "Radeon R5 A10-9620P 4C+6G",
+		"index": "797"
+	},
+	{
 		"name": "NVS 5400M",
 		"index": "797"
 	},
 	{
 		"name": "Radeon HD 8550G + 8750M Dual",
+		"index": "796"
+	},
+	{
+		"name": "Radeon R7 M340",
 		"index": "796"
 	},
 	{
@@ -4496,28 +4492,24 @@
 		"index": "792"
 	},
 	{
-		"name": "Radeon R7 M340",
+		"name": "GeForce GT 740M",
 		"index": "792"
 	},
 	{
-		"name": "GeForce GT 740M",
-		"index": "792"
+		"name": "GeForce GT 640M LE",
+		"index": "791"
 	},
 	{
 		"name": "Radeon R7 A10 Extreme Edition",
 		"index": "790"
 	},
 	{
-		"name": "GeForce GT 640M LE",
-		"index": "790"
+		"name": "Intel UHD 615",
+		"index": "789"
 	},
 	{
 		"name": "Radeon HD 8650G + 8750M Dual",
 		"index": "787"
-	},
-	{
-		"name": "Intel UHD 615",
-		"index": "785"
 	},
 	{
 		"name": "GRID K180Q",
@@ -4544,10 +4536,6 @@
 		"index": "774"
 	},
 	{
-		"name": "Radeon R7 M270",
-		"index": "774"
-	},
-	{
 		"name": "Radeon HD 7600M + 7600M Dual",
 		"index": "773"
 	},
@@ -4564,6 +4552,10 @@
 		"index": "769"
 	},
 	{
+		"name": "Radeon HD 7660G + HD 7600M Dual",
+		"index": "769"
+	},
+	{
 		"name": "GeForce 9800 GTX",
 		"index": "769"
 	},
@@ -4572,24 +4564,24 @@
 		"index": "769"
 	},
 	{
-		"name": "Radeon HD 7660G + HD 7600M Dual",
+		"name": "GeForce 825M",
 		"index": "769"
 	},
 	{
-		"name": "GeForce 825M",
-		"index": "765"
+		"name": "Radeon R7 M270",
+		"index": "769"
 	},
 	{
 		"name": "NVS 510",
 		"index": "765"
 	},
 	{
-		"name": "Radeon HD 8650G + HD 8600/8700M Dual",
-		"index": "764"
+		"name": "Radeon R5 M255",
+		"index": "765"
 	},
 	{
-		"name": "Radeon R5 M255",
-		"index": "763"
+		"name": "Radeon HD 8650G + HD 8600/8700M Dual",
+		"index": "764"
 	},
 	{
 		"name": "Mobility Radeon HD 5850",
@@ -4605,7 +4597,7 @@
 	},
 	{
 		"name": "Quadro K610M",
-		"index": "758"
+		"index": "759"
 	},
 	{
 		"name": "Radeon R5 420",
@@ -4664,16 +4656,16 @@
 		"index": "747"
 	},
 	{
+		"name": "GeForce GT 530",
+		"index": "747"
+	},
+	{
 		"name": "Radeon HD 7660G + 7610M Dual",
 		"index": "746"
 	},
 	{
-		"name": "GeForce GT 530",
-		"index": "746"
-	},
-	{
 		"name": "Intel HD 615",
-		"index": "744"
+		"index": "745"
 	},
 	{
 		"name": "Radeon R7 PRO A12-8800B",
@@ -4700,15 +4692,15 @@
 		"index": "742"
 	},
 	{
-		"name": "Radeon R8 M365DX",
-		"index": "741"
-	},
-	{
 		"name": "GeForce 920M",
 		"index": "741"
 	},
 	{
 		"name": "Radeon 6600M",
+		"index": "741"
+	},
+	{
+		"name": "Radeon R8 M365DX",
 		"index": "741"
 	},
 	{
@@ -4721,6 +4713,10 @@
 	},
 	{
 		"name": "GeForce GTX 285M",
+		"index": "735"
+	},
+	{
+		"name": "Radeon R5 M435",
 		"index": "735"
 	},
 	{
@@ -4780,15 +4776,15 @@
 		"index": "717"
 	},
 	{
-		"name": "Intel HD 610",
-		"index": "717"
-	},
-	{
 		"name": "Radeon HD 3870",
 		"index": "717"
 	},
 	{
 		"name": "GeForce GT 720",
+		"index": "717"
+	},
+	{
+		"name": "Intel HD 610",
 		"index": "717"
 	},
 	{
@@ -4856,12 +4852,12 @@
 		"index": "699"
 	},
 	{
-		"name": "Radeon HD 7640G + HD 8570M Dual",
-		"index": "697"
+		"name": "Radeon R7 M360",
+		"index": "699"
 	},
 	{
-		"name": "Radeon R7 M360",
-		"index": "696"
+		"name": "Radeon HD 7640G + HD 8570M Dual",
+		"index": "697"
 	},
 	{
 		"name": "Radeon R8 M535DX",
@@ -4888,12 +4884,12 @@
 		"index": "690"
 	},
 	{
-		"name": "Radeon HD 7640G + 8600/8700M Dual",
+		"name": "GeForce GT 710",
 		"index": "689"
 	},
 	{
-		"name": "GeForce GT 710",
-		"index": "688"
+		"name": "Radeon HD 7640G + 8600/8700M Dual",
+		"index": "689"
 	},
 	{
 		"name": "Radeon HD 8650G + R5 M230 Dual",
@@ -4940,11 +4936,11 @@
 		"index": "677"
 	},
 	{
-		"name": "GeForce GT 735M",
+		"name": "Intel HD P4600/P4700",
 		"index": "677"
 	},
 	{
-		"name": "Intel HD P4600/P4700",
+		"name": "GeForce GT 735M",
 		"index": "677"
 	},
 	{
@@ -4969,7 +4965,7 @@
 	},
 	{
 		"name": "NVS 5200M",
-		"index": "667"
+		"index": "666"
 	},
 	{
 		"name": "Radeon HD 7640G + HD 8500M N HD 8500M Dual",
@@ -4989,7 +4985,7 @@
 	},
 	{
 		"name": "Radeon HD 7560D",
-		"index": "663"
+		"index": "664"
 	},
 	{
 		"name": "Intel HD 5600",
@@ -5001,7 +4997,7 @@
 	},
 	{
 		"name": "Radeon R7 M260",
-		"index": "661"
+		"index": "662"
 	},
 	{
 		"name": "FireGL V7700",
@@ -5040,11 +5036,11 @@
 		"index": "651"
 	},
 	{
-		"name": "Radeon R5 240",
+		"name": "SUMO 9640",
 		"index": "650"
 	},
 	{
-		"name": "SUMO 9640",
+		"name": "Radeon R5 240",
 		"index": "650"
 	},
 	{
@@ -5153,15 +5149,11 @@
 	},
 	{
 		"name": "Intel HD 510",
-		"index": "625"
+		"index": "624"
 	},
 	{
 		"name": "Radeon HD 7520G + HD 8600/8700M Dual",
 		"index": "624"
-	},
-	{
-		"name": "FirePro M2000",
-		"index": "623"
 	},
 	{
 		"name": "Radeon HD 7640G + HD 7400M Dual",
@@ -5176,19 +5168,15 @@
 		"index": "621"
 	},
 	{
-		"name": "Radeon HD 8570 + 8670D Dual",
-		"index": "620"
-	},
-	{
-		"name": "Radeon HD 8550G + R5 M200 Dual",
-		"index": "619"
-	},
-	{
-		"name": "Intel UHD P630",
-		"index": "NA"
+		"name": "FirePro M2000",
+		"index": "621"
 	},
 	{
 		"name": "Radeon HD 7850M",
+		"index": "NA"
+	},
+	{
+		"name": "Intel UHD P630",
 		"index": "NA"
 	},
 	{
@@ -5212,11 +5200,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel UHD 630",
+		"name": "Radeon HD 7560D + HD 7700 Dual",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7560D + HD 7700 Dual",
+		"name": "Intel UHD 630",
 		"index": "NA"
 	},
 	{
@@ -5228,12 +5216,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 430",
-		"index": "12.2"
-	},
-	{
 		"name": "Radeon R7 PRO A12-9800",
 		"index": "NA"
+	},
+	{
+		"name": "Radeon R7 430",
+		"index": "13.0"
 	},
 	{
 		"name": "Radeon R7 PRO A10-8770",
@@ -5245,14 +5233,10 @@
 	},
 	{
 		"name": "Quadro 2000",
-		"index": "18.5"
+		"index": "13.2"
 	},
 	{
 		"name": "FirePro M5950",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon HD 4870 X2",
 		"index": "NA"
 	},
 	{
@@ -5260,7 +5244,7 @@
 		"index": "9.0"
 	},
 	{
-		"name": "FirePro W4170M",
+		"name": "Radeon HD 4870 X2",
 		"index": "NA"
 	},
 	{
@@ -5277,6 +5261,10 @@
 	},
 	{
 		"name": "Intel Iris Pro P6300",
+		"index": "NA"
+	},
+	{
+		"name": "FirePro W4170M",
 		"index": "NA"
 	},
 	{
@@ -5488,6 +5476,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "FirePro M4150",
+		"index": "NA"
+	},
+	{
 		"name": "Radeon R7 M260X",
 		"index": "NA"
 	},
@@ -5500,16 +5492,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "FirePro M4150",
+		"name": "Radeon Vega 3 Mobile",
 		"index": "NA"
 	},
 	{
 		"name": "Quadro FX 5800",
 		"index": "6.2"
-	},
-	{
-		"name": "Radeon Vega 3 Mobile",
-		"index": "NA"
 	},
 	{
 		"name": "Radeon R7 A12-9800E RADEON",
@@ -5529,10 +5517,6 @@
 	},
 	{
 		"name": "Quadro M500M",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon 530",
 		"index": "NA"
 	},
 	{
@@ -5556,6 +5540,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon 530",
+		"index": "NA"
+	},
+	{
 		"name": "Radeon R7 PRO A10-9700B",
 		"index": "NA"
 	},
@@ -5574,6 +5562,10 @@
 	{
 		"name": "Radeon HD 7660D + 7670 Dual",
 		"index": "NA"
+	},
+	{
+		"name": "Radeon Vega 3",
+		"index": "2.7"
 	},
 	{
 		"name": "Radeon HD 7520G + 7700M Dual",
@@ -5600,6 +5592,10 @@
 		"index": "6.6"
 	},
 	{
+		"name": "Quadro K1100M",
+		"index": "21.0"
+	},
+	{
 		"name": "Radeon HD 7670A",
 		"index": "NA"
 	},
@@ -5612,14 +5608,6 @@
 		"index": "NA"
 	},
 	{
-		"name": "Quadro K1100M",
-		"index": "21.0"
-	},
-	{
-		"name": "Radeon Vega 3",
-		"index": "2.6"
-	},
-	{
 		"name": "Radeon R7 340",
 		"index": "NA"
 	},
@@ -5629,6 +5617,10 @@
 	},
 	{
 		"name": "Radeon R7 Opteron X3421",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon R5 A6-9500 2C+6G",
 		"index": "NA"
 	},
 	{
@@ -5652,15 +5644,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 FX-8800P",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce 940A",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 8600/8700M",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon R7 FX-8800P",
 		"index": "NA"
 	},
 	{
@@ -5684,10 +5676,6 @@
 		"index": "11.3"
 	},
 	{
-		"name": "Radeon 535DX",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 8670D + R7 240 Dual",
 		"index": "NA"
 	},
@@ -5704,11 +5692,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 A6-9500 2C+6G",
+		"name": "Intel HD 530",
 		"index": "NA"
 	},
 	{
-		"name": "Intel HD 530",
+		"name": "Radeon 535DX",
 		"index": "NA"
 	},
 	{
@@ -5748,11 +5736,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 8570",
+		"name": "Radeon HD 6800M",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 6800M",
+		"name": "Radeon HD 8570",
 		"index": "NA"
 	},
 	{
@@ -5784,11 +5772,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 240",
-		"index": "19.5"
+		"name": "Radeon R7 A10-7860K",
+		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 A10-7860K",
+		"name": "Radeon R7 240",
+		"index": "17.7"
+	},
+	{
+		"name": "GeForce GT 640M",
 		"index": "NA"
 	},
 	{
@@ -5800,7 +5792,7 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 640M",
+		"name": "Radeon R7 M440",
 		"index": "NA"
 	},
 	{
@@ -5824,10 +5816,6 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 M440",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 5600/5700",
 		"index": "NA"
 	},
@@ -5848,16 +5836,20 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon R7 A8-7680",
+		"index": "NA"
+	},
+	{
 		"name": "Quadro CX",
 		"index": "6.3"
 	},
 	{
-		"name": "Radeon HD 4830",
-		"index": "15.8"
-	},
-	{
 		"name": "Radeon R7 PRO A10-8850B",
 		"index": "NA"
+	},
+	{
+		"name": "Radeon HD 4830",
+		"index": "15.8"
 	},
 	{
 		"name": "Radeon HD 7660D + R7 240 Dual",
@@ -5880,11 +5872,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7660G + 7730M Dual",
+		"name": "GeForce 840M",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce 840M",
+		"name": "Radeon HD 7660G + 7730M Dual",
 		"index": "NA"
 	},
 	{
@@ -5896,12 +5888,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 A12-9720P RADEON",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GT 730",
 		"index": "13.2"
+	},
+	{
+		"name": "Radeon R7 A12-9720P RADEON",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce 920A",
@@ -5912,15 +5904,19 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon HD 6650M",
+		"index": "NA"
+	},
+	{
 		"name": "GeForce GT 645M",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 A8-7680",
+		"name": "GeForce GT 635",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 635",
+		"name": "Radeon R7 A8-8650",
 		"index": "NA"
 	},
 	{
@@ -5932,15 +5928,7 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 A8-8650",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 8650G",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon R5 PRO A6-9500 2C+6G",
 		"index": "NA"
 	},
 	{
@@ -5948,15 +5936,15 @@
 		"index": "7.9"
 	},
 	{
-		"name": "Radeon HD 6650M",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon R7 M365X",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon R7 A10-7700K",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon R5 PRO A6-9500 2C+6G",
 		"index": "NA"
 	},
 	{
@@ -6064,11 +6052,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 PRO A8-9600B 4C+6G",
+		"name": "GeForce GT 730M",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 730M",
+		"name": "Radeon R5 PRO A8-9600B 4C+6G",
 		"index": "NA"
 	},
 	{
@@ -6080,12 +6068,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Quadro FX 3800",
-		"index": "8.5"
-	},
-	{
 		"name": "Radeon R5 PRO A6-8570E 2C+4G",
 		"index": "NA"
+	},
+	{
+		"name": "Quadro FX 3800",
+		"index": "8.5"
 	},
 	{
 		"name": "Radeon HD 8670D + R5 235 Dual",
@@ -6144,7 +6132,7 @@
 		"index": "9.1"
 	},
 	{
-		"name": "Radeon R7 M265",
+		"name": "Radeon 520",
 		"index": "NA"
 	},
 	{
@@ -6160,7 +6148,7 @@
 		"index": "12.6"
 	},
 	{
-		"name": "Radeon 520",
+		"name": "Radeon R7 M265",
 		"index": "NA"
 	},
 	{
@@ -6192,7 +6180,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 A10-9620P 4C+6G",
+		"name": "GeForce 9800 GX2",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon HD 7660G",
 		"index": "NA"
 	},
 	{
@@ -6200,11 +6192,7 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce 9800 GX2",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon HD 7660G",
+		"name": "Radeon R5 A10-9620P 4C+6G",
 		"index": "NA"
 	},
 	{
@@ -6216,6 +6204,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon R7 M340",
+		"index": "NA"
+	},
+	{
 		"name": "Quadro K1000M",
 		"index": "5.3"
 	},
@@ -6224,15 +6216,7 @@
 		"index": "3.0"
 	},
 	{
-		"name": "Radeon R7 M340",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GT 740M",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon R7 A10 Extreme Edition",
 		"index": "NA"
 	},
 	{
@@ -6240,11 +6224,15 @@
 		"index": "0.9"
 	},
 	{
-		"name": "Radeon HD 8650G + 8750M Dual",
+		"name": "Radeon R7 A10 Extreme Edition",
 		"index": "NA"
 	},
 	{
 		"name": "Intel UHD 615",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon HD 8650G + 8750M Dual",
 		"index": "NA"
 	},
 	{
@@ -6272,10 +6260,6 @@
 		"index": "14.6"
 	},
 	{
-		"name": "Radeon R7 M270",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 7600M + 7600M Dual",
 		"index": "NA"
 	},
@@ -6292,6 +6276,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon HD 7660G + HD 7600M Dual",
+		"index": "NA"
+	},
+	{
 		"name": "GeForce 9800 GTX",
 		"index": "NA"
 	},
@@ -6300,23 +6288,23 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7660G + HD 7600M Dual",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce 825M",
 		"index": "NA"
 	},
 	{
-		"name": "NVS 510",
-		"index": "5.3"
-	},
-	{
-		"name": "Radeon HD 8650G + HD 8600/8700M Dual",
+		"name": "Radeon R7 M270",
 		"index": "NA"
 	},
 	{
+		"name": "NVS 510",
+		"index": "5.5"
+	},
+	{
 		"name": "Radeon R5 M255",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon HD 8650G + HD 8600/8700M Dual",
 		"index": "NA"
 	},
 	{
@@ -6392,12 +6380,12 @@
 		"index": "21.3"
 	},
 	{
-		"name": "Radeon HD 7660G + 7610M Dual",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GT 530",
 		"index": "15.2"
+	},
+	{
+		"name": "Radeon HD 7660G + 7610M Dual",
+		"index": "NA"
 	},
 	{
 		"name": "Intel HD 615",
@@ -6428,15 +6416,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R8 M365DX",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce 920M",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon 6600M",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon R8 M365DX",
 		"index": "NA"
 	},
 	{
@@ -6449,6 +6437,10 @@
 	},
 	{
 		"name": "GeForce GTX 285M",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon R5 M435",
 		"index": "NA"
 	},
 	{
@@ -6508,16 +6500,16 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel HD 610",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 3870",
 		"index": "12.4"
 	},
 	{
 		"name": "GeForce GT 720",
 		"index": "13.0"
+	},
+	{
+		"name": "Intel HD 610",
+		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 8650G + HD 8570M Dual",
@@ -6584,11 +6576,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7640G + HD 8570M Dual",
+		"name": "Radeon R7 M360",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R7 M360",
+		"name": "Radeon HD 7640G + HD 8570M Dual",
 		"index": "NA"
 	},
 	{
@@ -6616,12 +6608,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7640G + 8600/8700M Dual",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce GT 710",
 		"index": "15.3"
+	},
+	{
+		"name": "Radeon HD 7640G + 8600/8700M Dual",
+		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 8650G + R5 M230 Dual",
@@ -6668,11 +6660,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 735M",
+		"name": "Intel HD P4600/P4700",
 		"index": "NA"
 	},
 	{
-		"name": "Intel HD P4600/P4700",
+		"name": "GeForce GT 735M",
 		"index": "NA"
 	},
 	{
@@ -6768,12 +6760,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 240",
-		"index": "10.7"
-	},
-	{
 		"name": "SUMO 9640",
 		"index": "NA"
+	},
+	{
+		"name": "Radeon R5 240",
+		"index": "10.7"
 	},
 	{
 		"name": "GeForce GT 540M",
@@ -6888,10 +6880,6 @@
 		"index": "NA"
 	},
 	{
-		"name": "FirePro M2000",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 7640G + HD 7400M Dual",
 		"index": "NA"
 	},
@@ -6904,12 +6892,16 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 8570 + 8670D Dual",
+		"name": "FirePro M2000",
 		"index": "NA"
 	},
 	{
+		"name": "Radeon HD 8570 + 8670D Dual",
+		"index": "620"
+	},
+	{
 		"name": "Radeon HD 8550G + R5 M200 Dual",
-		"index": "NA"
+		"index": "619"
 	},
 	{
 		"name": "Radeon HD 8550G + 8600M Dual",
@@ -6920,12 +6912,12 @@
 		"index": "617"
 	},
 	{
-		"name": "Radeon HD 7640G",
+		"name": "FireGL V7600",
 		"index": "616"
 	},
 	{
-		"name": "FireGL V7600",
-		"index": "616"
+		"name": "Radeon HD 7640G",
+		"index": "615"
 	},
 	{
 		"name": "Radeon HD 8650G + 8600M Dual",
@@ -6964,10 +6956,6 @@
 		"index": "605"
 	},
 	{
-		"name": "Radeon R5 M435",
-		"index": "603"
-	},
-	{
 		"name": "Radeon HD 8550G + 8500M Dual",
 		"index": "603"
 	},
@@ -6977,7 +6965,7 @@
 	},
 	{
 		"name": "Intel HD 5000",
-		"index": "601"
+		"index": "602"
 	},
 	{
 		"name": "GeForce GT 525M",
@@ -7089,7 +7077,7 @@
 	},
 	{
 		"name": "GeForce GT 620M",
-		"index": "575"
+		"index": "576"
 	},
 	{
 		"name": "Radeon HD 8450G + HD 8670M Dual",
@@ -7104,12 +7092,12 @@
 		"index": "572"
 	},
 	{
-		"name": "Radeon R6 + R7 M265DX Dual",
+		"name": "Intel HD 4400",
 		"index": "571"
 	},
 	{
-		"name": "Intel HD 4400",
-		"index": "570"
+		"name": "Radeon R6 + R7 M265DX Dual",
+		"index": "571"
 	},
 	{
 		"name": "GeForce GTS 250M",
@@ -7264,36 +7252,28 @@
 		"index": "543"
 	},
 	{
-		"name": "PHDGD Ivy 5",
-		"index": "543"
-	},
-	{
 		"name": "GeForce 8800M GTX",
-		"index": "542"
-	},
-	{
-		"name": "Radeon HD 8500M",
-		"index": "539"
+		"index": "540"
 	},
 	{
 		"name": "GeForce 710A",
 		"index": "538"
 	},
 	{
+		"name": "Radeon HD 8500M",
+		"index": "535"
+	},
+	{
 		"name": "Radeon HD 7560D + HD 7000 Dual",
-		"index": "534"
-	},
-	{
-		"name": "Radeon R5 M320",
-		"index": "534"
-	},
-	{
-		"name": "Radeon HD 8570M",
 		"index": "534"
 	},
 	{
 		"name": "Radeon HD 8550G + 8570M Dual",
 		"index": "533"
+	},
+	{
+		"name": "Radeon HD 8570M",
+		"index": "532"
 	},
 	{
 		"name": "RADEON HD6530D",
@@ -7332,6 +7312,10 @@
 		"index": "522"
 	},
 	{
+		"name": "Radeon R5 M320",
+		"index": "520"
+	},
+	{
 		"name": "Radeon HD 8670M",
 		"index": "520"
 	},
@@ -7348,8 +7332,12 @@
 		"index": "516"
 	},
 	{
-		"name": "GeForce 9600 GSO",
+		"name": "Radeon HD 7540D",
 		"index": "515"
+	},
+	{
+		"name": "GeForce 9600 GSO",
+		"index": "514"
 	},
 	{
 		"name": "A10-8700P",
@@ -7362,10 +7350,6 @@
 	{
 		"name": "Mobility Radeon HD 4830",
 		"index": "512"
-	},
-	{
-		"name": "Radeon HD 7540D",
-		"index": "511"
 	},
 	{
 		"name": "Radeon HD 7640G + 7610M Dual",
@@ -7396,6 +7380,10 @@
 		"index": "501"
 	},
 	{
+		"name": "GeForce 910M",
+		"index": "501"
+	},
+	{
 		"name": "GeForce GT 625M",
 		"index": "500"
 	},
@@ -7404,12 +7392,12 @@
 		"index": "498"
 	},
 	{
-		"name": "Radeon HD 8510G",
+		"name": "SUMO 964A",
 		"index": "498"
 	},
 	{
-		"name": "SUMO 964A",
-		"index": "498"
+		"name": "Radeon HD 8510G",
+		"index": "497"
 	},
 	{
 		"name": "Radeon HD 7500G + 7550M Dual",
@@ -7424,11 +7412,11 @@
 		"index": "495"
 	},
 	{
-		"name": "Radeon HD8530M",
-		"index": "490"
+		"name": "GeForce 810M",
+		"index": "491"
 	},
 	{
-		"name": "GeForce 810M",
+		"name": "Radeon HD8530M",
 		"index": "490"
 	},
 	{
@@ -7437,10 +7425,6 @@
 	},
 	{
 		"name": "Radeon HD 6520G",
-		"index": "487"
-	},
-	{
-		"name": "GeForce 910M",
 		"index": "487"
 	},
 	{
@@ -7489,7 +7473,7 @@
 	},
 	{
 		"name": "GeForce GT 230",
-		"index": "471"
+		"index": "472"
 	},
 	{
 		"name": "Radeon HD 7600G + 8500M/8700M Dual",
@@ -7612,16 +7596,16 @@
 		"index": "423"
 	},
 	{
-		"name": "Intel HD 505",
-		"index": "421"
-	},
-	{
 		"name": "Intel 4th Generation Haswell HD",
 		"index": "420"
 	},
 	{
 		"name": "GeForce GT 705",
 		"index": "418"
+	},
+	{
+		"name": "Intel HD 505",
+		"index": "417"
 	},
 	{
 		"name": "Radeon HD 8450G",
@@ -7661,7 +7645,7 @@
 	},
 	{
 		"name": "Quadro 410",
-		"index": "403"
+		"index": "404"
 	},
 	{
 		"name": "Intel HD 5300",
@@ -7701,7 +7685,7 @@
 	},
 	{
 		"name": "Intel UHD 600",
-		"index": "372"
+		"index": "373"
 	},
 	{
 		"name": "Radeon R3",
@@ -7713,6 +7697,10 @@
 	},
 	{
 		"name": "Radeon R5 235X",
+		"index": "368"
+	},
+	{
+		"name": "Intel HD 500",
 		"index": "368"
 	},
 	{
@@ -7730,10 +7718,6 @@
 	{
 		"name": "GeForce GT 520",
 		"index": "365"
-	},
-	{
-		"name": "Intel HD 500",
-		"index": "364"
 	},
 	{
 		"name": "Radeon HD 7470",
@@ -7757,7 +7741,7 @@
 	},
 	{
 		"name": "Radeon HD 8400",
-		"index": "355"
+		"index": "354"
 	},
 	{
 		"name": "Quadro FX 880M",
@@ -7772,11 +7756,11 @@
 		"index": "351"
 	},
 	{
-		"name": "GeForce GT 610",
+		"name": "NVS 315",
 		"index": "350"
 	},
 	{
-		"name": "NVS 315",
+		"name": "GeForce GT 610",
 		"index": "350"
 	},
 	{
@@ -7989,7 +7973,7 @@
 	},
 	{
 		"name": "GeForce 9500 GT",
-		"index": "272"
+		"index": "271"
 	},
 	{
 		"name": "GeForce Go 7900 GTX",
@@ -8009,18 +7993,18 @@
 	},
 	{
 		"name": "Quadro FX 580",
-		"index": "268"
+		"index": "267"
 	},
 	{
 		"name": "Mobility Radeon HD 550v",
 		"index": "266"
 	},
 	{
-		"name": "GeForce GT 120M",
+		"name": "Radeon HD 8350",
 		"index": "266"
 	},
 	{
-		"name": "Radeon HD 8350",
+		"name": "GeForce GT 120M",
 		"index": "266"
 	},
 	{
@@ -8065,7 +8049,7 @@
 	},
 	{
 		"name": "Radeon HD 8210",
-		"index": "251"
+		"index": "250"
 	},
 	{
 		"name": "Radeon R3E",
@@ -8080,11 +8064,11 @@
 		"index": "247"
 	},
 	{
-		"name": "Radeon R5 230",
-		"index": "247"
+		"name": "Quadro FX 5500",
+		"index": "242"
 	},
 	{
-		"name": "Quadro FX 5500",
+		"name": "Radeon R5 230",
 		"index": "242"
 	},
 	{
@@ -8093,7 +8077,7 @@
 	},
 	{
 		"name": "GeForce 8600 GT",
-		"index": "241"
+		"index": "240"
 	},
 	{
 		"name": "Radeon HD 3670",
@@ -8181,7 +8165,7 @@
 	},
 	{
 		"name": "Quadro FX 1600M",
-		"index": "213"
+		"index": "214"
 	},
 	{
 		"name": "Radeon HD 2600 PRO",
@@ -8269,7 +8253,7 @@
 	},
 	{
 		"name": "GeForce G210M",
-		"index": "199"
+		"index": "198"
 	},
 	{
 		"name": "Radeon HD 6320M",
@@ -8636,8 +8620,12 @@
 		"index": "118"
 	},
 	{
-		"name": "FireMV 2260",
-		"index": "117"
+		"name": "Radeon HD 8570 + 8670D Dual",
+		"index": "NA"
+	},
+	{
+		"name": "Radeon HD 8550G + R5 M200 Dual",
+		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 8550G + 8600M Dual",
@@ -8648,11 +8636,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 7640G",
+		"name": "FireGL V7600",
 		"index": "NA"
 	},
 	{
-		"name": "FireGL V7600",
+		"name": "Radeon HD 7640G",
 		"index": "NA"
 	},
 	{
@@ -8689,10 +8677,6 @@
 	},
 	{
 		"name": "Intel HD P4600",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon R5 M435",
 		"index": "NA"
 	},
 	{
@@ -8832,11 +8816,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R6 + R7 M265DX Dual",
+		"name": "Intel HD 4400",
 		"index": "NA"
 	},
 	{
-		"name": "Intel HD 4400",
+		"name": "Radeon R6 + R7 M265DX Dual",
 		"index": "NA"
 	},
 	{
@@ -8992,15 +8976,7 @@
 		"index": "NA"
 	},
 	{
-		"name": "PHDGD Ivy 5",
-		"index": "NA"
-	},
-	{
 		"name": "GeForce 8800M GTX",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon HD 8500M",
 		"index": "NA"
 	},
 	{
@@ -9008,19 +8984,19 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon HD 8500M",
+		"index": "NA"
+	},
+	{
 		"name": "Radeon HD 7560D + HD 7000 Dual",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 M320",
+		"name": "Radeon HD 8550G + 8570M Dual",
 		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 8570M",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon HD 8550G + 8570M Dual",
 		"index": "NA"
 	},
 	{
@@ -9060,6 +9036,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon R5 M320",
+		"index": "NA"
+	},
+	{
 		"name": "Radeon HD 8670M",
 		"index": "NA"
 	},
@@ -9076,6 +9056,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "Radeon HD 7540D",
+		"index": "NA"
+	},
+	{
 		"name": "GeForce 9600 GSO",
 		"index": "10.3"
 	},
@@ -9089,10 +9073,6 @@
 	},
 	{
 		"name": "Mobility Radeon HD 4830",
-		"index": "NA"
-	},
-	{
-		"name": "Radeon HD 7540D",
 		"index": "NA"
 	},
 	{
@@ -9124,6 +9104,10 @@
 		"index": "NA"
 	},
 	{
+		"name": "GeForce 910M",
+		"index": "NA"
+	},
+	{
 		"name": "GeForce GT 625M",
 		"index": "NA"
 	},
@@ -9132,11 +9116,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD 8510G",
+		"name": "SUMO 964A",
 		"index": "NA"
 	},
 	{
-		"name": "SUMO 964A",
+		"name": "Radeon HD 8510G",
 		"index": "NA"
 	},
 	{
@@ -9152,11 +9136,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon HD8530M",
+		"name": "GeForce 810M",
 		"index": "NA"
 	},
 	{
-		"name": "GeForce 810M",
+		"name": "Radeon HD8530M",
 		"index": "NA"
 	},
 	{
@@ -9165,10 +9149,6 @@
 	},
 	{
 		"name": "Radeon HD 6520G",
-		"index": "NA"
-	},
-	{
-		"name": "GeForce 910M",
 		"index": "NA"
 	},
 	{
@@ -9340,15 +9320,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel HD 505",
-		"index": "NA"
-	},
-	{
 		"name": "Intel 4th Generation Haswell HD",
 		"index": "NA"
 	},
 	{
 		"name": "GeForce GT 705",
+		"index": "NA"
+	},
+	{
+		"name": "Intel HD 505",
 		"index": "NA"
 	},
 	{
@@ -9389,7 +9369,7 @@
 	},
 	{
 		"name": "Quadro 410",
-		"index": "5.3"
+		"index": "3.1"
 	},
 	{
 		"name": "Intel HD 5300",
@@ -9437,10 +9417,14 @@
 	},
 	{
 		"name": "Radeon R5 235",
-		"index": "5.9"
+		"index": "6.0"
 	},
 	{
 		"name": "Radeon R5 235X",
+		"index": "NA"
+	},
+	{
+		"name": "Intel HD 500",
 		"index": "NA"
 	},
 	{
@@ -9458,10 +9442,6 @@
 	{
 		"name": "GeForce GT 520",
 		"index": "6.1"
-	},
-	{
-		"name": "Intel HD 500",
-		"index": "NA"
 	},
 	{
 		"name": "Radeon HD 7470",
@@ -9500,12 +9480,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 610",
-		"index": "8.7"
-	},
-	{
 		"name": "NVS 315",
 		"index": "9.7"
+	},
+	{
+		"name": "GeForce GT 610",
+		"index": "8.7"
 	},
 	{
 		"name": "GeForce GT 240M",
@@ -9705,7 +9685,7 @@
 	},
 	{
 		"name": "Radeon HD 6450",
-		"index": "5.9"
+		"index": "5.8"
 	},
 	{
 		"name": "Radeon HD 6370M",
@@ -9744,12 +9724,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce GT 120M",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon HD 8350",
 		"index": "1.9"
+	},
+	{
+		"name": "GeForce GT 120M",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce 7950 GT",
@@ -9808,12 +9788,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Radeon R5 230",
-		"index": "4.1"
-	},
-	{
 		"name": "Quadro FX 5500",
 		"index": "0.8"
+	},
+	{
+		"name": "Radeon R5 230",
+		"index": "3.8"
 	},
 	{
 		"name": "Radeon R2E",
@@ -9841,7 +9821,7 @@
 	},
 	{
 		"name": "Radeon R5 220",
-		"index": "3.3"
+		"index": "2.7"
 	},
 	{
 		"name": "Mobility Radeon HD 3670",
@@ -10185,7 +10165,7 @@
 	},
 	{
 		"name": "Quadro FX 380",
-		"index": "2.0"
+		"index": "2.1"
 	},
 	{
 		"name": "Mobility Radeon HD 4350",
@@ -10365,7 +10345,7 @@
 	},
 	{
 		"name": "FireMV 2260",
-		"index": "1.1"
+		"index": "117"
 	},
 	{
 		"name": "Mobile Intel 45 Express-Chipsatzfamilie",
@@ -10420,11 +10400,11 @@
 		"index": "113"
 	},
 	{
-		"name": "GeForce 8400 GS",
+		"name": "Sapphire RADEON X800 GT",
 		"index": "113"
 	},
 	{
-		"name": "Sapphire RADEON X800 GT",
+		"name": "GeForce 8400 GS",
 		"index": "113"
 	},
 	{
@@ -10564,11 +10544,11 @@
 		"index": "98"
 	},
 	{
-		"name": "Mobility Radeon HD 3430",
+		"name": "Radeon 3000",
 		"index": "98"
 	},
 	{
-		"name": "Radeon 3000",
+		"name": "Mobility Radeon HD 3430",
 		"index": "98"
 	},
 	{
@@ -10598,6 +10578,10 @@
 	{
 		"name": "Mobility Radeon HD serie 4200",
 		"index": "97"
+	},
+	{
+		"name": "Matrox G200eW3 WDDM 2.0",
+		"index": "96"
 	},
 	{
 		"name": "GeForce 6700 XL",
@@ -10880,11 +10864,11 @@
 		"index": "69"
 	},
 	{
-		"name": "Intel G45/G43 Express Chipset",
+		"name": "Radeon X1600 Pro / X1300XT",
 		"index": "69"
 	},
 	{
-		"name": "Radeon X1600 Pro / X1300XT",
+		"name": "Intel G45/G43 Express Chipset",
 		"index": "69"
 	},
 	{
@@ -11232,12 +11216,12 @@
 		"index": "40"
 	},
 	{
-		"name": "S3 Chrome 430 ULP",
+		"name": "Mobility Radeon X1300",
 		"index": "40"
 	},
 	{
-		"name": "Mobility Radeon X1300",
-		"index": "39"
+		"name": "S3 Chrome 430 ULP",
+		"index": "40"
 	},
 	{
 		"name": "MOBILITY RADEON 9600/9700",
@@ -11472,15 +11456,15 @@
 		"index": "25"
 	},
 	{
-		"name": "GeForce FX 5700LE",
-		"index": "25"
-	},
-	{
 		"name": "MOBILITY RADEON 9600 PRO TURBO",
 		"index": "25"
 	},
 	{
 		"name": "GeForce 6150SE",
+		"index": "25"
+	},
+	{
+		"name": "GeForce FX 5700LE",
 		"index": "25"
 	},
 	{
@@ -11509,10 +11493,6 @@
 	},
 	{
 		"name": "GeForce 6150SE nForce 430",
-		"index": "23"
-	},
-	{
-		"name": "RADEON A9800XT",
 		"index": "23"
 	},
 	{
@@ -11936,10 +11916,6 @@
 		"index": "4"
 	},
 	{
-		"name": "Intel 82915G/915GV/910GL",
-		"index": "4"
-	},
-	{
 		"name": "Intel 865 Embedded Controller",
 		"index": "4"
 	},
@@ -12096,6 +12072,10 @@
 		"index": "1"
 	},
 	{
+		"name": "FireMV 2260",
+		"index": "1.1"
+	},
+	{
 		"name": "Mobile Intel 45 Express-Chipsatzfamilie",
 		"index": "NA"
 	},
@@ -12148,12 +12128,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce 8400 GS",
-		"index": "2.8"
-	},
-	{
 		"name": "Sapphire RADEON X800 GT",
 		"index": "NA"
+	},
+	{
+		"name": "GeForce 8400 GS",
+		"index": "2.8"
 	},
 	{
 		"name": "GeForce 6800",
@@ -12292,12 +12272,12 @@
 		"index": "NA"
 	},
 	{
-		"name": "Mobility Radeon HD 3430",
-		"index": "NA"
-	},
-	{
 		"name": "Radeon 3000",
 		"index": "1.6"
+	},
+	{
+		"name": "Mobility Radeon HD 3430",
+		"index": "NA"
 	},
 	{
 		"name": "GeForce 8400M GT",
@@ -12321,10 +12301,14 @@
 	},
 	{
 		"name": "Quadro NVS 295",
-		"index": "4.8"
+		"index": "1.6"
 	},
 	{
 		"name": "Mobility Radeon HD serie 4200",
+		"index": "NA"
+	},
+	{
+		"name": "Matrox G200eW3 WDDM 2.0",
 		"index": "NA"
 	},
 	{
@@ -12608,11 +12592,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "Intel G45/G43 Express Chipset",
+		"name": "Radeon X1600 Pro / X1300XT",
 		"index": "NA"
 	},
 	{
-		"name": "Radeon X1600 Pro / X1300XT",
+		"name": "Intel G45/G43 Express Chipset",
 		"index": "NA"
 	},
 	{
@@ -12960,11 +12944,11 @@
 		"index": "NA"
 	},
 	{
-		"name": "S3 Chrome 430 ULP",
+		"name": "Mobility Radeon X1300",
 		"index": "NA"
 	},
 	{
-		"name": "Mobility Radeon X1300",
+		"name": "S3 Chrome 430 ULP",
 		"index": "NA"
 	},
 	{
@@ -13029,7 +13013,7 @@
 	},
 	{
 		"name": "Quadro NVS 285",
-		"index": "0.4"
+		"index": "1.3"
 	},
 	{
 		"name": "RADEON 9600 XT",
@@ -13200,15 +13184,15 @@
 		"index": "NA"
 	},
 	{
-		"name": "GeForce FX 5700LE",
-		"index": "NA"
-	},
-	{
 		"name": "MOBILITY RADEON 9600 PRO TURBO",
 		"index": "NA"
 	},
 	{
 		"name": "GeForce 6150SE",
+		"index": "NA"
+	},
+	{
+		"name": "GeForce FX 5700LE",
 		"index": "NA"
 	},
 	{
@@ -13237,10 +13221,6 @@
 	},
 	{
 		"name": "GeForce 6150SE nForce 430",
-		"index": "NA"
-	},
-	{
-		"name": "RADEON A9800XT",
 		"index": "NA"
 	},
 	{
@@ -13661,10 +13641,6 @@
 	},
 	{
 		"name": "GeForce4 440 Go",
-		"index": "NA"
-	},
-	{
-		"name": "Intel 82915G/915GV/910GL",
 		"index": "NA"
 	},
 	{

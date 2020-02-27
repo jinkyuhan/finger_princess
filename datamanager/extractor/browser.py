@@ -10,7 +10,7 @@ class Browser():
         set_options.add_argument('headless')
         set_options.add_argument('window-size=640x480')
         self.driver = webdriver.Chrome(
-            '/home/jhyun1000/pythonProgramming/driver/chromedriver', options=set_options)
+            '/home/jhyun1000/Projects/pythonProgramming/driver/chromedriver', options=set_options)
 
     def close(self):
         self.driver.close()
