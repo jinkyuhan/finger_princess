@@ -52,39 +52,41 @@ class QuestionB extends React.Component {
     render() {
         let bag = <FormControl></FormControl>
         if (this.state.env === "outdoor" || this.state.env === "both") {
-            bag =<FormControl variant="filled" style={
-                {
-                    minWidth:120
-                }
-            }>
-                        <InputLabel>가방 종류</InputLabel>
-                        <Select
-                            value={this.state.bag}
-                            onChange={(event) => {
-                                event.target.name = "bagtype"
-                                this.handleChange(event)
-                            }}
-                        >
-                            <MenuItem value="eco-bag">에코백</MenuItem>
-                            <MenuItem value="cross-bag">크로스백</MenuItem>
-                            <MenuItem value="hand-bag">핸드백</MenuItem>
-                            <MenuItem value="briefcase">서류가방</MenuItem>
-                            <MenuItem value="backpack">백팩</MenuItem>
-                        </Select>
-                    </FormControl>
+            bag = <FormControl variant="filled" >
+                <InputLabel>가방 종류</InputLabel>
+                <Select
+                    value={this.state.bag}
+                    onChange={(event) => {
+                        event.target.name = "bagtype"
+                        this.handleChange(event)
+                    }}
+                    style={
+                        {
+                            minWidth: 120
+                        }
+                    }
+                >
+                    <MenuItem value="eco-bag">에코백</MenuItem>
+                    <MenuItem value="cross-bag">크로스백</MenuItem>
+                    <MenuItem value="hand-bag">핸드백</MenuItem>
+                    <MenuItem value="briefcase">서류가방</MenuItem>
+                    <MenuItem value="backpack">백팩</MenuItem>
+                </Select>
+            </FormControl>
         }
         return (
             <div id="QuestionB">
                 <div>
-                    <FormControl variant="filled" style={
-                        {
-                            minWidth:120
-                        }
-                    }>
+                    <FormControl variant="filled" >
                         <InputLabel>휴대성</InputLabel>
                         <Select
                             value={this.state.env}
                             onChange={(event) => this.handleChange(event)}
+                            style={
+                                {
+                                    minWidth: 120
+                                }
+                            }
                         >
                             <MenuItem value="indoor">실내에서 사용</MenuItem>
                             <MenuItem value="outdoor">실외에서 사용</MenuItem>

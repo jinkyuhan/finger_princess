@@ -24,17 +24,18 @@ class QuestionE extends React.Component {
     render() {
         return (
             <div id="QuestionE">
-                <FormControl variant="filled" style={
-                    { 
-                        minWidth: 150 
-                    }
-                }>
+                <FormControl variant="filled">
                     <InputLabel>정렬 우선순위</InputLabel>
                     <Select
                         value={this.state.priority}
                         onChange={(event) => {
                             this.handleChange(event)
                         }}
+                        style={
+                            {
+                                minWidth: 150
+                            }
+                        }
                     >
                         <MenuItem value="performance-first">성능우선</MenuItem>
                         <MenuItem value="price-first">가격우선</MenuItem>

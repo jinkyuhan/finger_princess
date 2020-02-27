@@ -24,6 +24,12 @@ class Result extends React.Component {
         } catch(err){
             console.log(err)
         }
+        console.log(recommends)
+        console.log(recommends.length)
+        if (recommends.length == 0) {
+            alert('검색된 노트북이 없습니다.')
+            window.history.back()
+        }
         return recommends
     }
 

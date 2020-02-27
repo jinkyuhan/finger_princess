@@ -48,6 +48,11 @@ class QuestionD extends React.Component {
                             label="상한 금액을 입력하세요"
                             helperText={ this.state.helptxt }
                             onChange={ this.validate }
+                            style={
+                                {
+                                    width:200
+                                }
+                            }
                         />
                     </div>
                 </form>

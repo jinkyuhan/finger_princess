@@ -57,21 +57,21 @@ class Survey extends React.Component {
                             </StepContent>
                         </Step>
                         < Step key={ 3 } >
-                            <StepLabel>{ '자주 사용하는 프로그램' }</StepLabel>
+                            <StepLabel>{ '자주 사용하는 프로그램을 모두 선택하세요' }</StepLabel>
                             <StepContent>
                                 <QuestionC setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
 
                         </Step>
                         < Step key={ 4 } >
-                            <StepLabel>{ '가격 상한선' }</StepLabel>
+                            <StepLabel>{ '가격 상한선을 입력하세요' }</StepLabel>
                             <StepContent>
                                 <QuestionD setParentAnswer={this.props.setParentAnswer} goNextSurvey={this.handleNext} goPreviousSurvey={this.handlePrevious}/>
                             </StepContent>
 
                         </Step>
                         < Step key={ 5 } >
-                            <StepLabel>{ '성능우선/기능우선/서비스우선' }</StepLabel>
+                            <StepLabel>{ '정렬 기준을 선택하세요' }</StepLabel>
                             <StepContent>
                                 <QuestionE setParentAnswer={this.props.setParentAnswer} goPreviousSurvey={this.handlePrevious} submitSurvey={this.hanldeSubmit}/>
                             </StepContent>

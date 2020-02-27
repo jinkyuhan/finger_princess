@@ -5,7 +5,6 @@ import {
     FormGroup,
     FormControl,
     FormControlLabel,
-    FormLabel,
     Checkbox,
     Button
 } from '@material-ui/core'
@@ -88,7 +87,6 @@ class QuestionA extends React.Component {
         return (
             <div id="QuestionA">
                 <FormControl>
-                    <FormLabel component="legend">Check all the games you play</FormLabel>
                     <FormGroup>
                         {this.renderForms(this.state.games)}
                     </FormGroup>

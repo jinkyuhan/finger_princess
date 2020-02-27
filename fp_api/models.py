@@ -136,6 +136,26 @@ class LaptopPerformance(DBView):
         FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
         WHERE Laptop.cpu_id = Cpu.id
         AND Laptop.gpu_id = Gpu.id
+        UNION
+        SELECT
+        Laptop.id as id,
+        Laptop.name as name,
+        Laptop.weight as weight,
+        Cpu.id as cpu_id,
+        Cpu.point as cpu_point,
+        NULL as gpu_id,
+        0 as gpu_point,
+        Laptop.ram as ram,
+        Laptop.ssd as ssd,
+        Laptop.hdd as hdd,
+        Laptop.resolution as resolution,
+        Laptop.display as display,
+        Laptop.price as price,
+        Laptop.img as img,
+        Laptop.url as url    
+        FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
+        WHERE Laptop.cpu_id = Cpu.id
+        AND Laptop.gpu_id is NULL
     """
 
     def __str__(self):
@@ -179,7 +199,7 @@ class GameRequirements(DBView):
         Cpu.id as rec_cpu_id,
         Cpu.point as rec_cpu_point,
         NULL as rec_gpu_id,
-        NULL as rec_gpu_point,
+        0 as rec_gpu_point,
         Game.rec_gpuram as rec_gpuram,
         Game.rec_ram as rec_ram,
         Game.rec_storage as rec_storage
@@ -224,7 +244,7 @@ class ProgramRequirements(DBView):
         Cpu.id as rec_cpu_id,
         Cpu.point as rec_cpu_point,
         NULL as rec_gpu_id,
-        NULL as rec_gpu_point,
+        0 as rec_gpu_point,
         Program.rec_ram as rec_ram
         FROM fp_api_program as Program,fp_api_cpu as Cpu,fp_api_gpu as Gpu
         WHERE Program.rec_cpu_id = Cpu.id
