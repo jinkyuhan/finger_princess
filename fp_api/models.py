@@ -131,7 +131,7 @@ class LaptopPerformance(DBView):
         Laptop.resolution as resolution,
         Laptop.display as display,
         Laptop.price as price,
-        Laptop.image as img,
+        Laptop.img as img,
         Laptop.url as url    
         FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
         WHERE Laptop.cpu_id = Cpu.id
