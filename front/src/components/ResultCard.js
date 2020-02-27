@@ -30,7 +30,7 @@ class ResultCard extends React.Component {
                         }} />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            <Link href={this.item.url}>{this.item.name}</Link>
+                            <Link target="_blank" href={this.item.url} color="inherit">{this.item.name}</Link>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                             추천하는 노트북의 id 는 {String(this.item.id)} 입니다.<br />

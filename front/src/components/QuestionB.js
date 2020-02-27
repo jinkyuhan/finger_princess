@@ -3,7 +3,8 @@ import {
     FormControl,
     InputLabel,
     Select,
-    Button
+    Button,
+    MenuItem
 } from '@material-ui/core'
 
 
@@ -51,39 +52,43 @@ class QuestionB extends React.Component {
     render() {
         let bag = <FormControl></FormControl>
         if (this.state.env === "outdoor" || this.state.env === "both") {
-            bag =<FormControl variant="filled">
+            bag =<FormControl variant="filled" style={
+                {
+                    minWidth:120
+                }
+            }>
                         <InputLabel>가방 종류</InputLabel>
                         <Select
-                            native
                             value={this.state.bag}
                             onChange={(event) => {
                                 event.target.name = "bagtype"
                                 this.handleChange(event)
                             }}
                         >
-                            <option value="" />
-                            <option value="eco-bag">에코백</option>
-                            <option value="cross-bag">크로스백</option>
-                            <option value="hand-bag">핸드백</option>
-                            <option value="briefcase">서류가방</option>
-                            <option value="backpack">백팩</option>
+                            <MenuItem value="eco-bag">에코백</MenuItem>
+                            <MenuItem value="cross-bag">크로스백</MenuItem>
+                            <MenuItem value="hand-bag">핸드백</MenuItem>
+                            <MenuItem value="briefcase">서류가방</MenuItem>
+                            <MenuItem value="backpack">백팩</MenuItem>
                         </Select>
                     </FormControl>
         }
         return (
             <div id="QuestionB">
                 <div>
-                    <FormControl variant="filled">
+                    <FormControl variant="filled" style={
+                        {
+                            minWidth:120
+                        }
+                    }>
                         <InputLabel>휴대성</InputLabel>
                         <Select
-                            native
                             value={this.state.env}
                             onChange={(event) => this.handleChange(event)}
                         >
-                            <option value="" />
-                            <option value="indoor">실내에서 사용</option>
-                            <option value="outdoor">실외에서 사용</option>
-                            <option value="both">실내외 겸용</option>
+                            <MenuItem value="indoor">실내에서 사용</MenuItem>
+                            <MenuItem value="outdoor">실외에서 사용</MenuItem>
+                            <MenuItem value="both">실내외 겸용</MenuItem>
                         </Select>
                     </FormControl>
                     {bag}

@@ -3,7 +3,8 @@ import {
     Button,
     FormControl,
     InputLabel,
-    Select
+    Select,
+    MenuItem
 } from '@material-ui/core'
 class QuestionE extends React.Component {
 
@@ -30,16 +31,14 @@ class QuestionE extends React.Component {
                 }>
                     <InputLabel>정렬 우선순위</InputLabel>
                     <Select
-                        native
                         value={this.state.priority}
                         onChange={(event) => {
                             this.handleChange(event)
                         }}
                     >
-                        <option value="" />
-                        <option value="performance-first">성능우선</option>
-                        <option value="price-first">가격우선</option>
-                        <option value="service-first">서비스우선</option>
+                        <MenuItem value="performance-first">성능우선</MenuItem>
+                        <MenuItem value="price-first">가격우선</MenuItem>
+                        <MenuItem value="service-first">서비스우선</MenuItem>
                     </Select>
                 </FormControl>
                 <div>
