@@ -133,29 +133,7 @@ class LaptopPerformance(DBView):
         Laptop.price as price,
         Laptop.img as img,
         Laptop.url as url    
-        FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Laptop.cpu_id = Cpu.id
-        AND Laptop.gpu_id = Gpu.id
-        UNION
-        SELECT
-        Laptop.id as id,
-        Laptop.name as name,
-        Laptop.weight as weight,
-        Cpu.id as cpu_id,
-        Cpu.point as cpu_point,
-        NULL as gpu_id,
-        0 as gpu_point,
-        Laptop.ram as ram,
-        Laptop.ssd as ssd,
-        Laptop.hdd as hdd,
-        Laptop.resolution as resolution,
-        Laptop.display as display,
-        Laptop.price as price,
-        Laptop.img as img,
-        Laptop.url as url    
-        FROM fp_api_laptop as Laptop,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Laptop.cpu_id = Cpu.id
-        AND Laptop.gpu_id is NULL
+        FROM (fp_api_laptop as Laptop LEFT OUTER JOIN fp_api_gpu as Gpu ON Laptop.gpu_id=Gpu.id) JOIN fp_api_cpu as Cpu on Laptop.cpu_id=Cpu.id
     """
 
     def __str__(self):
@@ -189,23 +167,7 @@ class GameRequirements(DBView):
         Game.rec_gpuram as rec_gpuram,
         Game.rec_ram as rec_ram,
         Game.rec_storage as rec_storage
-        FROM fp_api_game as Game,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Game.rec_cpu_itl_id = Cpu.id
-        AND Game.rec_gpu_itl_id = Gpu.id
-        UNION
-        SELECT
-        Game.id as id,
-        Game.name as name,
-        Cpu.id as rec_cpu_id,
-        Cpu.point as rec_cpu_point,
-        NULL as rec_gpu_id,
-        0 as rec_gpu_point,
-        Game.rec_gpuram as rec_gpuram,
-        Game.rec_ram as rec_ram,
-        Game.rec_storage as rec_storage
-        FROM fp_api_game as Game,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Game.rec_cpu_itl_id = Cpu.id
-        AND Game.rec_gpu_itl_id is NULL
+        FROM (fp_api_game as Game LEFT OUTER JOIN fp_api_gpu as Gpu ON Game.rec_cpu_itl_id=Gpu.id) JOIN fp_api_cpu as Cpu ON Game.rec_cpu_itl_id=Cpu.id
     """
 
     def __str__(self):
@@ -234,21 +196,7 @@ class ProgramRequirements(DBView):
         Gpu.id as rec_gpu_id,
         Gpu.point as rec_gpu_point,
         Program.rec_ram as rec_ram
-        FROM fp_api_program as Program,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Program.rec_cpu_id = Cpu.id
-        AND Program.rec_gpu_id = Gpu.id
-        UNION
-        SELECT
-        Program.id as id,
-        Program.name as name,
-        Cpu.id as rec_cpu_id,
-        Cpu.point as rec_cpu_point,
-        NULL as rec_gpu_id,
-        0 as rec_gpu_point,
-        Program.rec_ram as rec_ram
-        FROM fp_api_program as Program,fp_api_cpu as Cpu,fp_api_gpu as Gpu
-        WHERE Program.rec_cpu_id = Cpu.id
-        AND Program.rec_gpu_id is NULL
+        FROM (fp_api_program as Program LEFT OUTER JOIN fp_api_gpu as Gpu ON Program.rec_gpu_id=Gpu.id) JOIN fp_api_cpu as Cpu ON Program.rec_cpu_id=Cpu.id
     """
 
     def __str__(self):
